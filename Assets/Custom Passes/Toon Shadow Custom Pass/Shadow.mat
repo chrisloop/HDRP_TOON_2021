@@ -54,12 +54,13 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
+    - _Edge_Thickness: 2
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _Float: 0
     - _OpaqueCullMode: 2
     - _RenderQueueType: 4
-    - _Shadow_Strength: 0.568
+    - _Shadow_Strength: 0.277
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -86,8 +87,9 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Shadow_Color: {r: 0.004360993, g: 0.57063574, b: 0.9245283, a: 0}
+    - _Shadow_Color: {r: 0.109275565, g: 0, b: 0.6603774, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &409769937046763340
 MonoBehaviour:

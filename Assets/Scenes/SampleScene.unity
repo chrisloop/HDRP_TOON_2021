@@ -247,7 +247,7 @@ MonoBehaviour:
         depthThreshold: 0
         depthMultiplier: 1
         depthBias: 1
-        normalThreshold: 0
+        normalThreshold: 1
         normalMultiplier: 1
         normalBias: 1
         colorMapShader: {fileID: 4800000, guid: 57496791df1fa184a854446cf404193b, type: 3}
@@ -935,8 +935,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.071141824, y: 0.9230777, z: -0.20714557, w: -0.31616026}
-  m_LocalPosition: {x: 6.041854, y: -7.6731176, z: -10.981089}
+  m_LocalRotation: {x: -0.0689917, y: 0.9309708, z: -0.24294035, w: -0.263654}
+  m_LocalPosition: {x: 5.483643, y: -7.630328, z: -10.819476}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

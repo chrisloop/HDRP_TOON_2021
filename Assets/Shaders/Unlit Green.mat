@@ -63,6 +63,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
+    - _ShadowMatteFilter: 4.0357e-41
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
