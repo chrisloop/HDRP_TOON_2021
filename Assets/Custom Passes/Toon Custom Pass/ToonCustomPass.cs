@@ -16,6 +16,7 @@ using UnityEngine.Experimental.Rendering;
 class ToonCustomPass : CustomPass
 {
     public LayerMask    layerMask = 1;
+
     public float        edgeThickness = 1;
     public float        colorThreshold = 0;
     public float        colorMultiplier = 1;
@@ -78,8 +79,10 @@ class ToonCustomPass : CustomPass
         ctx.propertyBlock.SetFloat("_DepthBias", depthBias);
 
         ctx.propertyBlock.SetTexture("_ColorMap", colorMapBuffer);
+
+
         CoreUtils.SetRenderTarget(ctx.cmd, ctx.customColorBuffer.Value, ClearFlag.All);
-        CoreUtils.DrawFullScreen(ctx.cmd, edgeMaterial, ctx.customColorBuffer.Value, shaderPassId: 0, properties: ctx.propertyBlock);
+        CoreUtils.DrawFullScreen(ctx.cmd, edgeMaterial, ctx.customColorBuffer.Value, shaderPassId: 0, properties: ctx.propertyBlock); 
     }
 
     // Resize the render texture to match the aspect ratio of the camera (it avoid stretching issues).
