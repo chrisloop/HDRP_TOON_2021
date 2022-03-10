@@ -23,7 +23,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lit Influence
+  m_Name: Lit Influence Low
   m_Shader: {fileID: -6465566751694194690, guid: 3792124419f2bdb44a021f7c302ab15b, type: 3}
   m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
@@ -73,10 +73,12 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Light_Influence: 0.082
+    - _Float: 0
+    - _Light_Influence: 0
     - _Light_Intensity: 0.23
+    - _Light_Strength: 100000
     - _Lit_Color_Influence: 1
-    - _Metallic: 0.615
+    - _Metallic: 0
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 1
@@ -84,7 +86,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.485
+    - _Smoothness: 0
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -111,8 +113,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.433389, b: 0, a: 0}
+    - _Color: {r: 1, g: 0.43338898, b: 0, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _Edge_Color: {r: 0.8207547, g: 0, b: 0.27532935, a: 0}
+    - _Edge_Color: {r: 0.9960785, g: 0.43529415, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

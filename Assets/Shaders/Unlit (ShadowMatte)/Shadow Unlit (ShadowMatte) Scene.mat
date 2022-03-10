@@ -89,7 +89,7 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _Edge_Color: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Shadow_Color: {r: 0, g: 0.44116485, b: 0.8018868, a: 0}
+    - _Shadow_Color: {r: 0.0047169924, g: 0.5511466, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &409769937046763340
 MonoBehaviour:

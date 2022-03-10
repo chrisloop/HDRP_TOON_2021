@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5907469, g: 0.7294502, b: 0.8330078, a: 1}
+  m_IndirectSpecularColor: {r: 0.59065914, g: 0.729269, b: 0.8330078, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -184,7 +184,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: -1.1896086, y: -0, z: -0}
+    textureOffset: {x: -0, y: -0, z: -0}
     falloffMode: 0
   m_Version: 2
 --- !u!1001 &50640439
@@ -479,7 +479,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: cf171c0c5b5674a45b0ffeae407005ae, type: 2}
+  sharedProfile: {fileID: 11400000, guid: db61212b614d04a2e8d1b94c49a71b2f, type: 2}
 --- !u!1 &408027166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,7 +1660,7 @@ MonoBehaviour:
           serializedVersion: 2
           m_Bits: 23
         sortingCriteria: 59
-        overrideMaterial: {fileID: 2100000, guid: 9e6fe32babaf87344bdba81c0f1c151e, type: 2}
+        overrideMaterial: {fileID: 2100000, guid: df4466076b9b440059e85c4d8ac30de3, type: 2}
         overrideMaterialPassIndex: 0
         overrideMaterialPassName: ForwardOnly
         overrideDepthState: 1
