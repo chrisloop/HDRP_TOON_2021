@@ -11,7 +11,6 @@ Shader "Hidden/Edge"
     #include "Packages/com.unity.render-pipelines.high-definition/Runtime/Material/NormalBuffer.hlsl"
 
     TEXTURE2D_X(_NoiseBuffer);
-
     TEXTURE2D_X(_ColorMap);
 
     float _EdgeThickness;
@@ -47,15 +46,15 @@ Shader "Hidden/Edge"
     float4 EdgePass(Varyings varyings) : SV_Target
     {
         UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(varyings);
-        float2 uv = varyings.positionCS.xy * _ScreenSize.zw; // * _RTHandleScale.xy;
-        //float2 uv2 = varyings.positionCS.xy * _ScreenSize.zw;
+        float2 uv = varyings.positionCS.xy * _ScreenSize.zw;
 
-     //   float thicknessMultiplier = SAMPLE_TEXTURE2D_X_LOD(_NoiseBuffer, s_linear_clamp_sampler, uv, 0).x;
-     //   thicknessMultiplier = remap(thicknessMultiplier, 0, 1, _NoiseMinMultiplier, _NoiseMaxMultiplier);
+        float thicknessMultiplier = SAMPLE_TEXTURE2D_X_LOD(_NoiseBuffer, s_linear_clamp_sampler, uv * _RTHandleScale.xy, 0).x;
+        thicknessMultiplier = remap(thicknessMultiplier, 0, 1, _NoiseMinMultiplier, _NoiseMaxMultiplier);
 
-     //   _EdgeThickness = _EdgeThickness * thicknessMultiplier;
+        _EdgeThickness = _EdgeThickness * thicknessMultiplier;
 
-       // _EdgeThickness = 3;
+        if (_EdgeThickness == 0)
+            return float4(0,0,0,1);
 
         #define MAX_SAMPLES 8
 

@@ -27,6 +27,10 @@ class ToonCustomPass : CustomPass
     public float        normalThreshold = 0;
     public float        normalMultiplier = 1;
     public float        normalBias = 1;
+    public float        noiseScale = 1;
+    public float        noiseMinMultiplier = 1;
+    public float        noiseMaxMultiplier = 1;
+    public Vector2      noiseStep = new Vector2(0,1);
 
     [SerializeField, HideInInspector]
     Shader      colorMapShader;
@@ -36,7 +40,12 @@ class ToonCustomPass : CustomPass
     Shader      edgeShader;
     Material    edgeMaterial;
 
+    [SerializeField, HideInInspector]
+    Shader      noiseShader;
+    Material    noiseMaterial;    
+
     RTHandle    colorMapBuffer;
+    RTHandle    noiseBuffer;
 
     protected override void Setup(ScriptableRenderContext renderContext, CommandBuffer cmd)
     {
@@ -48,11 +57,20 @@ class ToonCustomPass : CustomPass
         edgeShader = Shader.Find("Hidden/Edge");
         edgeMaterial = CoreUtils.CreateEngineMaterial(edgeShader);
 
+        noiseShader = Shader.Find("Hidden/Noise");
+        noiseMaterial = CoreUtils.CreateEngineMaterial(noiseShader);
+
         // Temporary buffers
         colorMapBuffer = RTHandles.Alloc(
             Vector2.one, TextureXR.slices, dimension: TextureXR.dimension,
             colorFormat: GraphicsFormat.R32G32B32A32_SFloat,
             useDynamicScale: true, name: "Color Map Buffer"
+        );
+
+        noiseBuffer = RTHandles.Alloc(
+            Vector2.one, TextureXR.slices, dimension: TextureXR.dimension,
+            colorFormat: GraphicsFormat.R32G32B32A32_SFloat,
+            useDynamicScale: true, name: "Noise Buffer"
         );
     }
 
@@ -62,8 +80,15 @@ class ToonCustomPass : CustomPass
         CoreUtils.SetRenderTarget(ctx.cmd, colorMapBuffer, ctx.cameraDepthBuffer, ClearFlag.Color);
         CustomPassUtils.DrawRenderers(ctx, layerMask, CustomPass.RenderQueueType.All, colorMapMaterial);
 
+        // world space noise pass
+        noiseMaterial.SetFloat("_NoiseScale", noiseScale);
+        noiseMaterial.SetVector("_NoiseStep", noiseStep);
+        CoreUtils.SetRenderTarget(ctx.cmd, noiseBuffer, ctx.cameraDepthBuffer, ClearFlag.Color);
+        CustomPassUtils.DrawRenderers(ctx, layerMask, CustomPass.RenderQueueType.All, noiseMaterial);
+
         // Setup edge effect properties
         ctx.propertyBlock.SetTexture("_EdgeBuffer", colorMapBuffer);
+        ctx.propertyBlock.SetTexture("_NoiseBuffer", noiseBuffer);
         ctx.propertyBlock.SetFloat("_EdgeThickness", edgeThickness);
 
         ctx.propertyBlock.SetFloat("_ColorThreshold", colorThreshold);
@@ -77,6 +102,11 @@ class ToonCustomPass : CustomPass
         ctx.propertyBlock.SetFloat("_DepthThreshold", depthThreshold);
         ctx.propertyBlock.SetFloat("_DepthMultiplier", depthMultiplier);
         ctx.propertyBlock.SetFloat("_DepthBias", depthBias);
+
+
+
+        ctx.propertyBlock.SetFloat("_NoiseMinMultiplier", noiseMinMultiplier);
+        ctx.propertyBlock.SetFloat("_NoiseMaxMultiplier", noiseMaxMultiplier);
 
         ctx.propertyBlock.SetTexture("_ColorMap", colorMapBuffer);
 
@@ -117,7 +147,10 @@ class ToonCustomPass : CustomPass
     protected override void Cleanup()
     {
         colorMapBuffer.Release();
+        noiseBuffer.Release();
+
         CoreUtils.Destroy(edgeMaterial);
         CoreUtils.Destroy(colorMapMaterial);
+        CoreUtils.Destroy(noiseMaterial);
     }
 }
