@@ -1,4 +1,4 @@
-Shader "Hidden/ColorMap"
+Shader "Hidden/ColorMapOpaque"
 {
     Properties
     {

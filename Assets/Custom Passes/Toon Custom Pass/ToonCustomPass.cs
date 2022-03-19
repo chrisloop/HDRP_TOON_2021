@@ -37,6 +37,14 @@ class ToonCustomPass : CustomPass
     Material    colorMapMaterial;
 
     [SerializeField, HideInInspector]
+    Shader      colorMapTransShader;
+    Material    colorMapTransMaterial;
+
+    [SerializeField, HideInInspector]
+    Shader      colorMapCompositeShader;
+    Material    colorMapCompositeMaterial;
+
+    [SerializeField, HideInInspector]
     Shader      edgeShader;
     Material    edgeMaterial;
 
@@ -44,15 +52,22 @@ class ToonCustomPass : CustomPass
     Shader      noiseShader;
     Material    noiseMaterial;    
 
-    RTHandle    colorMapBuffer;
+    RTHandle    colorMapBufferComposite;
+    RTHandle    colorMapBufferOpaque;
     RTHandle    noiseBuffer;
 
     protected override void Setup(ScriptableRenderContext renderContext, CommandBuffer cmd)
-    {
+    { 
         AssignObjectIDs(); // unique color for each object
 
-        colorMapShader = Shader.Find("Hidden/ColorMap");
+        colorMapShader = Shader.Find("Hidden/ColorMapOpaque");
         colorMapMaterial = CoreUtils.CreateEngineMaterial(colorMapShader);
+
+        colorMapTransShader = Shader.Find("Hidden/ColorMapTrans");
+        colorMapTransMaterial = CoreUtils.CreateEngineMaterial(colorMapTransShader);
+
+        colorMapCompositeShader = Shader.Find("Hidden/ColorMapComposite");
+        colorMapCompositeMaterial = CoreUtils.CreateEngineMaterial(colorMapCompositeShader);
 
         edgeShader = Shader.Find("Hidden/Edge");
         edgeMaterial = CoreUtils.CreateEngineMaterial(edgeShader);
@@ -60,11 +75,19 @@ class ToonCustomPass : CustomPass
         noiseShader = Shader.Find("Hidden/Noise");
         noiseMaterial = CoreUtils.CreateEngineMaterial(noiseShader);
 
+        //
         // Temporary buffers
-        colorMapBuffer = RTHandles.Alloc(
+        //
+        colorMapBufferComposite = RTHandles.Alloc(
             Vector2.one, TextureXR.slices, dimension: TextureXR.dimension,
             colorFormat: GraphicsFormat.R32G32B32A32_SFloat,
-            useDynamicScale: true, name: "Color Map Buffer"
+            useDynamicScale: true, name: "Color Map Buffer Composite"
+        );
+
+        colorMapBufferOpaque = RTHandles.Alloc(
+            Vector2.one, TextureXR.slices, dimension: TextureXR.dimension,
+            colorFormat: GraphicsFormat.R32G32B32A32_SFloat,
+            useDynamicScale: true, name: "Color Map Buffer Opaque"
         );
 
         noiseBuffer = RTHandles.Alloc(
@@ -76,9 +99,19 @@ class ToonCustomPass : CustomPass
 
     protected override void Execute(CustomPassContext ctx)
     {
-        // color map pass (vertex color and object id)
-        CoreUtils.SetRenderTarget(ctx.cmd, colorMapBuffer, ctx.cameraDepthBuffer, ClearFlag.Color);
-        CustomPassUtils.DrawRenderers(ctx, layerMask, CustomPass.RenderQueueType.All, colorMapMaterial);
+        // opaque color map pass (vertex color and object id)
+        CoreUtils.SetRenderTarget(ctx.cmd, colorMapBufferOpaque, ctx.cameraDepthBuffer, ClearFlag.Color);
+        CustomPassUtils.DrawRenderers(ctx, layerMask, CustomPass.RenderQueueType.AllOpaque, colorMapMaterial);
+
+        // transparent color map pass (vertex color and object id)
+        CoreUtils.SetRenderTarget(ctx.cmd, ctx.customColorBuffer.Value, ctx.cameraDepthBuffer, ClearFlag.Color);
+        CustomPassUtils.DrawRenderers(ctx, layerMask, CustomPass.RenderQueueType.AllTransparent, colorMapTransMaterial);
+
+        // composite color map full screen pass
+        ctx.propertyBlock.SetTexture("_ColorMapBufferOpaque", colorMapBufferOpaque);
+        ctx.propertyBlock.SetTexture("_ColorMapBufferTransparent", ctx.customColorBuffer.Value);
+        CoreUtils.SetRenderTarget(ctx.cmd, colorMapBufferComposite, ClearFlag.All);
+        CoreUtils.DrawFullScreen(ctx.cmd, colorMapCompositeMaterial, colorMapBufferComposite, shaderPassId: 0, properties: ctx.propertyBlock); 
 
         // world space noise pass
         noiseMaterial.SetFloat("_NoiseScale", noiseScale);
@@ -87,7 +120,7 @@ class ToonCustomPass : CustomPass
         CustomPassUtils.DrawRenderers(ctx, layerMask, CustomPass.RenderQueueType.All, noiseMaterial);
 
         // Setup edge effect properties
-        ctx.propertyBlock.SetTexture("_EdgeBuffer", colorMapBuffer);
+        ctx.propertyBlock.Clear();
         ctx.propertyBlock.SetTexture("_NoiseBuffer", noiseBuffer);
         ctx.propertyBlock.SetFloat("_EdgeThickness", edgeThickness);
 
@@ -108,7 +141,7 @@ class ToonCustomPass : CustomPass
         ctx.propertyBlock.SetFloat("_NoiseMinMultiplier", noiseMinMultiplier);
         ctx.propertyBlock.SetFloat("_NoiseMaxMultiplier", noiseMaxMultiplier);
 
-        ctx.propertyBlock.SetTexture("_ColorMap", colorMapBuffer);
+        ctx.propertyBlock.SetTexture("_ColorMap", colorMapBufferComposite);
 
 
         CoreUtils.SetRenderTarget(ctx.cmd, ctx.customColorBuffer.Value, ClearFlag.All);
@@ -146,7 +179,8 @@ class ToonCustomPass : CustomPass
 
     protected override void Cleanup()
     {
-        colorMapBuffer.Release();
+        colorMapBufferOpaque.Release();
+        colorMapBufferComposite.Release();
         noiseBuffer.Release();
 
         CoreUtils.Destroy(edgeMaterial);

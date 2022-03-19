@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &36506908
 Transform:
   m_ObjectHideFlags: 0
@@ -168,11 +168,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-    albedo: {r: 1, g: 0, b: 0, a: 1}
+    albedo: {r: 1, g: 1, b: 1, a: 1}
     meanFreePath: 1
     anisotropy: 0
     volumeMask: {fileID: 11700000, guid: 8b1edc6a44817d14098f56ae6ba9bbd5, type: 3}
-    textureScrollingSpeed: {x: 0.08, y: 0, z: 0}
+    textureScrollingSpeed: {x: 0.02, y: 0, z: 0}
     textureTiling: {x: 1, y: 0.5, z: 1}
     positiveFade: {x: 0.0025, y: 0.02, z: 0.0025}
     negativeFade: {x: 0.0025, y: 0.02, z: 0.0025}
@@ -184,7 +184,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: 0, y: 0, z: 0}
+    textureOffset: {x: -3.029683, y: -0, z: -0}
     falloffMode: 0
   m_Version: 2
 --- !u!1001 &50640439
@@ -2080,7 +2080,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565015684}
   m_LocalRotation: {x: 0.91690457, y: -0, z: -0, w: 0.39910668}
-  m_LocalPosition: {x: -1.705, y: 3.501, z: -11.07}
+  m_LocalPosition: {x: -1.705, y: 3.78, z: -11.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
