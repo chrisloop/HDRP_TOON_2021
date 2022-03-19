@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.59065914, g: 0.729269, b: 0.8330078, a: 1}
+  m_IndirectSpecularColor: {r: 0.5907469, g: 0.7294502, b: 0.8330078, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,70 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &36506907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 36506908}
-  - component: {fileID: 36506909}
-  m_Layer: 0
-  m_Name: Local Volumetric Fog
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &36506908
+--- !u!4 &36506908 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+  m_PrefabInstance: {fileID: 5779268042694073500}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36506907}
-  m_LocalRotation: {x: -0, y: 0.4160426, z: -0, w: 0.90934515}
-  m_LocalPosition: {x: -0.1400001, y: -1.6800003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1516667049}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 49.17, z: 0}
---- !u!114 &36506909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36506907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1fbb15bf92b84f40a1eb030765b5afe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parameters:
-    albedo: {r: 1, g: 1, b: 1, a: 1}
-    meanFreePath: 1
-    anisotropy: 0
-    volumeMask: {fileID: 11700000, guid: 8b1edc6a44817d14098f56ae6ba9bbd5, type: 3}
-    textureScrollingSpeed: {x: 0.01, y: 0, z: 0}
-    textureTiling: {x: 1, y: 0.5, z: 1}
-    positiveFade: {x: 0.25, y: 0.5, z: 0.25}
-    negativeFade: {x: 0.25, y: 0.5, z: 0.25}
-    m_EditorUniformFade: 2.5
-    m_EditorPositiveFade: {x: 0, y: 0, z: 0}
-    m_EditorNegativeFade: {x: 0, y: 0, z: 0}
-    m_EditorAdvancedFade: 0
-    size: {x: 10, y: 5, z: 10}
-    invertFade: 0
-    distanceFadeStart: 10000
-    distanceFadeEnd: 10000
-    textureOffset: {x: -0, y: -0, z: -0}
-    falloffMode: 0
-  m_Version: 2
 --- !u!1001 &50640439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -311,8 +252,15 @@ MonoBehaviour:
         normalThreshold: 1
         normalMultiplier: 1
         normalBias: 1
+        noiseScale: 1
+        noiseMinMultiplier: 1
+        noiseMaxMultiplier: 1
+        noiseStep: {x: 0, y: 1}
         colorMapShader: {fileID: 4800000, guid: 57496791df1fa184a854446cf404193b, type: 3}
+        colorMapTransShader: {fileID: 4800000, guid: b9c33ff5cc7118b45a20b23d19b4e6ec, type: 3}
+        colorMapCompositeShader: {fileID: 4800000, guid: a965de1e9f6fda340bac24e3682208e6, type: 3}
         edgeShader: {fileID: 4800000, guid: 4ff0d8faf0a627143a701ec5a7bb8308, type: 3}
+        noiseShader: {fileID: 4800000, guid: f168c6d760e389e4985f77960ecf4d90, type: 3}
 --- !u!4 &145380555
 Transform:
   m_ObjectHideFlags: 0
@@ -1772,7 +1720,7 @@ MonoBehaviour:
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1.86
-  m_VolumetricDimmer: 1
+  m_VolumetricDimmer: 16
   m_LightUnit: 2
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
@@ -1830,7 +1778,7 @@ MonoBehaviour:
     m_UseOverride: 0
     m_Level: 3
   m_ShadowDimmer: 0.418
-  m_VolumetricShadowDimmer: 1
+  m_VolumetricShadowDimmer: 0
   m_ShadowFadeDistance: 10000
   m_UseContactShadow:
     m_Override: 0
@@ -2060,3 +2008,104 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce51f1804c3ee2644a5e810409b3057a, type: 3}
+--- !u!1001 &5779268042694073500
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1516667049}
+    m_Modifications:
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90934515
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4160426
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 49.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892480, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.size.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.negativeFade.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.negativeFade.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.negativeFade.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.positiveFade.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.positiveFade.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.positiveFade.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.textureOffset.x
+      value: -0.25964826
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.textureOffset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.textureOffset.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892481, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: parameters.m_EditorUniformFade
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779268042661892487, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}
+      propertyPath: m_Name
+      value: Local Volumetric Fog
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e10d01639d4eba4c9546c4591f8c577, type: 3}

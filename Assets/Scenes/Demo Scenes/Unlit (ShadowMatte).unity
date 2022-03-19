@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36506907}
   m_LocalRotation: {x: -0, y: 0.4160426, z: -0, w: 0.90934515}
-  m_LocalPosition: {x: -0.1400001, y: -1.4, z: 0}
+  m_LocalPosition: {x: -0.1400001, y: -0.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -184,7 +184,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: -0.14130257, y: -0, z: -0}
+    textureOffset: {x: -0.48349783, y: -0, z: -0}
     falloffMode: 0
   m_Version: 2
 --- !u!1001 &50640439
@@ -490,6 +490,8 @@ MonoBehaviour:
         noiseMaxMultiplier: 1
         noiseStep: {x: 0, y: 1}
         colorMapShader: {fileID: 4800000, guid: 57496791df1fa184a854446cf404193b, type: 3}
+        colorMapTransShader: {fileID: 4800000, guid: b9c33ff5cc7118b45a20b23d19b4e6ec, type: 3}
+        colorMapCompositeShader: {fileID: 4800000, guid: a965de1e9f6fda340bac24e3682208e6, type: 3}
         edgeShader: {fileID: 4800000, guid: 4ff0d8faf0a627143a701ec5a7bb8308, type: 3}
         noiseShader: {fileID: 4800000, guid: f168c6d760e389e4985f77960ecf4d90, type: 3}
 --- !u!4 &145380555
@@ -902,7 +904,7 @@ MonoBehaviour:
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 1
+  m_VolumetricDimmer: 16
   m_LightUnit: 2
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
@@ -960,7 +962,7 @@ MonoBehaviour:
     m_UseOverride: 0
     m_Level: 3
   m_ShadowDimmer: 1
-  m_VolumetricShadowDimmer: 1
+  m_VolumetricShadowDimmer: 0
   m_ShadowFadeDistance: 10000
   m_UseContactShadow:
     m_Override: 0
