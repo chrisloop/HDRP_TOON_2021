@@ -35,7 +35,7 @@ MonoBehaviour:
     customBufferFormat: 48
     supportedLitShaderMode: 1
     planarReflectionResolution:
-      m_Values: 000100000004000000080000
+      m_Values: 000100000004000000040000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1

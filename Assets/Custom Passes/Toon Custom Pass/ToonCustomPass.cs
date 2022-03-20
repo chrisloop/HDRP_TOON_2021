@@ -59,19 +59,19 @@ class ToonCustomPass : CustomPass
         //
         colorMapBufferComposite = RTHandles.Alloc(
             Vector2.one, TextureXR.slices, dimension: TextureXR.dimension,
-            colorFormat: GraphicsFormat.R32G32B32A32_SFloat,
+            colorFormat: GraphicsFormat.R16G16B16A16_UNorm,
             useDynamicScale: true, name: "Color Map Buffer Composite"
         );
 
         colorMapBufferOpaque = RTHandles.Alloc(
             Vector2.one, TextureXR.slices, dimension: TextureXR.dimension,
-            colorFormat: GraphicsFormat.R32G32B32A32_SFloat,
+            colorFormat: GraphicsFormat.R16G16B16A16_UNorm,
             useDynamicScale: true, name: "Color Map Buffer Opaque"
         );
 
         noiseBuffer = RTHandles.Alloc(
             Vector2.one, TextureXR.slices, dimension: TextureXR.dimension,
-            colorFormat: GraphicsFormat.R32G32B32A32_SFloat,
+            colorFormat: GraphicsFormat.R16G16B16A16_UNorm,
             useDynamicScale: true, name: "Noise Buffer"
         );
     }

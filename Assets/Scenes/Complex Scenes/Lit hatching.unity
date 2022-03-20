@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36506907}
   m_LocalRotation: {x: -0, y: 0.4160426, z: -0, w: 0.90934515}
-  m_LocalPosition: {x: -0.1400001, y: -2.09, z: 0}
+  m_LocalPosition: {x: -0.1400001, y: -19.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -174,17 +174,17 @@ MonoBehaviour:
     volumeMask: {fileID: 11700000, guid: 8b1edc6a44817d14098f56ae6ba9bbd5, type: 3}
     textureScrollingSpeed: {x: 0.02, y: 0, z: 0}
     textureTiling: {x: 1, y: 0.5, z: 1}
-    positiveFade: {x: 0.0025, y: 0.02, z: 0.0025}
-    negativeFade: {x: 0.0025, y: 0.02, z: 0.0025}
+    positiveFade: {x: 0.0025, y: 0.0025, z: 0.0025}
+    negativeFade: {x: 0.0025, y: 0.0025, z: 0.0025}
     m_EditorUniformFade: 0.1
     m_EditorPositiveFade: {x: 0, y: 0, z: 0}
     m_EditorNegativeFade: {x: 0, y: 0, z: 0}
     m_EditorAdvancedFade: 0
-    size: {x: 40, y: 5, z: 40}
+    size: {x: 40, y: 40, z: 40}
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: -0.3081932, y: -0, z: -0}
+    textureOffset: {x: -0.27672246, y: -0, z: -0}
     falloffMode: 0
   m_Version: 2
 --- !u!1001 &50640439

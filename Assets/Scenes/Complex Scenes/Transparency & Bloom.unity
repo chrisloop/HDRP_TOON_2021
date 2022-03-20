@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 10857.656, g: 10722.863, b: 12047.492, a: 1}
+  m_IndirectSpecularColor: {r: 12168.937, g: 14160.992, b: 18142.875, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -456,7 +456,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40a4da0d27c64004da17d2fc89283974, type: 2}
+  - {fileID: 2100000, guid: f12e429197da46a468818ee34d608da2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -563,8 +563,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368412785}
-  m_LocalRotation: {x: 0.056765884, y: 0.9398254, z: -0.1938577, w: 0.27554524}
-  m_LocalPosition: {x: -2.8558712, y: 2.2300646, z: 4.1161575}
+  m_LocalRotation: {x: 0.02654514, y: 0.9637859, z: -0.108462945, w: 0.24217352}
+  m_LocalPosition: {x: -3.049855, y: 1.7040259, z: 4.7690783}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -590,7 +590,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 0
+  antialiasing: 3
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -1146,7 +1146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316204297}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.537, y: -0.923, z: 2.789}
+  m_LocalPosition: {x: 0.537, y: -1.611, z: 2.789}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1706,7 +1706,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40a4da0d27c64004da17d2fc89283974, type: 2}
+  - {fileID: 2100000, guid: f12e429197da46a468818ee34d608da2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1783,7 +1783,7 @@ MonoBehaviour:
         targetColorBuffer: 1
         targetDepthBuffer: 1
         clearFlags: -1
-        passFoldout: 1
+        passFoldout: 0
         m_Version: 0
         filterFoldout: 1
         rendererFoldout: 0
@@ -1809,7 +1809,7 @@ MonoBehaviour:
         clearFlags: 0
         passFoldout: 1
         m_Version: 0
-        filterFoldout: 1
+        filterFoldout: 0
         rendererFoldout: 1
         renderQueueType: 10
         layerMask:
@@ -1919,14 +1919,15 @@ MonoBehaviour:
         normalMultiplier: 1
         normalBias: 1
         noiseScale: 1
-        noiseMinMultiplier: 0
+        noiseMinMultiplier: 1
         noiseMaxMultiplier: 1
         noiseStep: {x: 0, y: 1}
-        colorMapShader: {fileID: 4800000, guid: 57496791df1fa184a854446cf404193b, type: 3}
-        colorMapTransShader: {fileID: 4800000, guid: b9c33ff5cc7118b45a20b23d19b4e6ec, type: 3}
-        colorMapCompositeShader: {fileID: 4800000, guid: a965de1e9f6fda340bac24e3682208e6, type: 3}
-        edgeShader: {fileID: 4800000, guid: 4ff0d8faf0a627143a701ec5a7bb8308, type: 3}
-        noiseShader: {fileID: 4800000, guid: f168c6d760e389e4985f77960ecf4d90, type: 3}
+        renderTexture: {fileID: 8400000, guid: 5b7f1a7bc20ef0d4890e9340114266f2, type: 2}
+        colorMapMaterial: {fileID: 0}
+        colorMapTransMaterial: {fileID: 0}
+        colorMapCompositeMaterial: {fileID: 0}
+        edgeMaterial: {fileID: 0}
+        noiseMaterial: {fileID: 0}
 --- !u!4 &7795576140400992656
 Transform:
   m_ObjectHideFlags: 0
