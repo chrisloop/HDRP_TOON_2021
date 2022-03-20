@@ -168,7 +168,19 @@ Shader "Hidden/Edge"
         return Result;
     }
 
+    // Used to copy from temporary buffer to the camera buffer or render texture
+    float4 Copy(Varyings varyings) : SV_Target
+    {
+        float depth = LoadCameraDepth(varyings.positionCS.xy);
+        PositionInputs posInput = GetPositionInput(varyings.positionCS.xy, _ScreenSize.zw, depth, UNITY_MATRIX_I_VP, UNITY_MATRIX_V);
 
+        float4 color;
+
+        //color = float4(CustomPassLoadCameraColor(varyings.positionCS.xy, 0), 1);
+        color = LoadCustomColor(posInput.positionSS);
+
+        return color;
+    }
 
     ENDHLSL
 
@@ -176,7 +188,7 @@ Shader "Hidden/Edge"
     {
         Pass
         {
-            Name "Custom Pass 0"
+            Name "Edge Pass"
 
             ZWrite Off
             ZTest Always
@@ -185,6 +197,19 @@ Shader "Hidden/Edge"
 
             HLSLPROGRAM
                 #pragma fragment EdgePass
+            ENDHLSL
+        }
+        Pass
+        {
+            Name "Copy Pass"
+
+            ZWrite Off
+            ZTest Always
+            Blend SrcAlpha OneMinusSrcAlpha
+            Cull Off
+
+            HLSLPROGRAM
+                #pragma fragment Copy
             ENDHLSL
         }
     }

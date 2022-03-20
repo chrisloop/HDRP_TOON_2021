@@ -184,7 +184,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: -2.042599, y: -0, z: -0}
+    textureOffset: {x: -0.069286145, y: -0, z: -0}
     falloffMode: 0
   m_Version: 2
 --- !u!1001 &50640439
@@ -312,7 +312,7 @@ MonoBehaviour:
         m_Version: 0
         layerMask:
           serializedVersion: 2
-          m_Bits: 23
+          m_Bits: 1
         edgeThickness: 1
         colorThreshold: 0.001
         colorMultiplier: 5
@@ -327,9 +327,12 @@ MonoBehaviour:
         noiseMinMultiplier: 1
         noiseMaxMultiplier: 1
         noiseStep: {x: 0, y: 1}
-        colorMapShader: {fileID: 4800000, guid: 57496791df1fa184a854446cf404193b, type: 3}
-        edgeShader: {fileID: 4800000, guid: 4ff0d8faf0a627143a701ec5a7bb8308, type: 3}
-        noiseShader: {fileID: 4800000, guid: f168c6d760e389e4985f77960ecf4d90, type: 3}
+        renderTexture: {fileID: 0}
+        colorMapMaterial: {fileID: 0}
+        colorMapTransMaterial: {fileID: 0}
+        colorMapCompositeMaterial: {fileID: 0}
+        edgeMaterial: {fileID: 0}
+        noiseMaterial: {fileID: 0}
 --- !u!4 &145380555
 Transform:
   m_ObjectHideFlags: 0
@@ -506,7 +509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 592362252}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Labels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
