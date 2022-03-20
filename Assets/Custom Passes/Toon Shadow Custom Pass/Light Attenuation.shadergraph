@@ -39,10 +39,10 @@
             "m_Id": "c587e5898d114c60bef6434b959bf650"
         },
         {
-            "m_Id": "31098d988c484996a431e674859ee33e"
+            "m_Id": "ab9de8cae9624a5981d2253fc979e9f8"
         },
         {
-            "m_Id": "ab9de8cae9624a5981d2253fc979e9f8"
+            "m_Id": "24b9db48176c49378a1aac4c2265befe"
         }
     ],
     "m_GroupDatas": [],
@@ -90,10 +90,10 @@
                 "m_Id": "c587e5898d114c60bef6434b959bf650"
             },
             {
-                "m_Id": "31098d988c484996a431e674859ee33e"
+                "m_Id": "ab9de8cae9624a5981d2253fc979e9f8"
             },
             {
-                "m_Id": "ab9de8cae9624a5981d2253fc979e9f8"
+                "m_Id": "24b9db48176c49378a1aac4c2265befe"
             }
         ]
     },
@@ -165,6 +165,30 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
+    "m_ObjectId": "107e53dc7e9c44eaaaaa96281e1f864e",
+    "m_Id": 0,
+    "m_DisplayName": "Normal (Tangent Space)",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "NormalTS",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 3
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
     "m_ObjectId": "1cc9f00b77ee4de2ab0f331160493ac6",
     "m_Id": 0,
     "m_DisplayName": "Normal",
@@ -189,7 +213,7 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
-    "m_ObjectId": "31098d988c484996a431e674859ee33e",
+    "m_ObjectId": "24b9db48176c49378a1aac4c2265befe",
     "m_Group": {
         "m_Id": ""
     },
@@ -206,7 +230,7 @@
     },
     "m_Slots": [
         {
-            "m_Id": "a75bd460f5314b008b35b4db222c61d0"
+            "m_Id": "107e53dc7e9c44eaaaaa96281e1f864e"
         }
     ],
     "synonyms": [],
@@ -281,7 +305,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.Rendering.HighDefinition.ShaderGraph.SystemData",
     "m_ObjectId": "5bca6f90dbac4e42ab297549c9dcb27a",
-    "m_MaterialNeedsUpdateHash": 529,
+    "m_MaterialNeedsUpdateHash": 0,
     "m_SurfaceType": 0,
     "m_RenderingPass": 1,
     "m_BlendMode": 0,
@@ -495,8 +519,8 @@
     "m_ObjectId": "78c17ffe99f94a00a83587363f38a49f",
     "m_NormalDropOffSpace": 0,
     "m_BlendPreserveSpecular": true,
-    "m_ReceiveDecals": true,
-    "m_ReceiveSSR": true,
+    "m_ReceiveDecals": false,
+    "m_ReceiveSSR": false,
     "m_ReceiveSSRTransparent": false,
     "m_SpecularAA": false,
     "m_SpecularOcclusionMode": 1,
@@ -507,30 +531,6 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.Rendering.HighDefinition.ShaderGraph.HDLitSubTarget",
     "m_ObjectId": "99f3bc7da3c349e58fd4be222b00224d"
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
-    "m_ObjectId": "a75bd460f5314b008b35b4db222c61d0",
-    "m_Id": 0,
-    "m_DisplayName": "Normal (Tangent Space)",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "NormalTS",
-    "m_StageCapability": 2,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_Labels": [],
-    "m_Space": 3
 }
 
 {

@@ -184,7 +184,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: -0.27672246, y: -0, z: -0}
+    textureOffset: {x: -1.3276347, y: -0, z: -0}
     falloffMode: 0
   m_Version: 2
 --- !u!1001 &50640439
@@ -1256,7 +1256,7 @@ MonoBehaviour:
         passFoldout: 0
         m_Version: 0
         filterFoldout: 0
-        rendererFoldout: 0
+        rendererFoldout: 1
         renderQueueType: 2
         layerMask:
           serializedVersion: 2
