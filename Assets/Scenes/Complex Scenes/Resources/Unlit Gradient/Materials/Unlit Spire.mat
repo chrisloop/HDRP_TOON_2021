@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6176848736750506125
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -7,16 +23,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shadow Lit Influence
-  m_Shader: {fileID: -6465566751694194690, guid: f75b81fb531f52244ba2d8729c04f7be, type: 3}
-  m_ShaderKeywords: _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+  m_Name: Unlit Spire
+  m_Shader: {fileID: -6465566751694194690, guid: 22ea7fcedc1f743439d23128b07be427, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
-    RenderType: Transparent
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -25,8 +40,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_38954f77189d483ea388d848d73ee304_Texture_1:
-        m_Texture: {fileID: 8400000, guid: 5b7f1a7bc20ef0d4890e9340114266f2, type: 2}
+    - _Alpha_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Alpha_Texture_2:
+        m_Texture: {fileID: 2800000, guid: 4c8da85ba2a62c548bf2e63d90ff0647, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Alpha_Texture_3:
+        m_Texture: {fileID: 2800000, guid: 6ee51bb9e4096ad4fb80a68ac5b84f7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse_Color_Alpha_Texture:
+        m_Texture: {fileID: 2800000, guid: 107dc00df1c57b845a2029921698550a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -45,7 +72,7 @@ Material:
     m_Floats:
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 0
-    - _AlphaDstBlend: 10
+    - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
@@ -54,19 +81,24 @@ Material:
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
+    - _Diffuse_Color_Texture_Tiling: 5
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
-    - _DstBlend: 10
-    - _Edge_Overlay_Shadows: 1
-    - _Edge_Overlay_Shadows_RenderTexture_Required: 0
-    - _Edge_Thickness: 1
+    - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
-    - _Float: 0
+    - _Gradient_Edge_1: 0
+    - _Gradient_Edge_2: 1
+    - _Gradient_Offset: 0
+    - _Gradient_Rotation: 0
+    - _Gradient_World_Space: 1
+    - _Noise_Mask_Step: 0
+    - _Noise_Mask_TIling: 5
     - _OpaqueCullMode: 2
-    - _RenderQueueType: 4
-    - _Shadow_Strength: 0.504
+    - _RenderQueueType: 1
+    - _Rotation_1: 0
+    - _ShadowMatteFilter: 2.3138e-41
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -78,7 +110,10 @@ Material:
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
-    - _SurfaceType: 1
+    - _Strength: 1
+    - _Strength_2: 0.5
+    - _Strength_3: 1
+    - _SurfaceType: 0
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -87,29 +122,20 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
-    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
+    - _Color: {r: 0.40784317, g: 0.7019608, b: 0.8352942, a: 0}
+    - _Color_2: {r: 0.40784317, g: 0.8352942, b: 0.69411767, a: 0}
+    - _Diffuse_Color_Ramp_Step: {r: 1, g: -0.84, b: 0, a: 0}
+    - _Diffuse_Texture_Tint: {r: 0.8352942, g: 0.40784317, b: 0.68235296, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _Edge_Color: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0}
+    - _Edges_Color: {r: 0.27358484, g: 0.27358484, b: 0.27358484, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Shadow_Color: {r: 1, g: 0.0039215684, b: 0.17373705, a: 0}
+    - _Shadow_Color: {r: 0, g: 0.0718432, b: 0.10377356, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling_2: {r: 2, g: 2, b: 0, a: 0}
+    - _Tiling_3: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &409769937046763340
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 12
-  hdPluginSubTargetMaterialVersions:
-    m_Keys: []
-    m_Values: 

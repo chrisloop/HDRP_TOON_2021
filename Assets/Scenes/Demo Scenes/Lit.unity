@@ -256,7 +256,7 @@ MonoBehaviour:
         noiseMinMultiplier: 1
         noiseMaxMultiplier: 1
         noiseStep: {x: 0, y: 1}
-        renderTexture: {fileID: 0}
+        renderTexture: {fileID: 8400000, guid: 5b7f1a7bc20ef0d4890e9340114266f2, type: 2}
         colorMapMaterial: {fileID: 0}
         colorMapTransMaterial: {fileID: 0}
         colorMapCompositeMaterial: {fileID: 0}
