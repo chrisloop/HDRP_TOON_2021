@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shadow Unlit (ShadowMatte) Gradient Scene
-  m_Shader: {fileID: -6465566751694194690, guid: f75b81fb531f52244ba2d8729c04f7be, type: 3}
+  m_Name: Shadow Simple Hatch
+  m_Shader: {fileID: -6465566751694194690, guid: d0b59396d45f52c42b236602be495daa, type: 3}
   m_ShaderKeywords: _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -25,6 +25,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Alpha_Texture:
+        m_Texture: {fileID: 2800000, guid: 8de91784a667d7c469879561f8e72573, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_38954f77189d483ea388d848d73ee304_Texture_1:
         m_Texture: {fileID: 8400000, guid: 5b7f1a7bc20ef0d4890e9340114266f2, type: 2}
         m_Scale: {x: 1, y: 1}
@@ -58,15 +62,13 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
-    - _Edge_Overlay_Shadows: 0
-    - _Edge_Overlay_Shadows_RenderTexture_Required: 1
+    - _Edge_Overlay_Shadows_RenderTexture_Required: 0
     - _Edge_Thickness: 0
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
-    - _Float: 0
     - _OpaqueCullMode: 2
     - _RenderQueueType: 4
-    - _Shadow_Strength: 0.371
+    - _Shadow_Strength: 1
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -79,6 +81,7 @@ Material:
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
     - _SurfaceType: 1
+    - _Tiling: 1.43
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -95,9 +98,9 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Shadow_Color: {r: 0.40000004, g: 0.3019608, b: 0.5882353, a: 1}
+    - _Shadow_Color: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &409769937046763340
+--- !u!114 &3463407764961281036
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
