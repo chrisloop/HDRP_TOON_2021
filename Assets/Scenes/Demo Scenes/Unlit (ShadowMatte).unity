@@ -184,7 +184,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: -0.05542725, y: -0, z: -0}
+    textureOffset: {x: -5.442304, y: -0, z: -0}
     falloffMode: 0
   m_Version: 2
 --- !u!1001 &50640439
@@ -1914,7 +1914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce51f1804c3ee2644a5e810409b3057a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5721955
+      value: -3.53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce51f1804c3ee2644a5e810409b3057a, type: 3}
       propertyPath: m_LocalPosition.y
