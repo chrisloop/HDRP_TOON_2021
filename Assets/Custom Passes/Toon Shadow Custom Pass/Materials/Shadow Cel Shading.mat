@@ -66,8 +66,8 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 0
-    - _Cel_Step_1: -1.44
-    - _Cel_Step_2: 0.4
+    - _Cel_Step_1: -1.59
+    - _Cel_Step_2: 0.75
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
@@ -98,7 +98,7 @@ Material:
     - _StencilWriteMaskMV: 40
     - _Step_1: -1.83
     - _Step_2: 1.38
-    - _Steps: 5
+    - _Steps: 6
     - _SurfaceType: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
