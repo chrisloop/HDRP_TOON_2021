@@ -68,7 +68,9 @@ Material:
     - _EnableFogOnTransparent: 1
     - _OpaqueCullMode: 2
     - _RenderQueueType: 4
+    - _Shadow_Alpha_Strength: 1
     - _Shadow_Strength: 1
+    - _Shadow_Tint_Strength: 0.089
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -81,7 +83,7 @@ Material:
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
     - _SurfaceType: 1
-    - _Tiling: 0.41
+    - _Tiling: 0.7
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -98,7 +100,9 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow_Alpha_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_Tint: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3463407764961281036
 MonoBehaviour:
