@@ -1058,7 +1058,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 0
     distanceFadeEnd: 100
-    textureOffset: {x: -0, y: -0, z: -59.51668}
+    textureOffset: {x: -0, y: -0, z: -4.8242903}
     falloffMode: 0
   m_Version: 2
 --- !u!1001 &1157211767
@@ -1768,8 +1768,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758912703}
-  m_LocalRotation: {x: 0.024169276, y: 0.91609764, z: -0.055856623, w: 0.39630935}
-  m_LocalPosition: {x: -3.0845785, y: 2.1870801, z: 2.7101068}
+  m_LocalRotation: {x: 0.0035031545, y: 0.9458139, z: 0.005013987, w: 0.32465166}
+  m_LocalPosition: {x: -3.4043245, y: 1.3073058, z: 3.0345743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
