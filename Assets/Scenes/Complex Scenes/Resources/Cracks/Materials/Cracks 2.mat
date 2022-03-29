@@ -124,7 +124,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.8980392, g: 0.33333334, b: 0.33333334, a: 0}
-    - _Color_2: {r: 0.3333334, g: 0.75663674, b: 0.8980392, a: 0}
+    - _Color_2: {r: 0.7688679, g: 0.942217, b: 1, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

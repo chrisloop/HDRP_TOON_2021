@@ -82,9 +82,9 @@ Material:
     - _Edge_2: 0.47
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _Gradient_Step_1: -9.88
-    - _Gradient_Step_2: 0.52
-    - _Light_Influence: 0.557
+    - _Gradient_Step_1: -9.01
+    - _Gradient_Step_2: -5.03
+    - _Light_Influence: 0.775
     - _Light_Strength: 100000
     - _Metallic: 0
     - _Normal_Strength: 2
@@ -123,8 +123,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.688, g: 0.4110509, b: 0.4110509, a: 0}
-    - _Color_2: {r: 0.5564366, g: 0.4117647, b: 0.6862745, a: 0}
+    - _Color: {r: 0.8117647, g: 0.45648554, b: 0.4392157, a: 0}
+    - _Color_2: {r: 0.7832671, g: 0.5424528, b: 1, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

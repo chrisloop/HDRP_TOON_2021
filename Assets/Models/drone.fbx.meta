@@ -1,0 +1,5370 @@
+fileFormatVersion: 2
+guid: 7ec488c26626884418bef6228dc8a5b5
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 7788451393616926998
+    second: K07_Drone|Take 001_Fire_006
+  - first:
+      74: 178824167511630386
+    second: K07_Drone|Take 001_Fire_007
+  - first:
+      74: -6489541862104951119
+    second: K07_Drone|Take 001_Fire_008
+  - first:
+      74: -6406916396824372634
+    second: K07_Drone|Take 001_Fire_009
+  - first:
+      74: 1036257270408216747
+    second: K07_Drone|Take 001_Fire_010
+  - first:
+      74: 2997102957751262590
+    second: K07_Drone|Take 001_Fire_011
+  - first:
+      74: -3194112857970129722
+    second: K07_Drone|Take 001_Fire_012
+  - first:
+      74: 5406264815180753731
+    second: K07_Drone|Take 001_Fire_013
+  - first:
+      74: -4892169821994686120
+    second: K07_Drone|Take 001_Fire_014
+  - first:
+      74: -1353846240827165538
+    second: K07_Drone|Take 001_Fire_015
+  - first:
+      74: -7254304015213170564
+    second: K07_Drone|Take 001_Fire_016
+  - first:
+      74: -1874866869318651521
+    second: K07_Drone|Take 001_Fire_017
+  - first:
+      74: 3744429628459128766
+    second: K07_Drone|Take 001_Fire_018
+  - first:
+      74: 8394695676021996306
+    second: K07_Drone|Take 001_Fire_019
+  - first:
+      74: 1635420761666306774
+    second: K07_Drone|Take 001_Fire_020
+  - first:
+      74: 3695785474290780153
+    second: K07_Drone|Take 001_Fire_021
+  - first:
+      74: 3033154418539361251
+    second: K07_Drone|Take 001_Fire_022
+  - first:
+      74: -1747960982569711792
+    second: K07_Drone|Take 001_Fire_023
+  - first:
+      74: 8290244043670202745
+    second: K07_Drone|Take 001_Fire_024
+  - first:
+      74: 6951228368553458498
+    second: K07_Drone|Take 001_Fire_025
+  - first:
+      74: -9018090378066597529
+    second: K07_Drone|Take 001_Fire_026
+  - first:
+      74: -4740163986982247922
+    second: K07_Drone|Take 001_Fire_027
+  - first:
+      74: 914876614928694636
+    second: K07_Drone|Take 001_Fire_028
+  - first:
+      74: 7496723090144642959
+    second: K07_Drone|Take 001_Fire_029
+  - first:
+      74: -8091733720379099241
+    second: K07_Drone|Take 001_Fire_03
+  - first:
+      74: 4082491819093660282
+    second: K07_Drone|Take 001_Fire_030
+  - first:
+      74: -7324804838954262802
+    second: K07_Drone|Take 001_Fire_04
+  - first:
+      74: 1151414712303308197
+    second: K07_Drone|Take 001_Fire_05
+  - first:
+      74: -5052113979451806728
+    second: K07_Drone|Take 001_K07_Drone
+  - first:
+      74: 7018907223738404084
+    second: K07_Drone|Take 001_Plasma
+  - first:
+      74: 3230883190288666325
+    second: K07_Drone|Take 001_Plasma001
+  - first:
+      74: 1132179241867681262
+    second: K07_Drone|Take 001_Plasma002
+  - first:
+      74: -4061856880910974245
+    second: K07_Drone|Take 001_Plasma003
+  - first:
+      74: -6430611023971199585
+    second: K07_Drone|Take 001_Plasma004
+  - first:
+      74: 7502101528404379585
+    second: K07_Drone|Take 001_Plasma005
+  - first:
+      74: -4441879841982000315
+    second: K07_Drone|Take 001_Plasma006
+  - first:
+      74: 1173996896781174121
+    second: K07_Drone|Take 001_Plasma007
+  - first:
+      74: -8932101962851169892
+    second: K07_Drone|Take 001_Plasma008
+  - first:
+      74: -1920515957186036933
+    second: K07_Drone|Take 001_Plasma009
+  - first:
+      74: -4820424614141399718
+    second: K07_Drone|Take 001_TPhotometricLight001
+  - first:
+      74: 1355395368541320559
+    second: K07_Drone|Take 001_TPhotometricLight002
+  - first:
+      74: -3420398336194440549
+    second: K07_Drone|Take 001_TPhotometricLight003
+  - first:
+      74: 7212552905928023292
+    second: K07_Drone|Take 001_TPhotometricLight004
+  - first:
+      74: -4022179502810607614
+    second: K07_Drone|Take 001_TPhotometricLight005
+  - first:
+      74: -490381615912289932
+    second: K07_Drone|Take 001_TPhotometricLight006
+  - first:
+      74: 5716515223546736235
+    second: Plasma004|Take 001_Fire_006
+  - first:
+      74: -42412211201242999
+    second: Plasma004|Take 001_Fire_007
+  - first:
+      74: -6951312287029913198
+    second: Plasma004|Take 001_Fire_008
+  - first:
+      74: -3758080599123038892
+    second: Plasma004|Take 001_Fire_009
+  - first:
+      74: -8576597764981492307
+    second: Plasma004|Take 001_Fire_010
+  - first:
+      74: -7569546741232526383
+    second: Plasma004|Take 001_Fire_011
+  - first:
+      74: -1334593072947772852
+    second: Plasma004|Take 001_Fire_012
+  - first:
+      74: -1971970509760405824
+    second: Plasma004|Take 001_Fire_013
+  - first:
+      74: -6386034527426838021
+    second: Plasma004|Take 001_Fire_014
+  - first:
+      74: 7809944635902930579
+    second: Plasma004|Take 001_Fire_015
+  - first:
+      74: 57616271346130090
+    second: Plasma004|Take 001_Fire_016
+  - first:
+      74: 2407496133814465918
+    second: Plasma004|Take 001_Fire_017
+  - first:
+      74: -917012500917057323
+    second: Plasma004|Take 001_Fire_018
+  - first:
+      74: -8168019704028018279
+    second: Plasma004|Take 001_Fire_019
+  - first:
+      74: -3916150945711540117
+    second: Plasma004|Take 001_Fire_020
+  - first:
+      74: -5160506854236556718
+    second: Plasma004|Take 001_Fire_021
+  - first:
+      74: -2043437708083277647
+    second: Plasma004|Take 001_Fire_022
+  - first:
+      74: -1853755368171245324
+    second: Plasma004|Take 001_Fire_023
+  - first:
+      74: 3814461391982018813
+    second: Plasma004|Take 001_Fire_024
+  - first:
+      74: -4422737814313031993
+    second: Plasma004|Take 001_Fire_025
+  - first:
+      74: 5869448012937829604
+    second: Plasma004|Take 001_Fire_026
+  - first:
+      74: -9077498878277237834
+    second: Plasma004|Take 001_Fire_027
+  - first:
+      74: 5097136139731398746
+    second: Plasma004|Take 001_Fire_028
+  - first:
+      74: -5939739402959969092
+    second: Plasma004|Take 001_Fire_029
+  - first:
+      74: 2036892108653282609
+    second: Plasma004|Take 001_Fire_03
+  - first:
+      74: -4830296017192601005
+    second: Plasma004|Take 001_Fire_030
+  - first:
+      74: 1291251388139689387
+    second: Plasma004|Take 001_Fire_04
+  - first:
+      74: 2550205940128544222
+    second: Plasma004|Take 001_Fire_05
+  - first:
+      74: -631897748725577268
+    second: Plasma004|Take 001_K07_Drone
+  - first:
+      74: 8013426149827687240
+    second: Plasma004|Take 001_Plasma
+  - first:
+      74: -5650016183285215397
+    second: Plasma004|Take 001_Plasma001
+  - first:
+      74: -5031761811134126971
+    second: Plasma004|Take 001_Plasma002
+  - first:
+      74: 3229504950584572959
+    second: Plasma004|Take 001_Plasma003
+  - first:
+      74: -8713560685542509750
+    second: Plasma004|Take 001_Plasma004
+  - first:
+      74: 7128147739534875355
+    second: Plasma004|Take 001_Plasma005
+  - first:
+      74: -4411847733247657964
+    second: Plasma004|Take 001_Plasma006
+  - first:
+      74: 4957117259367305197
+    second: Plasma004|Take 001_Plasma007
+  - first:
+      74: -7119275882062434297
+    second: Plasma004|Take 001_Plasma008
+  - first:
+      74: -3761809178112011832
+    second: Plasma004|Take 001_Plasma009
+  - first:
+      74: -3021958202018729061
+    second: Plasma004|Take 001_TPhotometricLight001
+  - first:
+      74: -7896039352705065006
+    second: Plasma004|Take 001_TPhotometricLight002
+  - first:
+      74: -9012715997217972969
+    second: Plasma004|Take 001_TPhotometricLight003
+  - first:
+      74: -7000737089399368261
+    second: Plasma004|Take 001_TPhotometricLight004
+  - first:
+      74: 7596775412594842099
+    second: Plasma004|Take 001_TPhotometricLight005
+  - first:
+      74: 6085169091785759564
+    second: Plasma004|Take 001_TPhotometricLight006
+  - first:
+      74: 492129219052259014
+    second: Fire_011|Take 001_Fire_006
+  - first:
+      74: -4602718872874705169
+    second: Fire_011|Take 001_Fire_007
+  - first:
+      74: -238489775432470058
+    second: Fire_011|Take 001_Fire_008
+  - first:
+      74: -8687614473624649617
+    second: Fire_011|Take 001_Fire_009
+  - first:
+      74: -6253709626341948217
+    second: Fire_011|Take 001_Fire_010
+  - first:
+      74: 8297154870877365336
+    second: Fire_011|Take 001_Fire_011
+  - first:
+      74: -4056977972371918140
+    second: Fire_011|Take 001_Fire_012
+  - first:
+      74: 473989575084353354
+    second: Fire_011|Take 001_Fire_013
+  - first:
+      74: 2353031371520143066
+    second: Fire_011|Take 001_Fire_014
+  - first:
+      74: 5638784848876139809
+    second: Fire_011|Take 001_Fire_015
+  - first:
+      74: 6753938859849732079
+    second: Fire_011|Take 001_Fire_016
+  - first:
+      74: -3581915025326882934
+    second: Fire_011|Take 001_Fire_017
+  - first:
+      74: -1158549009069614240
+    second: Fire_011|Take 001_Fire_018
+  - first:
+      74: 1818380813567700179
+    second: Fire_011|Take 001_Fire_019
+  - first:
+      74: -3451289954582812616
+    second: Fire_011|Take 001_Fire_020
+  - first:
+      74: 1561273814690525466
+    second: Fire_011|Take 001_Fire_021
+  - first:
+      74: -4410771461615563775
+    second: Fire_011|Take 001_Fire_022
+  - first:
+      74: -3504177634271604463
+    second: Fire_011|Take 001_Fire_023
+  - first:
+      74: 4647648593702681861
+    second: Fire_011|Take 001_Fire_024
+  - first:
+      74: -6264317725821674748
+    second: Fire_011|Take 001_Fire_025
+  - first:
+      74: -2532810440376867831
+    second: Fire_011|Take 001_Fire_026
+  - first:
+      74: -8435510120930459563
+    second: Fire_011|Take 001_Fire_027
+  - first:
+      74: 3681311431329414621
+    second: Fire_011|Take 001_Fire_028
+  - first:
+      74: 8583003529400323563
+    second: Fire_011|Take 001_Fire_029
+  - first:
+      74: -6240549208814259140
+    second: Fire_011|Take 001_Fire_03
+  - first:
+      74: 954451019200629618
+    second: Fire_011|Take 001_Fire_030
+  - first:
+      74: -1616106151537639558
+    second: Fire_011|Take 001_Fire_04
+  - first:
+      74: -3711131695267094043
+    second: Fire_011|Take 001_Fire_05
+  - first:
+      74: -6581736863492334727
+    second: Fire_011|Take 001_K07_Drone
+  - first:
+      74: -4049692901852034066
+    second: Fire_011|Take 001_Plasma
+  - first:
+      74: -3899274190184448990
+    second: Fire_011|Take 001_Plasma001
+  - first:
+      74: 4151255173729208284
+    second: Fire_011|Take 001_Plasma002
+  - first:
+      74: -9003153147153075904
+    second: Fire_011|Take 001_Plasma003
+  - first:
+      74: 8478682334620996625
+    second: Fire_011|Take 001_Plasma004
+  - first:
+      74: 8177230563765181237
+    second: Fire_011|Take 001_Plasma005
+  - first:
+      74: 6033413565509481780
+    second: Fire_011|Take 001_Plasma006
+  - first:
+      74: -4801039072607926720
+    second: Fire_011|Take 001_Plasma007
+  - first:
+      74: 1166967923117505070
+    second: Fire_011|Take 001_Plasma008
+  - first:
+      74: 7398531629261985571
+    second: Fire_011|Take 001_Plasma009
+  - first:
+      74: 8108427332996223082
+    second: Fire_011|Take 001_TPhotometricLight001
+  - first:
+      74: 2192508055986291118
+    second: Fire_011|Take 001_TPhotometricLight002
+  - first:
+      74: -7133333328152975035
+    second: Fire_011|Take 001_TPhotometricLight003
+  - first:
+      74: 2795282310532618406
+    second: Fire_011|Take 001_TPhotometricLight004
+  - first:
+      74: 5785776904293388041
+    second: Fire_011|Take 001_TPhotometricLight005
+  - first:
+      74: -6984432323589802927
+    second: Fire_011|Take 001_TPhotometricLight006
+  - first:
+      74: -6512681193566433462
+    second: Fire_012|Take 001_Fire_006
+  - first:
+      74: 3009424354569917771
+    second: Fire_012|Take 001_Fire_007
+  - first:
+      74: 7985759324351795600
+    second: Fire_012|Take 001_Fire_008
+  - first:
+      74: 8995295308251299319
+    second: Fire_012|Take 001_Fire_009
+  - first:
+      74: 4326136892039758986
+    second: Fire_012|Take 001_Fire_010
+  - first:
+      74: 5858552476780504469
+    second: Fire_012|Take 001_Fire_011
+  - first:
+      74: 7363330858597903474
+    second: Fire_012|Take 001_Fire_012
+  - first:
+      74: -2336622171840225294
+    second: Fire_012|Take 001_Fire_013
+  - first:
+      74: -813527883236753816
+    second: Fire_012|Take 001_Fire_014
+  - first:
+      74: 7185771548047674784
+    second: Fire_012|Take 001_Fire_015
+  - first:
+      74: -1812750441002747248
+    second: Fire_012|Take 001_Fire_016
+  - first:
+      74: 4160325893362548898
+    second: Fire_012|Take 001_Fire_017
+  - first:
+      74: -5942271619533918772
+    second: Fire_012|Take 001_Fire_018
+  - first:
+      74: 6377250893504057802
+    second: Fire_012|Take 001_Fire_019
+  - first:
+      74: 5841426054274501045
+    second: Fire_012|Take 001_Fire_020
+  - first:
+      74: 992565201934658831
+    second: Fire_012|Take 001_Fire_021
+  - first:
+      74: -7482823563795174772
+    second: Fire_012|Take 001_Fire_022
+  - first:
+      74: 1425780077123800496
+    second: Fire_012|Take 001_Fire_023
+  - first:
+      74: 7821808063778254727
+    second: Fire_012|Take 001_Fire_024
+  - first:
+      74: 2529748961259510441
+    second: Fire_012|Take 001_Fire_025
+  - first:
+      74: 1143064461055211114
+    second: Fire_012|Take 001_Fire_026
+  - first:
+      74: 3745884129514464599
+    second: Fire_012|Take 001_Fire_027
+  - first:
+      74: -9215081793507639297
+    second: Fire_012|Take 001_Fire_028
+  - first:
+      74: -8820946336151124430
+    second: Fire_012|Take 001_Fire_029
+  - first:
+      74: 1944775182606468744
+    second: Fire_012|Take 001_Fire_03
+  - first:
+      74: -5516534310175586050
+    second: Fire_012|Take 001_Fire_030
+  - first:
+      74: 295540449660515021
+    second: Fire_012|Take 001_Fire_04
+  - first:
+      74: 2520117435375343744
+    second: Fire_012|Take 001_Fire_05
+  - first:
+      74: -472546350681987644
+    second: Fire_012|Take 001_K07_Drone
+  - first:
+      74: -3314755510520779774
+    second: Fire_012|Take 001_Plasma
+  - first:
+      74: -50010045430822760
+    second: Fire_012|Take 001_Plasma001
+  - first:
+      74: 8121490301988845482
+    second: Fire_012|Take 001_Plasma002
+  - first:
+      74: 1618728858936451262
+    second: Fire_012|Take 001_Plasma003
+  - first:
+      74: 5597845615389144616
+    second: Fire_012|Take 001_Plasma004
+  - first:
+      74: -7217900875191012649
+    second: Fire_012|Take 001_Plasma005
+  - first:
+      74: 5266252024482361106
+    second: Fire_012|Take 001_Plasma006
+  - first:
+      74: 9140477228304398833
+    second: Fire_012|Take 001_Plasma007
+  - first:
+      74: -7778486204682688539
+    second: Fire_012|Take 001_Plasma008
+  - first:
+      74: -7111297495812937512
+    second: Fire_012|Take 001_Plasma009
+  - first:
+      74: -1877316856915166891
+    second: Fire_012|Take 001_TPhotometricLight001
+  - first:
+      74: 2657135808380041264
+    second: Fire_012|Take 001_TPhotometricLight002
+  - first:
+      74: 6526376795176846009
+    second: Fire_012|Take 001_TPhotometricLight003
+  - first:
+      74: -8650722556331490943
+    second: Fire_012|Take 001_TPhotometricLight004
+  - first:
+      74: 7504840780142908939
+    second: Fire_012|Take 001_TPhotometricLight005
+  - first:
+      74: -7766551127388195438
+    second: Fire_012|Take 001_TPhotometricLight006
+  - first:
+      74: -1611143129421212954
+    second: Plasma006|Take 001_Fire_006
+  - first:
+      74: 5375893432780560013
+    second: Plasma006|Take 001_Fire_007
+  - first:
+      74: -4854664203235033685
+    second: Plasma006|Take 001_Fire_008
+  - first:
+      74: -5086918893478884260
+    second: Plasma006|Take 001_Fire_009
+  - first:
+      74: -5619819641528058061
+    second: Plasma006|Take 001_Fire_010
+  - first:
+      74: 1815763178683872495
+    second: Plasma006|Take 001_Fire_011
+  - first:
+      74: 451943929493925988
+    second: Plasma006|Take 001_Fire_012
+  - first:
+      74: 7958907039377013596
+    second: Plasma006|Take 001_Fire_013
+  - first:
+      74: 5953748790830302154
+    second: Plasma006|Take 001_Fire_014
+  - first:
+      74: -2654632171937845095
+    second: Plasma006|Take 001_Fire_015
+  - first:
+      74: 1448764880590864672
+    second: Plasma006|Take 001_Fire_016
+  - first:
+      74: 3399117013716569484
+    second: Plasma006|Take 001_Fire_017
+  - first:
+      74: -3313435925685440160
+    second: Plasma006|Take 001_Fire_018
+  - first:
+      74: -8990478187031444472
+    second: Plasma006|Take 001_Fire_019
+  - first:
+      74: -6357777960179303867
+    second: Plasma006|Take 001_Fire_020
+  - first:
+      74: -5916632734334173804
+    second: Plasma006|Take 001_Fire_021
+  - first:
+      74: 1956448362728856774
+    second: Plasma006|Take 001_Fire_022
+  - first:
+      74: 4046034719806167085
+    second: Plasma006|Take 001_Fire_023
+  - first:
+      74: -8475462370810627089
+    second: Plasma006|Take 001_Fire_024
+  - first:
+      74: 2206200015418720304
+    second: Plasma006|Take 001_Fire_025
+  - first:
+      74: -2883515518260502906
+    second: Plasma006|Take 001_Fire_026
+  - first:
+      74: 5250727162991171532
+    second: Plasma006|Take 001_Fire_027
+  - first:
+      74: 3563792008243599876
+    second: Plasma006|Take 001_Fire_028
+  - first:
+      74: -2746206243873262977
+    second: Plasma006|Take 001_Fire_029
+  - first:
+      74: -5907022094126602737
+    second: Plasma006|Take 001_Fire_03
+  - first:
+      74: 5500603641471662279
+    second: Plasma006|Take 001_Fire_030
+  - first:
+      74: 6754455231192264783
+    second: Plasma006|Take 001_Fire_04
+  - first:
+      74: 8256034591558942825
+    second: Plasma006|Take 001_Fire_05
+  - first:
+      74: 2363374773919481327
+    second: Plasma006|Take 001_K07_Drone
+  - first:
+      74: -6184235354800231196
+    second: Plasma006|Take 001_Plasma
+  - first:
+      74: 3395999700555294283
+    second: Plasma006|Take 001_Plasma001
+  - first:
+      74: 6868767703717261565
+    second: Plasma006|Take 001_Plasma002
+  - first:
+      74: 5926714847013258988
+    second: Plasma006|Take 001_Plasma003
+  - first:
+      74: -7487245794878080471
+    second: Plasma006|Take 001_Plasma004
+  - first:
+      74: 7322121057750386269
+    second: Plasma006|Take 001_Plasma005
+  - first:
+      74: 9209777080118241456
+    second: Plasma006|Take 001_Plasma006
+  - first:
+      74: 8482081779803793338
+    second: Plasma006|Take 001_Plasma007
+  - first:
+      74: -7491356701604088097
+    second: Plasma006|Take 001_Plasma008
+  - first:
+      74: -6167066297554307106
+    second: Plasma006|Take 001_Plasma009
+  - first:
+      74: -4556370654492873037
+    second: Plasma006|Take 001_TPhotometricLight001
+  - first:
+      74: 8194879090601149546
+    second: Plasma006|Take 001_TPhotometricLight002
+  - first:
+      74: 1807813714266317836
+    second: Plasma006|Take 001_TPhotometricLight003
+  - first:
+      74: 2666629248888740151
+    second: Plasma006|Take 001_TPhotometricLight004
+  - first:
+      74: -8329940028391895382
+    second: Plasma006|Take 001_TPhotometricLight005
+  - first:
+      74: -8826557153741424266
+    second: Plasma006|Take 001_TPhotometricLight006
+  - first:
+      74: 5630162456433671704
+    second: Fire_022|Take 001_Fire_006
+  - first:
+      74: -8617574802807119638
+    second: Fire_022|Take 001_Fire_007
+  - first:
+      74: 5764583663475125322
+    second: Fire_022|Take 001_Fire_008
+  - first:
+      74: -2995219375945434558
+    second: Fire_022|Take 001_Fire_009
+  - first:
+      74: 8653483594856008251
+    second: Fire_022|Take 001_Fire_010
+  - first:
+      74: -3828525780281636482
+    second: Fire_022|Take 001_Fire_011
+  - first:
+      74: -5198482157610409550
+    second: Fire_022|Take 001_Fire_012
+  - first:
+      74: 4697200620558152929
+    second: Fire_022|Take 001_Fire_013
+  - first:
+      74: -3156107329324685291
+    second: Fire_022|Take 001_Fire_014
+  - first:
+      74: -5732378844783720856
+    second: Fire_022|Take 001_Fire_015
+  - first:
+      74: 8415608362130740752
+    second: Fire_022|Take 001_Fire_016
+  - first:
+      74: -425583769830997805
+    second: Fire_022|Take 001_Fire_017
+  - first:
+      74: -3729927578146820020
+    second: Fire_022|Take 001_Fire_018
+  - first:
+      74: 6298933425206661756
+    second: Fire_022|Take 001_Fire_019
+  - first:
+      74: 6798419325504728922
+    second: Fire_022|Take 001_Fire_020
+  - first:
+      74: -4188971655768833450
+    second: Fire_022|Take 001_Fire_021
+  - first:
+      74: 3201836788875624571
+    second: Fire_022|Take 001_Fire_022
+  - first:
+      74: -4637184768212388835
+    second: Fire_022|Take 001_Fire_023
+  - first:
+      74: -883926621573174813
+    second: Fire_022|Take 001_Fire_024
+  - first:
+      74: -6498669431286111812
+    second: Fire_022|Take 001_Fire_025
+  - first:
+      74: -1063502043891205224
+    second: Fire_022|Take 001_Fire_026
+  - first:
+      74: -3705745384082972213
+    second: Fire_022|Take 001_Fire_027
+  - first:
+      74: -1422025148183606234
+    second: Fire_022|Take 001_Fire_028
+  - first:
+      74: -873134675893037852
+    second: Fire_022|Take 001_Fire_029
+  - first:
+      74: 7965747190058183686
+    second: Fire_022|Take 001_Fire_03
+  - first:
+      74: -5220082204666822478
+    second: Fire_022|Take 001_Fire_030
+  - first:
+      74: 2079335208236458300
+    second: Fire_022|Take 001_Fire_04
+  - first:
+      74: -8996901234333949354
+    second: Fire_022|Take 001_Fire_05
+  - first:
+      74: -3631342930126289398
+    second: Fire_022|Take 001_K07_Drone
+  - first:
+      74: -6109360912650450304
+    second: Fire_022|Take 001_Plasma
+  - first:
+      74: 8674266915238547007
+    second: Fire_022|Take 001_Plasma001
+  - first:
+      74: 8767902097440533409
+    second: Fire_022|Take 001_Plasma002
+  - first:
+      74: 3601601847475035728
+    second: Fire_022|Take 001_Plasma003
+  - first:
+      74: -5539103817209713589
+    second: Fire_022|Take 001_Plasma004
+  - first:
+      74: -2183014877821624286
+    second: Fire_022|Take 001_Plasma005
+  - first:
+      74: -8883828251474005385
+    second: Fire_022|Take 001_Plasma006
+  - first:
+      74: -7254711185892844839
+    second: Fire_022|Take 001_Plasma007
+  - first:
+      74: 4970216717056549129
+    second: Fire_022|Take 001_Plasma008
+  - first:
+      74: 1673185255395690417
+    second: Fire_022|Take 001_Plasma009
+  - first:
+      74: -7785275029568369302
+    second: Fire_022|Take 001_TPhotometricLight001
+  - first:
+      74: 166346751780718276
+    second: Fire_022|Take 001_TPhotometricLight002
+  - first:
+      74: -564175649485827877
+    second: Fire_022|Take 001_TPhotometricLight003
+  - first:
+      74: 8828488442504288325
+    second: Fire_022|Take 001_TPhotometricLight004
+  - first:
+      74: 8915455850348076689
+    second: Fire_022|Take 001_TPhotometricLight005
+  - first:
+      74: -7357477886871228919
+    second: Fire_022|Take 001_TPhotometricLight006
+  - first:
+      74: -8503976743266763453
+    second: Fire_023|Take 001_Fire_006
+  - first:
+      74: -2696746893711327289
+    second: Fire_023|Take 001_Fire_007
+  - first:
+      74: -5677175690195263149
+    second: Fire_023|Take 001_Fire_008
+  - first:
+      74: -56362751715621788
+    second: Fire_023|Take 001_Fire_009
+  - first:
+      74: 2649061263116524118
+    second: Fire_023|Take 001_Fire_010
+  - first:
+      74: -1161996414002456149
+    second: Fire_023|Take 001_Fire_011
+  - first:
+      74: 7183544850856374361
+    second: Fire_023|Take 001_Fire_012
+  - first:
+      74: 978725062766253095
+    second: Fire_023|Take 001_Fire_013
+  - first:
+      74: -7409097159396836697
+    second: Fire_023|Take 001_Fire_014
+  - first:
+      74: -3989930311712369480
+    second: Fire_023|Take 001_Fire_015
+  - first:
+      74: -5707165551641342513
+    second: Fire_023|Take 001_Fire_016
+  - first:
+      74: -2822514629236401454
+    second: Fire_023|Take 001_Fire_017
+  - first:
+      74: -6624424999272478858
+    second: Fire_023|Take 001_Fire_018
+  - first:
+      74: 1198015601641615878
+    second: Fire_023|Take 001_Fire_019
+  - first:
+      74: -6234142402960375699
+    second: Fire_023|Take 001_Fire_020
+  - first:
+      74: 4893683013847356128
+    second: Fire_023|Take 001_Fire_021
+  - first:
+      74: 2457849381022319204
+    second: Fire_023|Take 001_Fire_022
+  - first:
+      74: 3477183594813009427
+    second: Fire_023|Take 001_Fire_023
+  - first:
+      74: -6789638272206233618
+    second: Fire_023|Take 001_Fire_024
+  - first:
+      74: 4697820744225263051
+    second: Fire_023|Take 001_Fire_025
+  - first:
+      74: -556268663469957244
+    second: Fire_023|Take 001_Fire_026
+  - first:
+      74: -8517542369233271881
+    second: Fire_023|Take 001_Fire_027
+  - first:
+      74: 2221771386007521239
+    second: Fire_023|Take 001_Fire_028
+  - first:
+      74: 848836744526304988
+    second: Fire_023|Take 001_Fire_029
+  - first:
+      74: 8308266199413670039
+    second: Fire_023|Take 001_Fire_03
+  - first:
+      74: -8440259950091134799
+    second: Fire_023|Take 001_Fire_030
+  - first:
+      74: 3122016562250932610
+    second: Fire_023|Take 001_Fire_04
+  - first:
+      74: -1257381146187607654
+    second: Fire_023|Take 001_Fire_05
+  - first:
+      74: 3984898985055468001
+    second: Fire_023|Take 001_K07_Drone
+  - first:
+      74: 4412354979115358715
+    second: Fire_023|Take 001_Plasma
+  - first:
+      74: -1400210339092311261
+    second: Fire_023|Take 001_Plasma001
+  - first:
+      74: 6605954727325103257
+    second: Fire_023|Take 001_Plasma002
+  - first:
+      74: 1110331514218635943
+    second: Fire_023|Take 001_Plasma003
+  - first:
+      74: 2204774374535615749
+    second: Fire_023|Take 001_Plasma004
+  - first:
+      74: 3531911704872910706
+    second: Fire_023|Take 001_Plasma005
+  - first:
+      74: -1049047885211180805
+    second: Fire_023|Take 001_Plasma006
+  - first:
+      74: 7661965709287570756
+    second: Fire_023|Take 001_Plasma007
+  - first:
+      74: 3504401804337399457
+    second: Fire_023|Take 001_Plasma008
+  - first:
+      74: -4781369064696829683
+    second: Fire_023|Take 001_Plasma009
+  - first:
+      74: 5777616878049272044
+    second: Fire_023|Take 001_TPhotometricLight001
+  - first:
+      74: 8846580455975603681
+    second: Fire_023|Take 001_TPhotometricLight002
+  - first:
+      74: -1569167428439394083
+    second: Fire_023|Take 001_TPhotometricLight003
+  - first:
+      74: 5736913713367051180
+    second: Fire_023|Take 001_TPhotometricLight004
+  - first:
+      74: -6484944167793892051
+    second: Fire_023|Take 001_TPhotometricLight005
+  - first:
+      74: 6832280136461129749
+    second: Fire_023|Take 001_TPhotometricLight006
+  - first:
+      74: 1232838774834004615
+    second: Fire_024|Take 001_Fire_006
+  - first:
+      74: 4418244604373257807
+    second: Fire_024|Take 001_Fire_007
+  - first:
+      74: -8099893304268731557
+    second: Fire_024|Take 001_Fire_008
+  - first:
+      74: -7386010297879916454
+    second: Fire_024|Take 001_Fire_009
+  - first:
+      74: -8619080101057296170
+    second: Fire_024|Take 001_Fire_010
+  - first:
+      74: 4186332386071529333
+    second: Fire_024|Take 001_Fire_011
+  - first:
+      74: 6946906754132051655
+    second: Fire_024|Take 001_Fire_012
+  - first:
+      74: 7337258471185623054
+    second: Fire_024|Take 001_Fire_013
+  - first:
+      74: -4271164696573911844
+    second: Fire_024|Take 001_Fire_014
+  - first:
+      74: 2294439649556362625
+    second: Fire_024|Take 001_Fire_015
+  - first:
+      74: 4547944146672833340
+    second: Fire_024|Take 001_Fire_016
+  - first:
+      74: 8894549284273426801
+    second: Fire_024|Take 001_Fire_017
+  - first:
+      74: -3299441013965205962
+    second: Fire_024|Take 001_Fire_018
+  - first:
+      74: -2464846224270392678
+    second: Fire_024|Take 001_Fire_019
+  - first:
+      74: -8641195778084282234
+    second: Fire_024|Take 001_Fire_020
+  - first:
+      74: 6367691483277228723
+    second: Fire_024|Take 001_Fire_021
+  - first:
+      74: -4750916133952455234
+    second: Fire_024|Take 001_Fire_022
+  - first:
+      74: -5742444349296717412
+    second: Fire_024|Take 001_Fire_023
+  - first:
+      74: 6837366633231571051
+    second: Fire_024|Take 001_Fire_024
+  - first:
+      74: -4343927232132926161
+    second: Fire_024|Take 001_Fire_025
+  - first:
+      74: 969870475802840512
+    second: Fire_024|Take 001_Fire_026
+  - first:
+      74: 6538197509198087737
+    second: Fire_024|Take 001_Fire_027
+  - first:
+      74: 43849959521869899
+    second: Fire_024|Take 001_Fire_028
+  - first:
+      74: 8174315622786555693
+    second: Fire_024|Take 001_Fire_029
+  - first:
+      74: 4134737626739520985
+    second: Fire_024|Take 001_Fire_03
+  - first:
+      74: -8983931328347386798
+    second: Fire_024|Take 001_Fire_030
+  - first:
+      74: 5048339015848736993
+    second: Fire_024|Take 001_Fire_04
+  - first:
+      74: 1489823063239050905
+    second: Fire_024|Take 001_Fire_05
+  - first:
+      74: -544223779782829691
+    second: Fire_024|Take 001_K07_Drone
+  - first:
+      74: -4362478752182823056
+    second: Fire_024|Take 001_Plasma
+  - first:
+      74: 1973865151297146312
+    second: Fire_024|Take 001_Plasma001
+  - first:
+      74: -1629923106263305006
+    second: Fire_024|Take 001_Plasma002
+  - first:
+      74: -3814425143972386183
+    second: Fire_024|Take 001_Plasma003
+  - first:
+      74: 6855366242347080193
+    second: Fire_024|Take 001_Plasma004
+  - first:
+      74: -1621358288942108347
+    second: Fire_024|Take 001_Plasma005
+  - first:
+      74: -124632206966655528
+    second: Fire_024|Take 001_Plasma006
+  - first:
+      74: -5727479296324652956
+    second: Fire_024|Take 001_Plasma007
+  - first:
+      74: 5463019831221109264
+    second: Fire_024|Take 001_Plasma008
+  - first:
+      74: -1225617739783344417
+    second: Fire_024|Take 001_Plasma009
+  - first:
+      74: 6829905602612478097
+    second: Fire_024|Take 001_TPhotometricLight001
+  - first:
+      74: 2551308296115923923
+    second: Fire_024|Take 001_TPhotometricLight002
+  - first:
+      74: 7070029829495928491
+    second: Fire_024|Take 001_TPhotometricLight003
+  - first:
+      74: 3299033294470801106
+    second: Fire_024|Take 001_TPhotometricLight004
+  - first:
+      74: -507683793244978007
+    second: Fire_024|Take 001_TPhotometricLight005
+  - first:
+      74: -4220005292114940758
+    second: Fire_024|Take 001_TPhotometricLight006
+  - first:
+      74: 5291929359852874070
+    second: Plasma007|Take 001_Fire_006
+  - first:
+      74: -3855861484336976573
+    second: Plasma007|Take 001_Fire_007
+  - first:
+      74: -4224905556952058747
+    second: Plasma007|Take 001_Fire_008
+  - first:
+      74: 7035456969698558269
+    second: Plasma007|Take 001_Fire_009
+  - first:
+      74: 8114980674497947981
+    second: Plasma007|Take 001_Fire_010
+  - first:
+      74: -4424339851764640088
+    second: Plasma007|Take 001_Fire_011
+  - first:
+      74: -8322724212147279679
+    second: Plasma007|Take 001_Fire_012
+  - first:
+      74: 6301035130576501069
+    second: Plasma007|Take 001_Fire_013
+  - first:
+      74: 3091342795895875118
+    second: Plasma007|Take 001_Fire_014
+  - first:
+      74: 6600824861995544747
+    second: Plasma007|Take 001_Fire_015
+  - first:
+      74: -3068751841788025052
+    second: Plasma007|Take 001_Fire_016
+  - first:
+      74: -2462813423410945048
+    second: Plasma007|Take 001_Fire_017
+  - first:
+      74: -3915902019153276675
+    second: Plasma007|Take 001_Fire_018
+  - first:
+      74: 8710400563417620091
+    second: Plasma007|Take 001_Fire_019
+  - first:
+      74: 3412990241472137950
+    second: Plasma007|Take 001_Fire_020
+  - first:
+      74: 6448624281085731453
+    second: Plasma007|Take 001_Fire_021
+  - first:
+      74: -3010553172545499415
+    second: Plasma007|Take 001_Fire_022
+  - first:
+      74: 5780572578357471139
+    second: Plasma007|Take 001_Fire_023
+  - first:
+      74: -8100693071340226703
+    second: Plasma007|Take 001_Fire_024
+  - first:
+      74: -6439413624159681188
+    second: Plasma007|Take 001_Fire_025
+  - first:
+      74: 1024412995502485451
+    second: Plasma007|Take 001_Fire_026
+  - first:
+      74: 1818469435060147170
+    second: Plasma007|Take 001_Fire_027
+  - first:
+      74: -6709517828756028062
+    second: Plasma007|Take 001_Fire_028
+  - first:
+      74: 2047098429875557995
+    second: Plasma007|Take 001_Fire_029
+  - first:
+      74: -7983926330839178271
+    second: Plasma007|Take 001_Fire_03
+  - first:
+      74: 4700381178760043270
+    second: Plasma007|Take 001_Fire_030
+  - first:
+      74: 913407493767595634
+    second: Plasma007|Take 001_Fire_04
+  - first:
+      74: -3352374509585758588
+    second: Plasma007|Take 001_Fire_05
+  - first:
+      74: -1277400259578311743
+    second: Plasma007|Take 001_K07_Drone
+  - first:
+      74: -5676256639273564404
+    second: Plasma007|Take 001_Plasma
+  - first:
+      74: -1258782698784492121
+    second: Plasma007|Take 001_Plasma001
+  - first:
+      74: -1758208849891504477
+    second: Plasma007|Take 001_Plasma002
+  - first:
+      74: 8923772858475238115
+    second: Plasma007|Take 001_Plasma003
+  - first:
+      74: -1481176246355911271
+    second: Plasma007|Take 001_Plasma004
+  - first:
+      74: -6197677372188498114
+    second: Plasma007|Take 001_Plasma005
+  - first:
+      74: -9206574863888539106
+    second: Plasma007|Take 001_Plasma006
+  - first:
+      74: -1743554683347229156
+    second: Plasma007|Take 001_Plasma007
+  - first:
+      74: 879543726150364075
+    second: Plasma007|Take 001_Plasma008
+  - first:
+      74: -4445627737448097222
+    second: Plasma007|Take 001_Plasma009
+  - first:
+      74: -3775931775286994093
+    second: Plasma007|Take 001_TPhotometricLight001
+  - first:
+      74: 2854459826961586975
+    second: Plasma007|Take 001_TPhotometricLight002
+  - first:
+      74: 4426401603531121404
+    second: Plasma007|Take 001_TPhotometricLight003
+  - first:
+      74: -1084010077747355522
+    second: Plasma007|Take 001_TPhotometricLight004
+  - first:
+      74: 6840870374414609231
+    second: Plasma007|Take 001_TPhotometricLight005
+  - first:
+      74: 7840574671883660127
+    second: Plasma007|Take 001_TPhotometricLight006
+  - first:
+      74: 1500086003102829167
+    second: Fire_019|Take 001_Fire_006
+  - first:
+      74: -8791712292025791878
+    second: Fire_019|Take 001_Fire_007
+  - first:
+      74: -5707877601034489505
+    second: Fire_019|Take 001_Fire_008
+  - first:
+      74: -2547068807528831756
+    second: Fire_019|Take 001_Fire_009
+  - first:
+      74: -3394282001540699401
+    second: Fire_019|Take 001_Fire_010
+  - first:
+      74: -3647165140945185051
+    second: Fire_019|Take 001_Fire_011
+  - first:
+      74: 106702805140844907
+    second: Fire_019|Take 001_Fire_012
+  - first:
+      74: 1447502793313535998
+    second: Fire_019|Take 001_Fire_013
+  - first:
+      74: -5564869333585831713
+    second: Fire_019|Take 001_Fire_014
+  - first:
+      74: 7871726913710981968
+    second: Fire_019|Take 001_Fire_015
+  - first:
+      74: 6971376002864178702
+    second: Fire_019|Take 001_Fire_016
+  - first:
+      74: -7684599078198475779
+    second: Fire_019|Take 001_Fire_017
+  - first:
+      74: -1008961753925624740
+    second: Fire_019|Take 001_Fire_018
+  - first:
+      74: 1265656984334796588
+    second: Fire_019|Take 001_Fire_019
+  - first:
+      74: -7778124036771670887
+    second: Fire_019|Take 001_Fire_020
+  - first:
+      74: -6726137540922301461
+    second: Fire_019|Take 001_Fire_021
+  - first:
+      74: -6962041744879169366
+    second: Fire_019|Take 001_Fire_022
+  - first:
+      74: -1756940695212211267
+    second: Fire_019|Take 001_Fire_023
+  - first:
+      74: 7143021329732347369
+    second: Fire_019|Take 001_Fire_024
+  - first:
+      74: -70480940853175518
+    second: Fire_019|Take 001_Fire_025
+  - first:
+      74: -101439016983316350
+    second: Fire_019|Take 001_Fire_026
+  - first:
+      74: -6061698854797417634
+    second: Fire_019|Take 001_Fire_027
+  - first:
+      74: -8651549890655066512
+    second: Fire_019|Take 001_Fire_028
+  - first:
+      74: -291290391115662214
+    second: Fire_019|Take 001_Fire_029
+  - first:
+      74: -2592695350150052359
+    second: Fire_019|Take 001_Fire_03
+  - first:
+      74: -4804544162176657698
+    second: Fire_019|Take 001_Fire_030
+  - first:
+      74: 2988226436322496513
+    second: Fire_019|Take 001_Fire_04
+  - first:
+      74: -3676408284733943365
+    second: Fire_019|Take 001_Fire_05
+  - first:
+      74: -633268889854808778
+    second: Fire_019|Take 001_K07_Drone
+  - first:
+      74: -6415736971053933394
+    second: Fire_019|Take 001_Plasma
+  - first:
+      74: -8750202815084239940
+    second: Fire_019|Take 001_Plasma001
+  - first:
+      74: -5786439848125715796
+    second: Fire_019|Take 001_Plasma002
+  - first:
+      74: 6710330951375847630
+    second: Fire_019|Take 001_Plasma003
+  - first:
+      74: -4803455672361883460
+    second: Fire_019|Take 001_Plasma004
+  - first:
+      74: -2718773336373904777
+    second: Fire_019|Take 001_Plasma005
+  - first:
+      74: -8348142542517806474
+    second: Fire_019|Take 001_Plasma006
+  - first:
+      74: 6690607691457437048
+    second: Fire_019|Take 001_Plasma007
+  - first:
+      74: 6821979875784539349
+    second: Fire_019|Take 001_Plasma008
+  - first:
+      74: 7017347704499508597
+    second: Fire_019|Take 001_Plasma009
+  - first:
+      74: -3956142205722180982
+    second: Fire_019|Take 001_TPhotometricLight001
+  - first:
+      74: -634271233246886124
+    second: Fire_019|Take 001_TPhotometricLight002
+  - first:
+      74: 5799008873420590154
+    second: Fire_019|Take 001_TPhotometricLight003
+  - first:
+      74: 8038770371507890997
+    second: Fire_019|Take 001_TPhotometricLight004
+  - first:
+      74: 3588299621169106695
+    second: Fire_019|Take 001_TPhotometricLight005
+  - first:
+      74: 7440814397370262680
+    second: Fire_019|Take 001_TPhotometricLight006
+  - first:
+      74: 7509311395490944510
+    second: Fire_020|Take 001_Fire_006
+  - first:
+      74: 8555895846950825506
+    second: Fire_020|Take 001_Fire_007
+  - first:
+      74: -9003770425182908276
+    second: Fire_020|Take 001_Fire_008
+  - first:
+      74: 8097384809359742320
+    second: Fire_020|Take 001_Fire_009
+  - first:
+      74: -7664084784205504449
+    second: Fire_020|Take 001_Fire_010
+  - first:
+      74: -8479205140639543287
+    second: Fire_020|Take 001_Fire_011
+  - first:
+      74: -4405996353778252077
+    second: Fire_020|Take 001_Fire_012
+  - first:
+      74: -3843013552225147360
+    second: Fire_020|Take 001_Fire_013
+  - first:
+      74: -7930984354096411300
+    second: Fire_020|Take 001_Fire_014
+  - first:
+      74: -8052514892351751380
+    second: Fire_020|Take 001_Fire_015
+  - first:
+      74: -5782140297358877338
+    second: Fire_020|Take 001_Fire_016
+  - first:
+      74: 4933667067085688144
+    second: Fire_020|Take 001_Fire_017
+  - first:
+      74: -1968735436443456135
+    second: Fire_020|Take 001_Fire_018
+  - first:
+      74: 64035473945978791
+    second: Fire_020|Take 001_Fire_019
+  - first:
+      74: 8542769313751096849
+    second: Fire_020|Take 001_Fire_020
+  - first:
+      74: -1855661982189915849
+    second: Fire_020|Take 001_Fire_021
+  - first:
+      74: 6618740726071980154
+    second: Fire_020|Take 001_Fire_022
+  - first:
+      74: 4502756238315797210
+    second: Fire_020|Take 001_Fire_023
+  - first:
+      74: -3942452225241964790
+    second: Fire_020|Take 001_Fire_024
+  - first:
+      74: -4939490989200858791
+    second: Fire_020|Take 001_Fire_025
+  - first:
+      74: 8235711403230361536
+    second: Fire_020|Take 001_Fire_026
+  - first:
+      74: -299030332291498097
+    second: Fire_020|Take 001_Fire_027
+  - first:
+      74: -7482376395223023365
+    second: Fire_020|Take 001_Fire_028
+  - first:
+      74: 5496406602467433165
+    second: Fire_020|Take 001_Fire_029
+  - first:
+      74: 6706118325128887906
+    second: Fire_020|Take 001_Fire_03
+  - first:
+      74: 5795227694596109735
+    second: Fire_020|Take 001_Fire_030
+  - first:
+      74: -7626283769853843307
+    second: Fire_020|Take 001_Fire_04
+  - first:
+      74: -7330850365329935505
+    second: Fire_020|Take 001_Fire_05
+  - first:
+      74: 1147277431201007823
+    second: Fire_020|Take 001_K07_Drone
+  - first:
+      74: -3831048140188520295
+    second: Fire_020|Take 001_Plasma
+  - first:
+      74: 7974084341303866264
+    second: Fire_020|Take 001_Plasma001
+  - first:
+      74: 4405109379802136752
+    second: Fire_020|Take 001_Plasma002
+  - first:
+      74: -7450028804521502128
+    second: Fire_020|Take 001_Plasma003
+  - first:
+      74: 1566703106843963499
+    second: Fire_020|Take 001_Plasma004
+  - first:
+      74: 3295830787340594365
+    second: Fire_020|Take 001_Plasma005
+  - first:
+      74: -831826034364902135
+    second: Fire_020|Take 001_Plasma006
+  - first:
+      74: -5379531202137827002
+    second: Fire_020|Take 001_Plasma007
+  - first:
+      74: 4929308051843335270
+    second: Fire_020|Take 001_Plasma008
+  - first:
+      74: 6032757688108023554
+    second: Fire_020|Take 001_Plasma009
+  - first:
+      74: 8243228321001528834
+    second: Fire_020|Take 001_TPhotometricLight001
+  - first:
+      74: -8862901181926984576
+    second: Fire_020|Take 001_TPhotometricLight002
+  - first:
+      74: -5166418223684646750
+    second: Fire_020|Take 001_TPhotometricLight003
+  - first:
+      74: -3318452819698069322
+    second: Fire_020|Take 001_TPhotometricLight004
+  - first:
+      74: -7714213756096371260
+    second: Fire_020|Take 001_TPhotometricLight005
+  - first:
+      74: 189220449767082856
+    second: Fire_020|Take 001_TPhotometricLight006
+  - first:
+      74: 3013057134799516058
+    second: Fire_021|Take 001_Fire_006
+  - first:
+      74: 3314682815882011359
+    second: Fire_021|Take 001_Fire_007
+  - first:
+      74: -7678673807313026709
+    second: Fire_021|Take 001_Fire_008
+  - first:
+      74: -2445122702618516400
+    second: Fire_021|Take 001_Fire_009
+  - first:
+      74: 5067445182351041784
+    second: Fire_021|Take 001_Fire_010
+  - first:
+      74: 2066620088768064584
+    second: Fire_021|Take 001_Fire_011
+  - first:
+      74: -2506412796227076946
+    second: Fire_021|Take 001_Fire_012
+  - first:
+      74: 8948846756416870553
+    second: Fire_021|Take 001_Fire_013
+  - first:
+      74: -7595542436726945373
+    second: Fire_021|Take 001_Fire_014
+  - first:
+      74: -906396058593563667
+    second: Fire_021|Take 001_Fire_015
+  - first:
+      74: -133251156983298176
+    second: Fire_021|Take 001_Fire_016
+  - first:
+      74: -4435112139868547900
+    second: Fire_021|Take 001_Fire_017
+  - first:
+      74: -7120297503129749239
+    second: Fire_021|Take 001_Fire_018
+  - first:
+      74: 4586185834666202046
+    second: Fire_021|Take 001_Fire_019
+  - first:
+      74: 8149628367906653938
+    second: Fire_021|Take 001_Fire_020
+  - first:
+      74: 6541489890359652544
+    second: Fire_021|Take 001_Fire_021
+  - first:
+      74: 6132660167938332821
+    second: Fire_021|Take 001_Fire_022
+  - first:
+      74: 6103749040231125539
+    second: Fire_021|Take 001_Fire_023
+  - first:
+      74: -6515654592244332066
+    second: Fire_021|Take 001_Fire_024
+  - first:
+      74: -1551974609461745153
+    second: Fire_021|Take 001_Fire_025
+  - first:
+      74: 2558042256542350981
+    second: Fire_021|Take 001_Fire_026
+  - first:
+      74: -2830467700427356248
+    second: Fire_021|Take 001_Fire_027
+  - first:
+      74: 4298604257079636137
+    second: Fire_021|Take 001_Fire_028
+  - first:
+      74: 6998955888978089063
+    second: Fire_021|Take 001_Fire_029
+  - first:
+      74: 1668576528794287254
+    second: Fire_021|Take 001_Fire_03
+  - first:
+      74: 3088031054920553992
+    second: Fire_021|Take 001_Fire_030
+  - first:
+      74: 1741047347458577918
+    second: Fire_021|Take 001_Fire_04
+  - first:
+      74: 4531187005695204086
+    second: Fire_021|Take 001_Fire_05
+  - first:
+      74: 4208150450133002719
+    second: Fire_021|Take 001_K07_Drone
+  - first:
+      74: 2964650102721545983
+    second: Fire_021|Take 001_Plasma
+  - first:
+      74: 923156910292156333
+    second: Fire_021|Take 001_Plasma001
+  - first:
+      74: 3651544554355023653
+    second: Fire_021|Take 001_Plasma002
+  - first:
+      74: -1533995132462946446
+    second: Fire_021|Take 001_Plasma003
+  - first:
+      74: 1393841717996131256
+    second: Fire_021|Take 001_Plasma004
+  - first:
+      74: -6798144633767929605
+    second: Fire_021|Take 001_Plasma005
+  - first:
+      74: 8746137989786999541
+    second: Fire_021|Take 001_Plasma006
+  - first:
+      74: -8723736770660294278
+    second: Fire_021|Take 001_Plasma007
+  - first:
+      74: 9036238373462180304
+    second: Fire_021|Take 001_Plasma008
+  - first:
+      74: -6708293830922813824
+    second: Fire_021|Take 001_Plasma009
+  - first:
+      74: -4708585738007734968
+    second: Fire_021|Take 001_TPhotometricLight001
+  - first:
+      74: -5821308284684964635
+    second: Fire_021|Take 001_TPhotometricLight002
+  - first:
+      74: 1833933149849030429
+    second: Fire_021|Take 001_TPhotometricLight003
+  - first:
+      74: 4090576412135288995
+    second: Fire_021|Take 001_TPhotometricLight004
+  - first:
+      74: -5654424676814179927
+    second: Fire_021|Take 001_TPhotometricLight005
+  - first:
+      74: 6708387771423639487
+    second: Fire_021|Take 001_TPhotometricLight006
+  - first:
+      74: 8186009871811062592
+    second: Plasma005|Take 001_Fire_006
+  - first:
+      74: 8768537130072144790
+    second: Plasma005|Take 001_Fire_007
+  - first:
+      74: -8652278469457615571
+    second: Plasma005|Take 001_Fire_008
+  - first:
+      74: 4958207157486499806
+    second: Plasma005|Take 001_Fire_009
+  - first:
+      74: 2770831949541054472
+    second: Plasma005|Take 001_Fire_010
+  - first:
+      74: -5264325152190194575
+    second: Plasma005|Take 001_Fire_011
+  - first:
+      74: -6806941231401369151
+    second: Plasma005|Take 001_Fire_012
+  - first:
+      74: 4188891719982745748
+    second: Plasma005|Take 001_Fire_013
+  - first:
+      74: 8633782318400746556
+    second: Plasma005|Take 001_Fire_014
+  - first:
+      74: -2250594930923114883
+    second: Plasma005|Take 001_Fire_015
+  - first:
+      74: -7209204694771303388
+    second: Plasma005|Take 001_Fire_016
+  - first:
+      74: -7394261222757898809
+    second: Plasma005|Take 001_Fire_017
+  - first:
+      74: -6377815178383298003
+    second: Plasma005|Take 001_Fire_018
+  - first:
+      74: 8504717269562562971
+    second: Plasma005|Take 001_Fire_019
+  - first:
+      74: -103762840290163209
+    second: Plasma005|Take 001_Fire_020
+  - first:
+      74: -7214240644613725539
+    second: Plasma005|Take 001_Fire_021
+  - first:
+      74: 6438923147110819334
+    second: Plasma005|Take 001_Fire_022
+  - first:
+      74: 7917549840087062650
+    second: Plasma005|Take 001_Fire_023
+  - first:
+      74: -6772022082468822809
+    second: Plasma005|Take 001_Fire_024
+  - first:
+      74: 6071977269600886771
+    second: Plasma005|Take 001_Fire_025
+  - first:
+      74: 3881728080034275429
+    second: Plasma005|Take 001_Fire_026
+  - first:
+      74: 359825438776178055
+    second: Plasma005|Take 001_Fire_027
+  - first:
+      74: 4921501684524454149
+    second: Plasma005|Take 001_Fire_028
+  - first:
+      74: -663896441426785333
+    second: Plasma005|Take 001_Fire_029
+  - first:
+      74: 5156339635107779439
+    second: Plasma005|Take 001_Fire_03
+  - first:
+      74: 318999937807262906
+    second: Plasma005|Take 001_Fire_030
+  - first:
+      74: 1708973054386798444
+    second: Plasma005|Take 001_Fire_04
+  - first:
+      74: 5999509075983735390
+    second: Plasma005|Take 001_Fire_05
+  - first:
+      74: -8586029666491400499
+    second: Plasma005|Take 001_K07_Drone
+  - first:
+      74: -2243257205013884129
+    second: Plasma005|Take 001_Plasma
+  - first:
+      74: 8286467395380572375
+    second: Plasma005|Take 001_Plasma001
+  - first:
+      74: -4286608819736417513
+    second: Plasma005|Take 001_Plasma002
+  - first:
+      74: 6833324333968391681
+    second: Plasma005|Take 001_Plasma003
+  - first:
+      74: -2393333979999018510
+    second: Plasma005|Take 001_Plasma004
+  - first:
+      74: 603176160314919242
+    second: Plasma005|Take 001_Plasma005
+  - first:
+      74: 8071789324893936593
+    second: Plasma005|Take 001_Plasma006
+  - first:
+      74: -1056728598294074591
+    second: Plasma005|Take 001_Plasma007
+  - first:
+      74: -6336643886864622183
+    second: Plasma005|Take 001_Plasma008
+  - first:
+      74: -5760129275532673750
+    second: Plasma005|Take 001_Plasma009
+  - first:
+      74: 4521861280263596071
+    second: Plasma005|Take 001_TPhotometricLight001
+  - first:
+      74: 2175907687817236589
+    second: Plasma005|Take 001_TPhotometricLight002
+  - first:
+      74: -5647999530606573063
+    second: Plasma005|Take 001_TPhotometricLight003
+  - first:
+      74: -3746172069111025169
+    second: Plasma005|Take 001_TPhotometricLight004
+  - first:
+      74: -654299703582090868
+    second: Plasma005|Take 001_TPhotometricLight005
+  - first:
+      74: 2710027361280556185
+    second: Plasma005|Take 001_TPhotometricLight006
+  - first:
+      74: 8722978557434836139
+    second: Fire_013|Take 001_Fire_006
+  - first:
+      74: 8698637358012817387
+    second: Fire_013|Take 001_Fire_007
+  - first:
+      74: 1656542300706368639
+    second: Fire_013|Take 001_Fire_008
+  - first:
+      74: 867370851182097370
+    second: Fire_013|Take 001_Fire_009
+  - first:
+      74: -6789460541266606044
+    second: Fire_013|Take 001_Fire_010
+  - first:
+      74: 6184990907603618120
+    second: Fire_013|Take 001_Fire_011
+  - first:
+      74: -8819252139920054421
+    second: Fire_013|Take 001_Fire_012
+  - first:
+      74: 1615141514794416161
+    second: Fire_013|Take 001_Fire_013
+  - first:
+      74: -6257656395833136137
+    second: Fire_013|Take 001_Fire_014
+  - first:
+      74: -4394385808636621467
+    second: Fire_013|Take 001_Fire_015
+  - first:
+      74: 3752154729325202222
+    second: Fire_013|Take 001_Fire_016
+  - first:
+      74: 6255392113060809345
+    second: Fire_013|Take 001_Fire_017
+  - first:
+      74: 949945917531260088
+    second: Fire_013|Take 001_Fire_018
+  - first:
+      74: 1005786559750510214
+    second: Fire_013|Take 001_Fire_019
+  - first:
+      74: -799848665706820661
+    second: Fire_013|Take 001_Fire_020
+  - first:
+      74: -4390301242812379212
+    second: Fire_013|Take 001_Fire_021
+  - first:
+      74: 1661625482778849099
+    second: Fire_013|Take 001_Fire_022
+  - first:
+      74: -7411329005731726760
+    second: Fire_013|Take 001_Fire_023
+  - first:
+      74: -623688509469369128
+    second: Fire_013|Take 001_Fire_024
+  - first:
+      74: -6569475901281016727
+    second: Fire_013|Take 001_Fire_025
+  - first:
+      74: -7612306743958108706
+    second: Fire_013|Take 001_Fire_026
+  - first:
+      74: 2741069320125304326
+    second: Fire_013|Take 001_Fire_027
+  - first:
+      74: -4905077496918683028
+    second: Fire_013|Take 001_Fire_028
+  - first:
+      74: -8542906319839397650
+    second: Fire_013|Take 001_Fire_029
+  - first:
+      74: -2045254060144729376
+    second: Fire_013|Take 001_Fire_03
+  - first:
+      74: -8608308691750176530
+    second: Fire_013|Take 001_Fire_030
+  - first:
+      74: 1795821348702737132
+    second: Fire_013|Take 001_Fire_04
+  - first:
+      74: 1276413251028412743
+    second: Fire_013|Take 001_Fire_05
+  - first:
+      74: -1895139116963447574
+    second: Fire_013|Take 001_K07_Drone
+  - first:
+      74: 3556433612106510043
+    second: Fire_013|Take 001_Plasma
+  - first:
+      74: 478934966474177336
+    second: Fire_013|Take 001_Plasma001
+  - first:
+      74: 5870616582206920718
+    second: Fire_013|Take 001_Plasma002
+  - first:
+      74: -2909115653594666032
+    second: Fire_013|Take 001_Plasma003
+  - first:
+      74: -5358469670786336950
+    second: Fire_013|Take 001_Plasma004
+  - first:
+      74: 5229023510636222578
+    second: Fire_013|Take 001_Plasma005
+  - first:
+      74: -4860572591323070622
+    second: Fire_013|Take 001_Plasma006
+  - first:
+      74: 7352234912952205325
+    second: Fire_013|Take 001_Plasma007
+  - first:
+      74: 1818950635013895178
+    second: Fire_013|Take 001_Plasma008
+  - first:
+      74: 7051570093685852257
+    second: Fire_013|Take 001_Plasma009
+  - first:
+      74: -4028513889358594959
+    second: Fire_013|Take 001_TPhotometricLight001
+  - first:
+      74: 4834658540743463623
+    second: Fire_013|Take 001_TPhotometricLight002
+  - first:
+      74: 8489156272936202634
+    second: Fire_013|Take 001_TPhotometricLight003
+  - first:
+      74: 2320820561669560900
+    second: Fire_013|Take 001_TPhotometricLight004
+  - first:
+      74: -5813938139890813017
+    second: Fire_013|Take 001_TPhotometricLight005
+  - first:
+      74: 7958732169070487439
+    second: Fire_013|Take 001_TPhotometricLight006
+  - first:
+      74: 223195316774726196
+    second: Fire_014|Take 001_Fire_006
+  - first:
+      74: -222456764945936195
+    second: Fire_014|Take 001_Fire_007
+  - first:
+      74: -5682720358192025819
+    second: Fire_014|Take 001_Fire_008
+  - first:
+      74: 4472638117889885464
+    second: Fire_014|Take 001_Fire_009
+  - first:
+      74: 5606350479910478942
+    second: Fire_014|Take 001_Fire_010
+  - first:
+      74: 5116708161893541122
+    second: Fire_014|Take 001_Fire_011
+  - first:
+      74: 249709539602210936
+    second: Fire_014|Take 001_Fire_012
+  - first:
+      74: -9093031055196798130
+    second: Fire_014|Take 001_Fire_013
+  - first:
+      74: -3138824713677080869
+    second: Fire_014|Take 001_Fire_014
+  - first:
+      74: -4147276451520207141
+    second: Fire_014|Take 001_Fire_015
+  - first:
+      74: 7907639781956695769
+    second: Fire_014|Take 001_Fire_016
+  - first:
+      74: -8722655672368862511
+    second: Fire_014|Take 001_Fire_017
+  - first:
+      74: 1390320044824628898
+    second: Fire_014|Take 001_Fire_018
+  - first:
+      74: 4920010415124885502
+    second: Fire_014|Take 001_Fire_019
+  - first:
+      74: 338902347612376468
+    second: Fire_014|Take 001_Fire_020
+  - first:
+      74: -7638925273197792132
+    second: Fire_014|Take 001_Fire_021
+  - first:
+      74: -8994834948964327275
+    second: Fire_014|Take 001_Fire_022
+  - first:
+      74: -185056142204024136
+    second: Fire_014|Take 001_Fire_023
+  - first:
+      74: 6083417648260029948
+    second: Fire_014|Take 001_Fire_024
+  - first:
+      74: 4705659228695153598
+    second: Fire_014|Take 001_Fire_025
+  - first:
+      74: 7427268052633419317
+    second: Fire_014|Take 001_Fire_026
+  - first:
+      74: 22991764197713901
+    second: Fire_014|Take 001_Fire_027
+  - first:
+      74: -3378743122143125696
+    second: Fire_014|Take 001_Fire_028
+  - first:
+      74: -5139351775668976113
+    second: Fire_014|Take 001_Fire_029
+  - first:
+      74: 3489086063206686233
+    second: Fire_014|Take 001_Fire_03
+  - first:
+      74: -8056394601291168930
+    second: Fire_014|Take 001_Fire_030
+  - first:
+      74: -8061968778808996579
+    second: Fire_014|Take 001_Fire_04
+  - first:
+      74: 4471884493964925101
+    second: Fire_014|Take 001_Fire_05
+  - first:
+      74: -2025515290927567325
+    second: Fire_014|Take 001_K07_Drone
+  - first:
+      74: 8767419072925774858
+    second: Fire_014|Take 001_Plasma
+  - first:
+      74: 5834215656785758529
+    second: Fire_014|Take 001_Plasma001
+  - first:
+      74: -5066203361930785681
+    second: Fire_014|Take 001_Plasma002
+  - first:
+      74: -2897509999139814731
+    second: Fire_014|Take 001_Plasma003
+  - first:
+      74: -4623080331736389768
+    second: Fire_014|Take 001_Plasma004
+  - first:
+      74: 3924542862500792468
+    second: Fire_014|Take 001_Plasma005
+  - first:
+      74: -1141349693585291060
+    second: Fire_014|Take 001_Plasma006
+  - first:
+      74: 37953188256986822
+    second: Fire_014|Take 001_Plasma007
+  - first:
+      74: -1260751278278708510
+    second: Fire_014|Take 001_Plasma008
+  - first:
+      74: 6113874251610180846
+    second: Fire_014|Take 001_Plasma009
+  - first:
+      74: -2078477954498559313
+    second: Fire_014|Take 001_TPhotometricLight001
+  - first:
+      74: 747953678673425586
+    second: Fire_014|Take 001_TPhotometricLight002
+  - first:
+      74: 1401411663271019652
+    second: Fire_014|Take 001_TPhotometricLight003
+  - first:
+      74: 7562861390385679785
+    second: Fire_014|Take 001_TPhotometricLight004
+  - first:
+      74: -6468795984901818727
+    second: Fire_014|Take 001_TPhotometricLight005
+  - first:
+      74: -1128093492702041094
+    second: Fire_014|Take 001_TPhotometricLight006
+  - first:
+      74: 32628623818507997
+    second: Fire_015|Take 001_Fire_006
+  - first:
+      74: -8812001952726237901
+    second: Fire_015|Take 001_Fire_007
+  - first:
+      74: -5364375214501586540
+    second: Fire_015|Take 001_Fire_008
+  - first:
+      74: -56739971541693348
+    second: Fire_015|Take 001_Fire_009
+  - first:
+      74: -3263141841009185079
+    second: Fire_015|Take 001_Fire_010
+  - first:
+      74: -3188095241271393382
+    second: Fire_015|Take 001_Fire_011
+  - first:
+      74: -6837378642551854082
+    second: Fire_015|Take 001_Fire_012
+  - first:
+      74: 193741874784340473
+    second: Fire_015|Take 001_Fire_013
+  - first:
+      74: -813891402358554826
+    second: Fire_015|Take 001_Fire_014
+  - first:
+      74: 5802777261621163401
+    second: Fire_015|Take 001_Fire_015
+  - first:
+      74: 2572476145241064084
+    second: Fire_015|Take 001_Fire_016
+  - first:
+      74: -3144538774866858908
+    second: Fire_015|Take 001_Fire_017
+  - first:
+      74: 5625150499105259258
+    second: Fire_015|Take 001_Fire_018
+  - first:
+      74: 5725348786446097190
+    second: Fire_015|Take 001_Fire_019
+  - first:
+      74: -4020947634300813341
+    second: Fire_015|Take 001_Fire_020
+  - first:
+      74: -6981474987269384624
+    second: Fire_015|Take 001_Fire_021
+  - first:
+      74: 2621911627272089885
+    second: Fire_015|Take 001_Fire_022
+  - first:
+      74: -132647163247491628
+    second: Fire_015|Take 001_Fire_023
+  - first:
+      74: -8433602421725492248
+    second: Fire_015|Take 001_Fire_024
+  - first:
+      74: -6043897076945711076
+    second: Fire_015|Take 001_Fire_025
+  - first:
+      74: 585237589877953049
+    second: Fire_015|Take 001_Fire_026
+  - first:
+      74: 4644765335941915420
+    second: Fire_015|Take 001_Fire_027
+  - first:
+      74: -9134209665719044868
+    second: Fire_015|Take 001_Fire_028
+  - first:
+      74: 708328837949019349
+    second: Fire_015|Take 001_Fire_029
+  - first:
+      74: 5175412106147202798
+    second: Fire_015|Take 001_Fire_03
+  - first:
+      74: -5043698855082350429
+    second: Fire_015|Take 001_Fire_030
+  - first:
+      74: 7815008147510530093
+    second: Fire_015|Take 001_Fire_04
+  - first:
+      74: -581537922905674347
+    second: Fire_015|Take 001_Fire_05
+  - first:
+      74: -4624745034370041287
+    second: Fire_015|Take 001_K07_Drone
+  - first:
+      74: -1759135718107854897
+    second: Fire_015|Take 001_Plasma
+  - first:
+      74: 382490106381362328
+    second: Fire_015|Take 001_Plasma001
+  - first:
+      74: 1136256109648823274
+    second: Fire_015|Take 001_Plasma002
+  - first:
+      74: 3392634576323792382
+    second: Fire_015|Take 001_Plasma003
+  - first:
+      74: -5101664059840482893
+    second: Fire_015|Take 001_Plasma004
+  - first:
+      74: 6567957946686877497
+    second: Fire_015|Take 001_Plasma005
+  - first:
+      74: -2477123995937172390
+    second: Fire_015|Take 001_Plasma006
+  - first:
+      74: -4419259751689001353
+    second: Fire_015|Take 001_Plasma007
+  - first:
+      74: 7719455196504965690
+    second: Fire_015|Take 001_Plasma008
+  - first:
+      74: 5423677572687745126
+    second: Fire_015|Take 001_Plasma009
+  - first:
+      74: -6764335738429459154
+    second: Fire_015|Take 001_TPhotometricLight001
+  - first:
+      74: 2004543933363152975
+    second: Fire_015|Take 001_TPhotometricLight002
+  - first:
+      74: -4793180987240510840
+    second: Fire_015|Take 001_TPhotometricLight003
+  - first:
+      74: 2450432866773938910
+    second: Fire_015|Take 001_TPhotometricLight004
+  - first:
+      74: -4662031309944418035
+    second: Fire_015|Take 001_TPhotometricLight005
+  - first:
+      74: -8634653374311106199
+    second: Fire_015|Take 001_TPhotometricLight006
+  - first:
+      74: 9023196554393236935
+    second: Plasma003|Take 001_Fire_006
+  - first:
+      74: 7759820855377631126
+    second: Plasma003|Take 001_Fire_007
+  - first:
+      74: -8377344608015031809
+    second: Plasma003|Take 001_Fire_008
+  - first:
+      74: 3668037756115092264
+    second: Plasma003|Take 001_Fire_009
+  - first:
+      74: 4171637275933658716
+    second: Plasma003|Take 001_Fire_010
+  - first:
+      74: 5635038102417068387
+    second: Plasma003|Take 001_Fire_011
+  - first:
+      74: -5736528680433826467
+    second: Plasma003|Take 001_Fire_012
+  - first:
+      74: -8999052142387710555
+    second: Plasma003|Take 001_Fire_013
+  - first:
+      74: -7064157520430044407
+    second: Plasma003|Take 001_Fire_014
+  - first:
+      74: 3811072321968929517
+    second: Plasma003|Take 001_Fire_015
+  - first:
+      74: 6201379462924622001
+    second: Plasma003|Take 001_Fire_016
+  - first:
+      74: -1853400390328838355
+    second: Plasma003|Take 001_Fire_017
+  - first:
+      74: -3385462899319123346
+    second: Plasma003|Take 001_Fire_018
+  - first:
+      74: 5728471381950662351
+    second: Plasma003|Take 001_Fire_019
+  - first:
+      74: -3618195256939827226
+    second: Plasma003|Take 001_Fire_020
+  - first:
+      74: -4714102707207586467
+    second: Plasma003|Take 001_Fire_021
+  - first:
+      74: 2103249381342986131
+    second: Plasma003|Take 001_Fire_022
+  - first:
+      74: 426603236566641396
+    second: Plasma003|Take 001_Fire_023
+  - first:
+      74: -1498966938849227047
+    second: Plasma003|Take 001_Fire_024
+  - first:
+      74: -6921574542513186671
+    second: Plasma003|Take 001_Fire_025
+  - first:
+      74: -6170602571517571064
+    second: Plasma003|Take 001_Fire_026
+  - first:
+      74: 8021579258801700201
+    second: Plasma003|Take 001_Fire_027
+  - first:
+      74: -5277162190026471172
+    second: Plasma003|Take 001_Fire_028
+  - first:
+      74: 6247097007105124591
+    second: Plasma003|Take 001_Fire_029
+  - first:
+      74: -8918214301068139023
+    second: Plasma003|Take 001_Fire_03
+  - first:
+      74: 1913499797234876666
+    second: Plasma003|Take 001_Fire_030
+  - first:
+      74: -3025440866919201319
+    second: Plasma003|Take 001_Fire_04
+  - first:
+      74: 4461104410598374451
+    second: Plasma003|Take 001_Fire_05
+  - first:
+      74: -3235022725366991689
+    second: Plasma003|Take 001_K07_Drone
+  - first:
+      74: 1769937091345258813
+    second: Plasma003|Take 001_Plasma
+  - first:
+      74: 8228398141949352623
+    second: Plasma003|Take 001_Plasma001
+  - first:
+      74: -4760063864418950490
+    second: Plasma003|Take 001_Plasma002
+  - first:
+      74: 6318480389038974363
+    second: Plasma003|Take 001_Plasma003
+  - first:
+      74: 5291125783053504727
+    second: Plasma003|Take 001_Plasma004
+  - first:
+      74: 1857198119529477522
+    second: Plasma003|Take 001_Plasma005
+  - first:
+      74: 8731602509504057148
+    second: Plasma003|Take 001_Plasma006
+  - first:
+      74: 6589884593977087039
+    second: Plasma003|Take 001_Plasma007
+  - first:
+      74: -5075244481065102487
+    second: Plasma003|Take 001_Plasma008
+  - first:
+      74: -867375917825749757
+    second: Plasma003|Take 001_Plasma009
+  - first:
+      74: 249782402634500996
+    second: Plasma003|Take 001_TPhotometricLight001
+  - first:
+      74: 8952201362787172520
+    second: Plasma003|Take 001_TPhotometricLight002
+  - first:
+      74: 7802398390184487415
+    second: Plasma003|Take 001_TPhotometricLight003
+  - first:
+      74: 9062918871577596422
+    second: Plasma003|Take 001_TPhotometricLight004
+  - first:
+      74: -8329159579907772778
+    second: Plasma003|Take 001_TPhotometricLight005
+  - first:
+      74: 7168744789385001500
+    second: Plasma003|Take 001_TPhotometricLight006
+  - first:
+      74: -681584250682660662
+    second: Fire_016|Take 001_Fire_006
+  - first:
+      74: -561198365950829968
+    second: Fire_016|Take 001_Fire_007
+  - first:
+      74: -4331980641746386374
+    second: Fire_016|Take 001_Fire_008
+  - first:
+      74: -5308808450099249745
+    second: Fire_016|Take 001_Fire_009
+  - first:
+      74: 2809223478483855593
+    second: Fire_016|Take 001_Fire_010
+  - first:
+      74: -2261999116213906310
+    second: Fire_016|Take 001_Fire_011
+  - first:
+      74: 7094946480966785320
+    second: Fire_016|Take 001_Fire_012
+  - first:
+      74: -3229002135718864972
+    second: Fire_016|Take 001_Fire_013
+  - first:
+      74: -7501012031915635229
+    second: Fire_016|Take 001_Fire_014
+  - first:
+      74: -1579091224770408208
+    second: Fire_016|Take 001_Fire_015
+  - first:
+      74: -5668389976102528131
+    second: Fire_016|Take 001_Fire_016
+  - first:
+      74: -9119373629289404342
+    second: Fire_016|Take 001_Fire_017
+  - first:
+      74: -2315567959301803445
+    second: Fire_016|Take 001_Fire_018
+  - first:
+      74: -3395581232338800991
+    second: Fire_016|Take 001_Fire_019
+  - first:
+      74: 7458998478972188348
+    second: Fire_016|Take 001_Fire_020
+  - first:
+      74: 6941513645706556272
+    second: Fire_016|Take 001_Fire_021
+  - first:
+      74: 2482832745085960351
+    second: Fire_016|Take 001_Fire_022
+  - first:
+      74: -1308119705870640273
+    second: Fire_016|Take 001_Fire_023
+  - first:
+      74: -8580966185372594356
+    second: Fire_016|Take 001_Fire_024
+  - first:
+      74: 7958532619984658294
+    second: Fire_016|Take 001_Fire_025
+  - first:
+      74: -4782456324229603145
+    second: Fire_016|Take 001_Fire_026
+  - first:
+      74: 6710934781883846920
+    second: Fire_016|Take 001_Fire_027
+  - first:
+      74: 3974848740043232963
+    second: Fire_016|Take 001_Fire_028
+  - first:
+      74: -1722587362928387873
+    second: Fire_016|Take 001_Fire_029
+  - first:
+      74: -8870632744116266151
+    second: Fire_016|Take 001_Fire_03
+  - first:
+      74: -189327233457683120
+    second: Fire_016|Take 001_Fire_030
+  - first:
+      74: 6283935827095892585
+    second: Fire_016|Take 001_Fire_04
+  - first:
+      74: 3056650720064522694
+    second: Fire_016|Take 001_Fire_05
+  - first:
+      74: -6602492894995015244
+    second: Fire_016|Take 001_K07_Drone
+  - first:
+      74: -3228584615224210733
+    second: Fire_016|Take 001_Plasma
+  - first:
+      74: -3874661146976440289
+    second: Fire_016|Take 001_Plasma001
+  - first:
+      74: 6603389442581049195
+    second: Fire_016|Take 001_Plasma002
+  - first:
+      74: -3158420936025747530
+    second: Fire_016|Take 001_Plasma003
+  - first:
+      74: 2938457902509130648
+    second: Fire_016|Take 001_Plasma004
+  - first:
+      74: -6136222044999996637
+    second: Fire_016|Take 001_Plasma005
+  - first:
+      74: 5076223201508549684
+    second: Fire_016|Take 001_Plasma006
+  - first:
+      74: -4707602486341568211
+    second: Fire_016|Take 001_Plasma007
+  - first:
+      74: -4841988418051690894
+    second: Fire_016|Take 001_Plasma008
+  - first:
+      74: -6543173312470870159
+    second: Fire_016|Take 001_Plasma009
+  - first:
+      74: -6075068714181436828
+    second: Fire_016|Take 001_TPhotometricLight001
+  - first:
+      74: 5423564037772224826
+    second: Fire_016|Take 001_TPhotometricLight002
+  - first:
+      74: 905162159002285924
+    second: Fire_016|Take 001_TPhotometricLight003
+  - first:
+      74: -5575564922651582765
+    second: Fire_016|Take 001_TPhotometricLight004
+  - first:
+      74: -431133616309250108
+    second: Fire_016|Take 001_TPhotometricLight005
+  - first:
+      74: 3195860954512403380
+    second: Fire_016|Take 001_TPhotometricLight006
+  - first:
+      74: -8560762193090256534
+    second: Fire_017|Take 001_Fire_006
+  - first:
+      74: 5210126878311963301
+    second: Fire_017|Take 001_Fire_007
+  - first:
+      74: 1626331296756375492
+    second: Fire_017|Take 001_Fire_008
+  - first:
+      74: 5328189152757798012
+    second: Fire_017|Take 001_Fire_009
+  - first:
+      74: -4606053246993816769
+    second: Fire_017|Take 001_Fire_010
+  - first:
+      74: 3913696397254048567
+    second: Fire_017|Take 001_Fire_011
+  - first:
+      74: -4130921950316468380
+    second: Fire_017|Take 001_Fire_012
+  - first:
+      74: 958636516308483421
+    second: Fire_017|Take 001_Fire_013
+  - first:
+      74: -6768812367191121687
+    second: Fire_017|Take 001_Fire_014
+  - first:
+      74: -4384871647240352130
+    second: Fire_017|Take 001_Fire_015
+  - first:
+      74: -6469029559884917085
+    second: Fire_017|Take 001_Fire_016
+  - first:
+      74: 6213817628908750089
+    second: Fire_017|Take 001_Fire_017
+  - first:
+      74: 408631597851839699
+    second: Fire_017|Take 001_Fire_018
+  - first:
+      74: 8761974051647271719
+    second: Fire_017|Take 001_Fire_019
+  - first:
+      74: -770954072946638235
+    second: Fire_017|Take 001_Fire_020
+  - first:
+      74: 569919399335054695
+    second: Fire_017|Take 001_Fire_021
+  - first:
+      74: 5011112591558764642
+    second: Fire_017|Take 001_Fire_022
+  - first:
+      74: 551682515891815394
+    second: Fire_017|Take 001_Fire_023
+  - first:
+      74: 8136887015235359832
+    second: Fire_017|Take 001_Fire_024
+  - first:
+      74: -7784851660261021782
+    second: Fire_017|Take 001_Fire_025
+  - first:
+      74: -2075718126242768390
+    second: Fire_017|Take 001_Fire_026
+  - first:
+      74: -7114752327209883975
+    second: Fire_017|Take 001_Fire_027
+  - first:
+      74: -8244757790158715185
+    second: Fire_017|Take 001_Fire_028
+  - first:
+      74: 1778442105250113084
+    second: Fire_017|Take 001_Fire_029
+  - first:
+      74: 2656446568141790022
+    second: Fire_017|Take 001_Fire_03
+  - first:
+      74: 8182641534761313582
+    second: Fire_017|Take 001_Fire_030
+  - first:
+      74: -5091568963100949819
+    second: Fire_017|Take 001_Fire_04
+  - first:
+      74: 3217079200553484468
+    second: Fire_017|Take 001_Fire_05
+  - first:
+      74: 3772859372258800517
+    second: Fire_017|Take 001_K07_Drone
+  - first:
+      74: 7964044985409416005
+    second: Fire_017|Take 001_Plasma
+  - first:
+      74: 8699181206575653778
+    second: Fire_017|Take 001_Plasma001
+  - first:
+      74: -1139688138342418036
+    second: Fire_017|Take 001_Plasma002
+  - first:
+      74: 7112588535198971312
+    second: Fire_017|Take 001_Plasma003
+  - first:
+      74: -5349088272959260157
+    second: Fire_017|Take 001_Plasma004
+  - first:
+      74: -3338835580498384275
+    second: Fire_017|Take 001_Plasma005
+  - first:
+      74: -5411440424549248392
+    second: Fire_017|Take 001_Plasma006
+  - first:
+      74: 6157326233969081098
+    second: Fire_017|Take 001_Plasma007
+  - first:
+      74: 3476007069801527238
+    second: Fire_017|Take 001_Plasma008
+  - first:
+      74: 5302517682301070305
+    second: Fire_017|Take 001_Plasma009
+  - first:
+      74: -7697589555592776298
+    second: Fire_017|Take 001_TPhotometricLight001
+  - first:
+      74: -5179096779611894309
+    second: Fire_017|Take 001_TPhotometricLight002
+  - first:
+      74: -6127928872894274642
+    second: Fire_017|Take 001_TPhotometricLight003
+  - first:
+      74: 9171397569955139190
+    second: Fire_017|Take 001_TPhotometricLight004
+  - first:
+      74: 865323591947499715
+    second: Fire_017|Take 001_TPhotometricLight005
+  - first:
+      74: 9075550319909452760
+    second: Fire_017|Take 001_TPhotometricLight006
+  - first:
+      74: -5243092880196039066
+    second: Fire_018|Take 001_Fire_006
+  - first:
+      74: -3340851052614386769
+    second: Fire_018|Take 001_Fire_007
+  - first:
+      74: -8026068476323790986
+    second: Fire_018|Take 001_Fire_008
+  - first:
+      74: 2703004383031375289
+    second: Fire_018|Take 001_Fire_009
+  - first:
+      74: -4962482965381419702
+    second: Fire_018|Take 001_Fire_010
+  - first:
+      74: 4714394507656197704
+    second: Fire_018|Take 001_Fire_011
+  - first:
+      74: 6822874848441747850
+    second: Fire_018|Take 001_Fire_012
+  - first:
+      74: 8659374929056322899
+    second: Fire_018|Take 001_Fire_013
+  - first:
+      74: -6614370373611598358
+    second: Fire_018|Take 001_Fire_014
+  - first:
+      74: -3613581014939158885
+    second: Fire_018|Take 001_Fire_015
+  - first:
+      74: 531532968961324661
+    second: Fire_018|Take 001_Fire_016
+  - first:
+      74: -1652251714781080620
+    second: Fire_018|Take 001_Fire_017
+  - first:
+      74: -5925753007872280508
+    second: Fire_018|Take 001_Fire_018
+  - first:
+      74: 6717029586724121040
+    second: Fire_018|Take 001_Fire_019
+  - first:
+      74: -994043431080271613
+    second: Fire_018|Take 001_Fire_020
+  - first:
+      74: -3809043455037671867
+    second: Fire_018|Take 001_Fire_021
+  - first:
+      74: -8162916731703299477
+    second: Fire_018|Take 001_Fire_022
+  - first:
+      74: -3002819161059434396
+    second: Fire_018|Take 001_Fire_023
+  - first:
+      74: -1110946603928403444
+    second: Fire_018|Take 001_Fire_024
+  - first:
+      74: -4843891537210559171
+    second: Fire_018|Take 001_Fire_025
+  - first:
+      74: 7274106948406370742
+    second: Fire_018|Take 001_Fire_026
+  - first:
+      74: 3581425707336957892
+    second: Fire_018|Take 001_Fire_027
+  - first:
+      74: 5320007819505903675
+    second: Fire_018|Take 001_Fire_028
+  - first:
+      74: -6103974500281687381
+    second: Fire_018|Take 001_Fire_029
+  - first:
+      74: -7563190804462852914
+    second: Fire_018|Take 001_Fire_03
+  - first:
+      74: 817783680290157749
+    second: Fire_018|Take 001_Fire_030
+  - first:
+      74: 5819245352259508147
+    second: Fire_018|Take 001_Fire_04
+  - first:
+      74: 7088387161816337405
+    second: Fire_018|Take 001_Fire_05
+  - first:
+      74: -167149759779169513
+    second: Fire_018|Take 001_K07_Drone
+  - first:
+      74: 8071241273405791172
+    second: Fire_018|Take 001_Plasma
+  - first:
+      74: 2774940439751399886
+    second: Fire_018|Take 001_Plasma001
+  - first:
+      74: 1647629566095686031
+    second: Fire_018|Take 001_Plasma002
+  - first:
+      74: -5012954838406882042
+    second: Fire_018|Take 001_Plasma003
+  - first:
+      74: 3440295286093070557
+    second: Fire_018|Take 001_Plasma004
+  - first:
+      74: 6403781765646386758
+    second: Fire_018|Take 001_Plasma005
+  - first:
+      74: -2579574993387411355
+    second: Fire_018|Take 001_Plasma006
+  - first:
+      74: -7300224770148581264
+    second: Fire_018|Take 001_Plasma007
+  - first:
+      74: -3251900652731570107
+    second: Fire_018|Take 001_Plasma008
+  - first:
+      74: -1461695118794279564
+    second: Fire_018|Take 001_Plasma009
+  - first:
+      74: -5672516510186062785
+    second: Fire_018|Take 001_TPhotometricLight001
+  - first:
+      74: 2381149317450743840
+    second: Fire_018|Take 001_TPhotometricLight002
+  - first:
+      74: 2621042252670625280
+    second: Fire_018|Take 001_TPhotometricLight003
+  - first:
+      74: -7586212204680200289
+    second: Fire_018|Take 001_TPhotometricLight004
+  - first:
+      74: -1718422304620766775
+    second: Fire_018|Take 001_TPhotometricLight005
+  - first:
+      74: 1071496157987523565
+    second: Fire_018|Take 001_TPhotometricLight006
+  - first:
+      74: -3390831902904523292
+    second: Plasma002|Take 001_Fire_006
+  - first:
+      74: -2002878082566480043
+    second: Plasma002|Take 001_Fire_007
+  - first:
+      74: -2120793962391224297
+    second: Plasma002|Take 001_Fire_008
+  - first:
+      74: -4982523050577511515
+    second: Plasma002|Take 001_Fire_009
+  - first:
+      74: -7465724567197766260
+    second: Plasma002|Take 001_Fire_010
+  - first:
+      74: -7195219687874642730
+    second: Plasma002|Take 001_Fire_011
+  - first:
+      74: -2622430948115504501
+    second: Plasma002|Take 001_Fire_012
+  - first:
+      74: -391725248354770498
+    second: Plasma002|Take 001_Fire_013
+  - first:
+      74: -6589420813556446065
+    second: Plasma002|Take 001_Fire_014
+  - first:
+      74: 4183209854512528626
+    second: Plasma002|Take 001_Fire_015
+  - first:
+      74: 6713711992807148174
+    second: Plasma002|Take 001_Fire_016
+  - first:
+      74: 4207015141411358838
+    second: Plasma002|Take 001_Fire_017
+  - first:
+      74: 723233824192782756
+    second: Plasma002|Take 001_Fire_018
+  - first:
+      74: -5519934412796278285
+    second: Plasma002|Take 001_Fire_019
+  - first:
+      74: 5655086721506853529
+    second: Plasma002|Take 001_Fire_020
+  - first:
+      74: 8036873799473618421
+    second: Plasma002|Take 001_Fire_021
+  - first:
+      74: -7075643171120384713
+    second: Plasma002|Take 001_Fire_022
+  - first:
+      74: 3242919960987371383
+    second: Plasma002|Take 001_Fire_023
+  - first:
+      74: -4157065079588813297
+    second: Plasma002|Take 001_Fire_024
+  - first:
+      74: 7255828534050827382
+    second: Plasma002|Take 001_Fire_025
+  - first:
+      74: -841435106721008473
+    second: Plasma002|Take 001_Fire_026
+  - first:
+      74: -7653596341459044945
+    second: Plasma002|Take 001_Fire_027
+  - first:
+      74: -121486921838216764
+    second: Plasma002|Take 001_Fire_028
+  - first:
+      74: 7994233954324608062
+    second: Plasma002|Take 001_Fire_029
+  - first:
+      74: -5685246641694479772
+    second: Plasma002|Take 001_Fire_03
+  - first:
+      74: -7067051008423599875
+    second: Plasma002|Take 001_Fire_030
+  - first:
+      74: -7566559299981891776
+    second: Plasma002|Take 001_Fire_04
+  - first:
+      74: -1201934512519970630
+    second: Plasma002|Take 001_Fire_05
+  - first:
+      74: 1885506781473261649
+    second: Plasma002|Take 001_K07_Drone
+  - first:
+      74: 371490618772896196
+    second: Plasma002|Take 001_Plasma
+  - first:
+      74: 204603061115082522
+    second: Plasma002|Take 001_Plasma001
+  - first:
+      74: 8534036938979709833
+    second: Plasma002|Take 001_Plasma002
+  - first:
+      74: -7082304018800271609
+    second: Plasma002|Take 001_Plasma003
+  - first:
+      74: 2519588203949902693
+    second: Plasma002|Take 001_Plasma004
+  - first:
+      74: 3040942050045895622
+    second: Plasma002|Take 001_Plasma005
+  - first:
+      74: 3306103886523297010
+    second: Plasma002|Take 001_Plasma006
+  - first:
+      74: -8984033396191852486
+    second: Plasma002|Take 001_Plasma007
+  - first:
+      74: -2298206077305555424
+    second: Plasma002|Take 001_Plasma008
+  - first:
+      74: 4589488052816074465
+    second: Plasma002|Take 001_Plasma009
+  - first:
+      74: -4528065209435905974
+    second: Plasma002|Take 001_TPhotometricLight001
+  - first:
+      74: 8462978710033114959
+    second: Plasma002|Take 001_TPhotometricLight002
+  - first:
+      74: 5287701182757261130
+    second: Plasma002|Take 001_TPhotometricLight003
+  - first:
+      74: -6693397280875971899
+    second: Plasma002|Take 001_TPhotometricLight004
+  - first:
+      74: 8274307159249094941
+    second: Plasma002|Take 001_TPhotometricLight005
+  - first:
+      74: -3376699565841383549
+    second: Plasma002|Take 001_TPhotometricLight006
+  - first:
+      74: 7344029853486072692
+    second: Fire_008|Take 001_Fire_006
+  - first:
+      74: -2496734058860354110
+    second: Fire_008|Take 001_Fire_007
+  - first:
+      74: 258897595671178767
+    second: Fire_008|Take 001_Fire_008
+  - first:
+      74: -4372762911111000618
+    second: Fire_008|Take 001_Fire_009
+  - first:
+      74: 1357142050216958828
+    second: Fire_008|Take 001_Fire_010
+  - first:
+      74: -5246013208616799867
+    second: Fire_008|Take 001_Fire_011
+  - first:
+      74: 7847634089073271549
+    second: Fire_008|Take 001_Fire_012
+  - first:
+      74: 14419158041564191
+    second: Fire_008|Take 001_Fire_013
+  - first:
+      74: 2060722057694470256
+    second: Fire_008|Take 001_Fire_014
+  - first:
+      74: -5437952715391961493
+    second: Fire_008|Take 001_Fire_015
+  - first:
+      74: -6591287990364384859
+    second: Fire_008|Take 001_Fire_016
+  - first:
+      74: -3244227320604579701
+    second: Fire_008|Take 001_Fire_017
+  - first:
+      74: 6880074780690498375
+    second: Fire_008|Take 001_Fire_018
+  - first:
+      74: -3069383626376375306
+    second: Fire_008|Take 001_Fire_019
+  - first:
+      74: 363972266893870537
+    second: Fire_008|Take 001_Fire_020
+  - first:
+      74: 7976821882083545464
+    second: Fire_008|Take 001_Fire_021
+  - first:
+      74: 9091322696855056035
+    second: Fire_008|Take 001_Fire_022
+  - first:
+      74: 6953366122740648486
+    second: Fire_008|Take 001_Fire_023
+  - first:
+      74: -3404884435367231654
+    second: Fire_008|Take 001_Fire_024
+  - first:
+      74: -2982863914583610952
+    second: Fire_008|Take 001_Fire_025
+  - first:
+      74: -7097738280619897907
+    second: Fire_008|Take 001_Fire_026
+  - first:
+      74: 3070578727984652132
+    second: Fire_008|Take 001_Fire_027
+  - first:
+      74: 6406018151847402519
+    second: Fire_008|Take 001_Fire_028
+  - first:
+      74: -1498001623996198346
+    second: Fire_008|Take 001_Fire_029
+  - first:
+      74: -7289743920673073807
+    second: Fire_008|Take 001_Fire_03
+  - first:
+      74: -5565802138622727059
+    second: Fire_008|Take 001_Fire_030
+  - first:
+      74: 7919977040411231602
+    second: Fire_008|Take 001_Fire_04
+  - first:
+      74: -8547811247402215793
+    second: Fire_008|Take 001_Fire_05
+  - first:
+      74: -8042251489317483024
+    second: Fire_008|Take 001_K07_Drone
+  - first:
+      74: 4042900648315590225
+    second: Fire_008|Take 001_Plasma
+  - first:
+      74: 8472599555189933535
+    second: Fire_008|Take 001_Plasma001
+  - first:
+      74: -967070195819748077
+    second: Fire_008|Take 001_Plasma002
+  - first:
+      74: 9048175674634867779
+    second: Fire_008|Take 001_Plasma003
+  - first:
+      74: 4007569723727985706
+    second: Fire_008|Take 001_Plasma004
+  - first:
+      74: -4959822441933802200
+    second: Fire_008|Take 001_Plasma005
+  - first:
+      74: -1211988549840938109
+    second: Fire_008|Take 001_Plasma006
+  - first:
+      74: 7540968892324365117
+    second: Fire_008|Take 001_Plasma007
+  - first:
+      74: 5047415158853975973
+    second: Fire_008|Take 001_Plasma008
+  - first:
+      74: -4587369489476516919
+    second: Fire_008|Take 001_Plasma009
+  - first:
+      74: -463431184053502378
+    second: Fire_008|Take 001_TPhotometricLight001
+  - first:
+      74: -6181013003692807649
+    second: Fire_008|Take 001_TPhotometricLight002
+  - first:
+      74: -7942913363209621953
+    second: Fire_008|Take 001_TPhotometricLight003
+  - first:
+      74: 8674992687131909840
+    second: Fire_008|Take 001_TPhotometricLight004
+  - first:
+      74: 474521706978736219
+    second: Fire_008|Take 001_TPhotometricLight005
+  - first:
+      74: -4260778244815690229
+    second: Fire_008|Take 001_TPhotometricLight006
+  - first:
+      74: 117515944621790951
+    second: Fire_009|Take 001_Fire_006
+  - first:
+      74: 7515710152769586848
+    second: Fire_009|Take 001_Fire_007
+  - first:
+      74: 1320091582168656192
+    second: Fire_009|Take 001_Fire_008
+  - first:
+      74: -5037711578141858202
+    second: Fire_009|Take 001_Fire_009
+  - first:
+      74: -9070860165818354132
+    second: Fire_009|Take 001_Fire_010
+  - first:
+      74: 5969421490420957909
+    second: Fire_009|Take 001_Fire_011
+  - first:
+      74: 8235063499336168180
+    second: Fire_009|Take 001_Fire_012
+  - first:
+      74: 3133754273015107062
+    second: Fire_009|Take 001_Fire_013
+  - first:
+      74: 4317705861542831578
+    second: Fire_009|Take 001_Fire_014
+  - first:
+      74: 214487538552537761
+    second: Fire_009|Take 001_Fire_015
+  - first:
+      74: 5752983660908067136
+    second: Fire_009|Take 001_Fire_016
+  - first:
+      74: 1006963316320877047
+    second: Fire_009|Take 001_Fire_017
+  - first:
+      74: -4903593803988434193
+    second: Fire_009|Take 001_Fire_018
+  - first:
+      74: 7265121571254782326
+    second: Fire_009|Take 001_Fire_019
+  - first:
+      74: -6208275634877850148
+    second: Fire_009|Take 001_Fire_020
+  - first:
+      74: 3421041942556376604
+    second: Fire_009|Take 001_Fire_021
+  - first:
+      74: 6015821422674387276
+    second: Fire_009|Take 001_Fire_022
+  - first:
+      74: -2945195133934089763
+    second: Fire_009|Take 001_Fire_023
+  - first:
+      74: 2530174075604924646
+    second: Fire_009|Take 001_Fire_024
+  - first:
+      74: -5189453102883829400
+    second: Fire_009|Take 001_Fire_025
+  - first:
+      74: -5957313837541836604
+    second: Fire_009|Take 001_Fire_026
+  - first:
+      74: 7210487369152692481
+    second: Fire_009|Take 001_Fire_027
+  - first:
+      74: 5041607781931574394
+    second: Fire_009|Take 001_Fire_028
+  - first:
+      74: -1680355559738296913
+    second: Fire_009|Take 001_Fire_029
+  - first:
+      74: 4008588224399451167
+    second: Fire_009|Take 001_Fire_03
+  - first:
+      74: -1773830373636669810
+    second: Fire_009|Take 001_Fire_030
+  - first:
+      74: -5148073131490510688
+    second: Fire_009|Take 001_Fire_04
+  - first:
+      74: -6290102218176825876
+    second: Fire_009|Take 001_Fire_05
+  - first:
+      74: 4496487818325233308
+    second: Fire_009|Take 001_K07_Drone
+  - first:
+      74: 1513103060267328371
+    second: Fire_009|Take 001_Plasma
+  - first:
+      74: -8445853736690462542
+    second: Fire_009|Take 001_Plasma001
+  - first:
+      74: 4162410892526694034
+    second: Fire_009|Take 001_Plasma002
+  - first:
+      74: -1023768595156388922
+    second: Fire_009|Take 001_Plasma003
+  - first:
+      74: -4761738804389183774
+    second: Fire_009|Take 001_Plasma004
+  - first:
+      74: -4883913011786385863
+    second: Fire_009|Take 001_Plasma005
+  - first:
+      74: -898596672925127518
+    second: Fire_009|Take 001_Plasma006
+  - first:
+      74: 6968703674738482870
+    second: Fire_009|Take 001_Plasma007
+  - first:
+      74: -5562977438664911058
+    second: Fire_009|Take 001_Plasma008
+  - first:
+      74: -8485690548336633624
+    second: Fire_009|Take 001_Plasma009
+  - first:
+      74: 5051954443500133599
+    second: Fire_009|Take 001_TPhotometricLight001
+  - first:
+      74: -3457002814157781319
+    second: Fire_009|Take 001_TPhotometricLight002
+  - first:
+      74: -3096145659380792273
+    second: Fire_009|Take 001_TPhotometricLight003
+  - first:
+      74: -8423800123257210245
+    second: Fire_009|Take 001_TPhotometricLight004
+  - first:
+      74: 4592329167629329437
+    second: Fire_009|Take 001_TPhotometricLight005
+  - first:
+      74: 6826454292911878108
+    second: Fire_009|Take 001_TPhotometricLight006
+  - first:
+      74: -6118231365779944980
+    second: Fire_010|Take 001_Fire_006
+  - first:
+      74: 7981898309138900236
+    second: Fire_010|Take 001_Fire_007
+  - first:
+      74: 8843651833631233869
+    second: Fire_010|Take 001_Fire_008
+  - first:
+      74: 8078240714605308834
+    second: Fire_010|Take 001_Fire_009
+  - first:
+      74: -3068501372985111736
+    second: Fire_010|Take 001_Fire_010
+  - first:
+      74: 649469513239881368
+    second: Fire_010|Take 001_Fire_011
+  - first:
+      74: 7540460040501584986
+    second: Fire_010|Take 001_Fire_012
+  - first:
+      74: -8831390875210558121
+    second: Fire_010|Take 001_Fire_013
+  - first:
+      74: 2305051323433611855
+    second: Fire_010|Take 001_Fire_014
+  - first:
+      74: -1443464584201225797
+    second: Fire_010|Take 001_Fire_015
+  - first:
+      74: -1855839474427149673
+    second: Fire_010|Take 001_Fire_016
+  - first:
+      74: 7777533012854028273
+    second: Fire_010|Take 001_Fire_017
+  - first:
+      74: -4957995568971019108
+    second: Fire_010|Take 001_Fire_018
+  - first:
+      74: 22345255468539812
+    second: Fire_010|Take 001_Fire_019
+  - first:
+      74: -8796561367909504853
+    second: Fire_010|Take 001_Fire_020
+  - first:
+      74: 5849964305322716746
+    second: Fire_010|Take 001_Fire_021
+  - first:
+      74: -6336058933653352632
+    second: Fire_010|Take 001_Fire_022
+  - first:
+      74: 6538085227655862893
+    second: Fire_010|Take 001_Fire_023
+  - first:
+      74: 957559173770339252
+    second: Fire_010|Take 001_Fire_024
+  - first:
+      74: -940901979514652632
+    second: Fire_010|Take 001_Fire_025
+  - first:
+      74: 8085036974086891639
+    second: Fire_010|Take 001_Fire_026
+  - first:
+      74: -4736216808820427016
+    second: Fire_010|Take 001_Fire_027
+  - first:
+      74: -8096116056141313577
+    second: Fire_010|Take 001_Fire_028
+  - first:
+      74: 1986386853338219555
+    second: Fire_010|Take 001_Fire_029
+  - first:
+      74: -3791764065320432069
+    second: Fire_010|Take 001_Fire_03
+  - first:
+      74: -7103023164060014421
+    second: Fire_010|Take 001_Fire_030
+  - first:
+      74: 2272534871771860350
+    second: Fire_010|Take 001_Fire_04
+  - first:
+      74: 3088867192532450934
+    second: Fire_010|Take 001_Fire_05
+  - first:
+      74: -6232391893348957679
+    second: Fire_010|Take 001_K07_Drone
+  - first:
+      74: -552087094623017863
+    second: Fire_010|Take 001_Plasma
+  - first:
+      74: -790570007037001466
+    second: Fire_010|Take 001_Plasma001
+  - first:
+      74: -5517794712258069827
+    second: Fire_010|Take 001_Plasma002
+  - first:
+      74: -1829305260634870426
+    second: Fire_010|Take 001_Plasma003
+  - first:
+      74: -2709301476843677588
+    second: Fire_010|Take 001_Plasma004
+  - first:
+      74: -608282058243820753
+    second: Fire_010|Take 001_Plasma005
+  - first:
+      74: -5147373761195073791
+    second: Fire_010|Take 001_Plasma006
+  - first:
+      74: -3590579668106394434
+    second: Fire_010|Take 001_Plasma007
+  - first:
+      74: 53658974611189348
+    second: Fire_010|Take 001_Plasma008
+  - first:
+      74: 5767807183242353810
+    second: Fire_010|Take 001_Plasma009
+  - first:
+      74: -5405449881989160342
+    second: Fire_010|Take 001_TPhotometricLight001
+  - first:
+      74: -4783399855564917264
+    second: Fire_010|Take 001_TPhotometricLight002
+  - first:
+      74: -23781870415727111
+    second: Fire_010|Take 001_TPhotometricLight003
+  - first:
+      74: -382259745736607597
+    second: Fire_010|Take 001_TPhotometricLight004
+  - first:
+      74: -6522975555422512375
+    second: Fire_010|Take 001_TPhotometricLight005
+  - first:
+      74: -5909381494209092929
+    second: Fire_010|Take 001_TPhotometricLight006
+  - first:
+      74: -7153231759105888266
+    second: Plasma|Take 001_Fire_006
+  - first:
+      74: 8472191210094768385
+    second: Plasma|Take 001_Fire_007
+  - first:
+      74: -3408030178695682487
+    second: Plasma|Take 001_Fire_008
+  - first:
+      74: 3794944119233597493
+    second: Plasma|Take 001_Fire_009
+  - first:
+      74: 5628185566552594096
+    second: Plasma|Take 001_Fire_010
+  - first:
+      74: 2893749376702601144
+    second: Plasma|Take 001_Fire_011
+  - first:
+      74: 7792562995124054398
+    second: Plasma|Take 001_Fire_012
+  - first:
+      74: -8590803707424983632
+    second: Plasma|Take 001_Fire_013
+  - first:
+      74: 1341872196591065136
+    second: Plasma|Take 001_Fire_014
+  - first:
+      74: 6147558304706065720
+    second: Plasma|Take 001_Fire_015
+  - first:
+      74: 2719133760326354894
+    second: Plasma|Take 001_Fire_016
+  - first:
+      74: -3803406828141528681
+    second: Plasma|Take 001_Fire_017
+  - first:
+      74: -9149771340505662955
+    second: Plasma|Take 001_Fire_018
+  - first:
+      74: -7956726395836235002
+    second: Plasma|Take 001_Fire_019
+  - first:
+      74: -6475083501582872681
+    second: Plasma|Take 001_Fire_020
+  - first:
+      74: 701619672438026916
+    second: Plasma|Take 001_Fire_021
+  - first:
+      74: 7518878514491914750
+    second: Plasma|Take 001_Fire_022
+  - first:
+      74: 7092918827441695880
+    second: Plasma|Take 001_Fire_023
+  - first:
+      74: 5820863404668457174
+    second: Plasma|Take 001_Fire_024
+  - first:
+      74: 4856554368428438280
+    second: Plasma|Take 001_Fire_025
+  - first:
+      74: 6313943297703640551
+    second: Plasma|Take 001_Fire_026
+  - first:
+      74: 5845201732432893003
+    second: Plasma|Take 001_Fire_027
+  - first:
+      74: 4278917115865550469
+    second: Plasma|Take 001_Fire_028
+  - first:
+      74: 3257031754356049039
+    second: Plasma|Take 001_Fire_029
+  - first:
+      74: 2824720162180166480
+    second: Plasma|Take 001_Fire_03
+  - first:
+      74: -2783739375173296834
+    second: Plasma|Take 001_Fire_030
+  - first:
+      74: -5157995466474951779
+    second: Plasma|Take 001_Fire_04
+  - first:
+      74: -3393578238172539733
+    second: Plasma|Take 001_Fire_05
+  - first:
+      74: 2971349220197654326
+    second: Plasma|Take 001_K07_Drone
+  - first:
+      74: -1818308171660499773
+    second: Plasma|Take 001_Plasma
+  - first:
+      74: -5578536458724821104
+    second: Plasma|Take 001_Plasma001
+  - first:
+      74: -9010339875427303341
+    second: Plasma|Take 001_Plasma002
+  - first:
+      74: -51691646596027293
+    second: Plasma|Take 001_Plasma003
+  - first:
+      74: 7516505458345484749
+    second: Plasma|Take 001_Plasma004
+  - first:
+      74: -2146118219513049660
+    second: Plasma|Take 001_Plasma005
+  - first:
+      74: 6196137282517306914
+    second: Plasma|Take 001_Plasma006
+  - first:
+      74: -8677619491432119559
+    second: Plasma|Take 001_Plasma007
+  - first:
+      74: 8276769021631436917
+    second: Plasma|Take 001_Plasma008
+  - first:
+      74: 7717286418895237096
+    second: Plasma|Take 001_Plasma009
+  - first:
+      74: -111046096074774074
+    second: Plasma|Take 001_TPhotometricLight001
+  - first:
+      74: 7229744089432358564
+    second: Plasma|Take 001_TPhotometricLight002
+  - first:
+      74: -5476596487819866584
+    second: Plasma|Take 001_TPhotometricLight003
+  - first:
+      74: 81230756889638538
+    second: Plasma|Take 001_TPhotometricLight004
+  - first:
+      74: 6289484711782527851
+    second: Plasma|Take 001_TPhotometricLight005
+  - first:
+      74: -9135149526399446079
+    second: Plasma|Take 001_TPhotometricLight006
+  - first:
+      74: -3836858813447943176
+    second: Fire_04|Take 001_Fire_006
+  - first:
+      74: 6790125016926246203
+    second: Fire_04|Take 001_Fire_007
+  - first:
+      74: 4701201631611967654
+    second: Fire_04|Take 001_Fire_008
+  - first:
+      74: -5529706356606961589
+    second: Fire_04|Take 001_Fire_009
+  - first:
+      74: 2140532914024624106
+    second: Fire_04|Take 001_Fire_010
+  - first:
+      74: 8147163418308036356
+    second: Fire_04|Take 001_Fire_011
+  - first:
+      74: -4728630595897935717
+    second: Fire_04|Take 001_Fire_012
+  - first:
+      74: 6958906203018032616
+    second: Fire_04|Take 001_Fire_013
+  - first:
+      74: 1002779099791853794
+    second: Fire_04|Take 001_Fire_014
+  - first:
+      74: -3305404563166025435
+    second: Fire_04|Take 001_Fire_015
+  - first:
+      74: -8034360139300042469
+    second: Fire_04|Take 001_Fire_016
+  - first:
+      74: -5798730031196091805
+    second: Fire_04|Take 001_Fire_017
+  - first:
+      74: 4615009090295355253
+    second: Fire_04|Take 001_Fire_018
+  - first:
+      74: -7123250939606912221
+    second: Fire_04|Take 001_Fire_019
+  - first:
+      74: -1947471331262382658
+    second: Fire_04|Take 001_Fire_020
+  - first:
+      74: 2947399527271068685
+    second: Fire_04|Take 001_Fire_021
+  - first:
+      74: 7542692521012772812
+    second: Fire_04|Take 001_Fire_022
+  - first:
+      74: -3156713835987237537
+    second: Fire_04|Take 001_Fire_023
+  - first:
+      74: 6845002989205065626
+    second: Fire_04|Take 001_Fire_024
+  - first:
+      74: -8074221196696354573
+    second: Fire_04|Take 001_Fire_025
+  - first:
+      74: 122690775250210488
+    second: Fire_04|Take 001_Fire_026
+  - first:
+      74: 6546968542011065124
+    second: Fire_04|Take 001_Fire_027
+  - first:
+      74: 5307093866838464047
+    second: Fire_04|Take 001_Fire_028
+  - first:
+      74: -2319654004451477002
+    second: Fire_04|Take 001_Fire_029
+  - first:
+      74: 905250530559606930
+    second: Fire_04|Take 001_Fire_03
+  - first:
+      74: -4442099686359648921
+    second: Fire_04|Take 001_Fire_030
+  - first:
+      74: -3894719068051102600
+    second: Fire_04|Take 001_Fire_04
+  - first:
+      74: -1762167549618802220
+    second: Fire_04|Take 001_Fire_05
+  - first:
+      74: 7468659692824285332
+    second: Fire_04|Take 001_K07_Drone
+  - first:
+      74: 6885885831770515119
+    second: Fire_04|Take 001_Plasma
+  - first:
+      74: -6745789557676880159
+    second: Fire_04|Take 001_Plasma001
+  - first:
+      74: 1158125042556045484
+    second: Fire_04|Take 001_Plasma002
+  - first:
+      74: -5359629265270185299
+    second: Fire_04|Take 001_Plasma003
+  - first:
+      74: -3974877417391428627
+    second: Fire_04|Take 001_Plasma004
+  - first:
+      74: 6296118569533272549
+    second: Fire_04|Take 001_Plasma005
+  - first:
+      74: -7810596336111225547
+    second: Fire_04|Take 001_Plasma006
+  - first:
+      74: -120721731618317892
+    second: Fire_04|Take 001_Plasma007
+  - first:
+      74: -8560490372463678543
+    second: Fire_04|Take 001_Plasma008
+  - first:
+      74: -8419871868293176679
+    second: Fire_04|Take 001_Plasma009
+  - first:
+      74: -4439014314038179295
+    second: Fire_04|Take 001_TPhotometricLight001
+  - first:
+      74: -2450784683487492670
+    second: Fire_04|Take 001_TPhotometricLight002
+  - first:
+      74: 8607101585947251239
+    second: Fire_04|Take 001_TPhotometricLight003
+  - first:
+      74: -136400521793770302
+    second: Fire_04|Take 001_TPhotometricLight004
+  - first:
+      74: -7002082074153386204
+    second: Fire_04|Take 001_TPhotometricLight005
+  - first:
+      74: 3687978950873997796
+    second: Fire_04|Take 001_TPhotometricLight006
+  - first:
+      74: 3674929505050116275
+    second: Fire_05|Take 001_Fire_006
+  - first:
+      74: -3804376439531902275
+    second: Fire_05|Take 001_Fire_007
+  - first:
+      74: -228965528937273654
+    second: Fire_05|Take 001_Fire_008
+  - first:
+      74: -2358266754419018281
+    second: Fire_05|Take 001_Fire_009
+  - first:
+      74: -6399052302042298292
+    second: Fire_05|Take 001_Fire_010
+  - first:
+      74: -8208500711549667774
+    second: Fire_05|Take 001_Fire_011
+  - first:
+      74: 6561149644719214380
+    second: Fire_05|Take 001_Fire_012
+  - first:
+      74: 7201420248182499639
+    second: Fire_05|Take 001_Fire_013
+  - first:
+      74: 7320365097322035057
+    second: Fire_05|Take 001_Fire_014
+  - first:
+      74: -7877507197424934197
+    second: Fire_05|Take 001_Fire_015
+  - first:
+      74: -7028302106915268021
+    second: Fire_05|Take 001_Fire_016
+  - first:
+      74: 6099177103606182990
+    second: Fire_05|Take 001_Fire_017
+  - first:
+      74: 3540573325998328927
+    second: Fire_05|Take 001_Fire_018
+  - first:
+      74: -5849436662905373945
+    second: Fire_05|Take 001_Fire_019
+  - first:
+      74: 6853710481750345842
+    second: Fire_05|Take 001_Fire_020
+  - first:
+      74: 4616748698716203877
+    second: Fire_05|Take 001_Fire_021
+  - first:
+      74: -2044813289355481888
+    second: Fire_05|Take 001_Fire_022
+  - first:
+      74: 6574937487959631460
+    second: Fire_05|Take 001_Fire_023
+  - first:
+      74: 1690252117360372352
+    second: Fire_05|Take 001_Fire_024
+  - first:
+      74: -5502499517207359973
+    second: Fire_05|Take 001_Fire_025
+  - first:
+      74: 6887940466433665531
+    second: Fire_05|Take 001_Fire_026
+  - first:
+      74: -2358659338661083842
+    second: Fire_05|Take 001_Fire_027
+  - first:
+      74: 1740407604908652763
+    second: Fire_05|Take 001_Fire_028
+  - first:
+      74: -3057763678456124491
+    second: Fire_05|Take 001_Fire_029
+  - first:
+      74: 5529536117076712604
+    second: Fire_05|Take 001_Fire_03
+  - first:
+      74: -5796775121560628905
+    second: Fire_05|Take 001_Fire_030
+  - first:
+      74: 7028237658268639586
+    second: Fire_05|Take 001_Fire_04
+  - first:
+      74: -1917588516915715422
+    second: Fire_05|Take 001_Fire_05
+  - first:
+      74: -2406644582580060073
+    second: Fire_05|Take 001_K07_Drone
+  - first:
+      74: 5719612385033746854
+    second: Fire_05|Take 001_Plasma
+  - first:
+      74: 5352771720417498709
+    second: Fire_05|Take 001_Plasma001
+  - first:
+      74: 5297121146729023755
+    second: Fire_05|Take 001_Plasma002
+  - first:
+      74: 7381273930597921924
+    second: Fire_05|Take 001_Plasma003
+  - first:
+      74: -5550908755331273735
+    second: Fire_05|Take 001_Plasma004
+  - first:
+      74: 317703021426066888
+    second: Fire_05|Take 001_Plasma005
+  - first:
+      74: 508236084995694981
+    second: Fire_05|Take 001_Plasma006
+  - first:
+      74: -3994756331327767309
+    second: Fire_05|Take 001_Plasma007
+  - first:
+      74: -8597540818212328176
+    second: Fire_05|Take 001_Plasma008
+  - first:
+      74: 3264444635574071183
+    second: Fire_05|Take 001_Plasma009
+  - first:
+      74: -5903788298198915128
+    second: Fire_05|Take 001_TPhotometricLight001
+  - first:
+      74: -89122937759277308
+    second: Fire_05|Take 001_TPhotometricLight002
+  - first:
+      74: -3795080479453834489
+    second: Fire_05|Take 001_TPhotometricLight003
+  - first:
+      74: 1215696333997498430
+    second: Fire_05|Take 001_TPhotometricLight004
+  - first:
+      74: -7873273767544547758
+    second: Fire_05|Take 001_TPhotometricLight005
+  - first:
+      74: -4324795181072891890
+    second: Fire_05|Take 001_TPhotometricLight006
+  - first:
+      74: -8806496214792893990
+    second: Fire_03|Take 001_Fire_006
+  - first:
+      74: 9123865940286356762
+    second: Fire_03|Take 001_Fire_007
+  - first:
+      74: 4920116916370311839
+    second: Fire_03|Take 001_Fire_008
+  - first:
+      74: 9095251100578857723
+    second: Fire_03|Take 001_Fire_009
+  - first:
+      74: -5152316964116030851
+    second: Fire_03|Take 001_Fire_010
+  - first:
+      74: -4742542948996718075
+    second: Fire_03|Take 001_Fire_011
+  - first:
+      74: 6531036699083443891
+    second: Fire_03|Take 001_Fire_012
+  - first:
+      74: 9070123870096718967
+    second: Fire_03|Take 001_Fire_013
+  - first:
+      74: 3084332171826779643
+    second: Fire_03|Take 001_Fire_014
+  - first:
+      74: -1761989164375795983
+    second: Fire_03|Take 001_Fire_015
+  - first:
+      74: 3746468846734722657
+    second: Fire_03|Take 001_Fire_016
+  - first:
+      74: -7006972107824037907
+    second: Fire_03|Take 001_Fire_017
+  - first:
+      74: -4511611061285248084
+    second: Fire_03|Take 001_Fire_018
+  - first:
+      74: -4625653433949901815
+    second: Fire_03|Take 001_Fire_019
+  - first:
+      74: -6845309199333642284
+    second: Fire_03|Take 001_Fire_020
+  - first:
+      74: -754003830998813858
+    second: Fire_03|Take 001_Fire_021
+  - first:
+      74: 4244296808733745814
+    second: Fire_03|Take 001_Fire_022
+  - first:
+      74: -4379624053491832389
+    second: Fire_03|Take 001_Fire_023
+  - first:
+      74: 3475310879349814207
+    second: Fire_03|Take 001_Fire_024
+  - first:
+      74: 1667685145789260466
+    second: Fire_03|Take 001_Fire_025
+  - first:
+      74: -12566024242405730
+    second: Fire_03|Take 001_Fire_026
+  - first:
+      74: -2540067326304253815
+    second: Fire_03|Take 001_Fire_027
+  - first:
+      74: 7719861298392742463
+    second: Fire_03|Take 001_Fire_028
+  - first:
+      74: 3305229228693539572
+    second: Fire_03|Take 001_Fire_029
+  - first:
+      74: 4985026586248357222
+    second: Fire_03|Take 001_Fire_03
+  - first:
+      74: 2134492359195318386
+    second: Fire_03|Take 001_Fire_030
+  - first:
+      74: 3626839615609060722
+    second: Fire_03|Take 001_Fire_04
+  - first:
+      74: 580864529010352480
+    second: Fire_03|Take 001_Fire_05
+  - first:
+      74: -1621795754993053389
+    second: Fire_03|Take 001_K07_Drone
+  - first:
+      74: 9003250231295916869
+    second: Fire_03|Take 001_Plasma
+  - first:
+      74: 8718895114577392252
+    second: Fire_03|Take 001_Plasma001
+  - first:
+      74: -8527229102831123952
+    second: Fire_03|Take 001_Plasma002
+  - first:
+      74: -4828500339417341065
+    second: Fire_03|Take 001_Plasma003
+  - first:
+      74: -7317347609865388387
+    second: Fire_03|Take 001_Plasma004
+  - first:
+      74: -3365286867497770525
+    second: Fire_03|Take 001_Plasma005
+  - first:
+      74: 3296856949439548245
+    second: Fire_03|Take 001_Plasma006
+  - first:
+      74: 3547532207107862890
+    second: Fire_03|Take 001_Plasma007
+  - first:
+      74: 1392135349123359359
+    second: Fire_03|Take 001_Plasma008
+  - first:
+      74: 2021908253628170386
+    second: Fire_03|Take 001_Plasma009
+  - first:
+      74: 3973489734755169973
+    second: Fire_03|Take 001_TPhotometricLight001
+  - first:
+      74: 664036993405738204
+    second: Fire_03|Take 001_TPhotometricLight002
+  - first:
+      74: 3672933028797814360
+    second: Fire_03|Take 001_TPhotometricLight003
+  - first:
+      74: 3356761525596909909
+    second: Fire_03|Take 001_TPhotometricLight004
+  - first:
+      74: -1928317237315172264
+    second: Fire_03|Take 001_TPhotometricLight005
+  - first:
+      74: 2066421740753091105
+    second: Fire_03|Take 001_TPhotometricLight006
+  - first:
+      74: 5959820582187258179
+    second: Plasma001|Take 001_Fire_006
+  - first:
+      74: 8147611318565233707
+    second: Plasma001|Take 001_Fire_007
+  - first:
+      74: -1381416232510595300
+    second: Plasma001|Take 001_Fire_008
+  - first:
+      74: -3076540459826317100
+    second: Plasma001|Take 001_Fire_009
+  - first:
+      74: 2568429298039596707
+    second: Plasma001|Take 001_Fire_010
+  - first:
+      74: -6349013520266935916
+    second: Plasma001|Take 001_Fire_011
+  - first:
+      74: 3943656725297750787
+    second: Plasma001|Take 001_Fire_012
+  - first:
+      74: 1284964603901831257
+    second: Plasma001|Take 001_Fire_013
+  - first:
+      74: 5267675806629613679
+    second: Plasma001|Take 001_Fire_014
+  - first:
+      74: -2661068871054774710
+    second: Plasma001|Take 001_Fire_015
+  - first:
+      74: 4073229800522992837
+    second: Plasma001|Take 001_Fire_016
+  - first:
+      74: -3485836473128201551
+    second: Plasma001|Take 001_Fire_017
+  - first:
+      74: 3745775959990835920
+    second: Plasma001|Take 001_Fire_018
+  - first:
+      74: 1585104473469748956
+    second: Plasma001|Take 001_Fire_019
+  - first:
+      74: -2418767985020952191
+    second: Plasma001|Take 001_Fire_020
+  - first:
+      74: 5488212982364425705
+    second: Plasma001|Take 001_Fire_021
+  - first:
+      74: 1566658597429599742
+    second: Plasma001|Take 001_Fire_022
+  - first:
+      74: 7411221418407941274
+    second: Plasma001|Take 001_Fire_023
+  - first:
+      74: 1210793956580675135
+    second: Plasma001|Take 001_Fire_024
+  - first:
+      74: -5617076050950448805
+    second: Plasma001|Take 001_Fire_025
+  - first:
+      74: 1099455560813872443
+    second: Plasma001|Take 001_Fire_026
+  - first:
+      74: -4523083162603257540
+    second: Plasma001|Take 001_Fire_027
+  - first:
+      74: 1622936474513472111
+    second: Plasma001|Take 001_Fire_028
+  - first:
+      74: 6078942733081237962
+    second: Plasma001|Take 001_Fire_029
+  - first:
+      74: -6877264666682666635
+    second: Plasma001|Take 001_Fire_03
+  - first:
+      74: 3143837542244395099
+    second: Plasma001|Take 001_Fire_030
+  - first:
+      74: -4979961394983467929
+    second: Plasma001|Take 001_Fire_04
+  - first:
+      74: 8986754516059415592
+    second: Plasma001|Take 001_Fire_05
+  - first:
+      74: -5940401732782530814
+    second: Plasma001|Take 001_K07_Drone
+  - first:
+      74: 6319041323069471627
+    second: Plasma001|Take 001_Plasma
+  - first:
+      74: -3259337913064144886
+    second: Plasma001|Take 001_Plasma001
+  - first:
+      74: -8390844516538488475
+    second: Plasma001|Take 001_Plasma002
+  - first:
+      74: 634982562170406848
+    second: Plasma001|Take 001_Plasma003
+  - first:
+      74: 5719668922364017602
+    second: Plasma001|Take 001_Plasma004
+  - first:
+      74: -3290988648649421405
+    second: Plasma001|Take 001_Plasma005
+  - first:
+      74: 6677600189850480165
+    second: Plasma001|Take 001_Plasma006
+  - first:
+      74: 6520080238214035584
+    second: Plasma001|Take 001_Plasma007
+  - first:
+      74: 6310327147309542439
+    second: Plasma001|Take 001_Plasma008
+  - first:
+      74: 6474871078220497229
+    second: Plasma001|Take 001_Plasma009
+  - first:
+      74: -4319827178962277791
+    second: Plasma001|Take 001_TPhotometricLight001
+  - first:
+      74: -6119050372854502223
+    second: Plasma001|Take 001_TPhotometricLight002
+  - first:
+      74: -1642082281686525887
+    second: Plasma001|Take 001_TPhotometricLight003
+  - first:
+      74: 9065632253515644932
+    second: Plasma001|Take 001_TPhotometricLight004
+  - first:
+      74: 5481018245080009976
+    second: Plasma001|Take 001_TPhotometricLight005
+  - first:
+      74: 5378373381051140667
+    second: Plasma001|Take 001_TPhotometricLight006
+  - first:
+      74: -4561975237199190868
+    second: Fire_006|Take 001_Fire_006
+  - first:
+      74: -3665159692956900820
+    second: Fire_006|Take 001_Fire_007
+  - first:
+      74: 9185298501814791372
+    second: Fire_006|Take 001_Fire_008
+  - first:
+      74: -1228486229887996261
+    second: Fire_006|Take 001_Fire_009
+  - first:
+      74: 3975461548271050827
+    second: Fire_006|Take 001_Fire_010
+  - first:
+      74: -3915565543489208700
+    second: Fire_006|Take 001_Fire_011
+  - first:
+      74: -8041553971222643354
+    second: Fire_006|Take 001_Fire_012
+  - first:
+      74: -6474007434258602721
+    second: Fire_006|Take 001_Fire_013
+  - first:
+      74: -4258936162221582751
+    second: Fire_006|Take 001_Fire_014
+  - first:
+      74: -2997947283017457563
+    second: Fire_006|Take 001_Fire_015
+  - first:
+      74: -6380843580825304372
+    second: Fire_006|Take 001_Fire_016
+  - first:
+      74: 6679498923638965768
+    second: Fire_006|Take 001_Fire_017
+  - first:
+      74: -3533875302766139550
+    second: Fire_006|Take 001_Fire_018
+  - first:
+      74: -5028623024270149748
+    second: Fire_006|Take 001_Fire_019
+  - first:
+      74: -8061939157867627710
+    second: Fire_006|Take 001_Fire_020
+  - first:
+      74: -986916768460542411
+    second: Fire_006|Take 001_Fire_021
+  - first:
+      74: 1890504859278613673
+    second: Fire_006|Take 001_Fire_022
+  - first:
+      74: 580972736466478224
+    second: Fire_006|Take 001_Fire_023
+  - first:
+      74: 6786105188655644251
+    second: Fire_006|Take 001_Fire_024
+  - first:
+      74: 4215644562653802722
+    second: Fire_006|Take 001_Fire_025
+  - first:
+      74: -5479478368596656175
+    second: Fire_006|Take 001_Fire_026
+  - first:
+      74: -7794347986965414758
+    second: Fire_006|Take 001_Fire_027
+  - first:
+      74: 6004766745185554129
+    second: Fire_006|Take 001_Fire_028
+  - first:
+      74: -940370008086051149
+    second: Fire_006|Take 001_Fire_029
+  - first:
+      74: 5450824022032086617
+    second: Fire_006|Take 001_Fire_03
+  - first:
+      74: 1496888550864545132
+    second: Fire_006|Take 001_Fire_030
+  - first:
+      74: -4060239627147854811
+    second: Fire_006|Take 001_Fire_04
+  - first:
+      74: 8938014614662262378
+    second: Fire_006|Take 001_Fire_05
+  - first:
+      74: -1259717496074746645
+    second: Fire_006|Take 001_K07_Drone
+  - first:
+      74: 4132520905328208805
+    second: Fire_006|Take 001_Plasma
+  - first:
+      74: 5850441492590709686
+    second: Fire_006|Take 001_Plasma001
+  - first:
+      74: 6039806910813018326
+    second: Fire_006|Take 001_Plasma002
+  - first:
+      74: 722494024109785296
+    second: Fire_006|Take 001_Plasma003
+  - first:
+      74: 8252978554509612585
+    second: Fire_006|Take 001_Plasma004
+  - first:
+      74: 3415864665074618671
+    second: Fire_006|Take 001_Plasma005
+  - first:
+      74: -7548400619433448131
+    second: Fire_006|Take 001_Plasma006
+  - first:
+      74: -6260558643971741739
+    second: Fire_006|Take 001_Plasma007
+  - first:
+      74: -7746537070662835837
+    second: Fire_006|Take 001_Plasma008
+  - first:
+      74: -6039527458930656743
+    second: Fire_006|Take 001_Plasma009
+  - first:
+      74: 1731911433575265051
+    second: Fire_006|Take 001_TPhotometricLight001
+  - first:
+      74: -8564379435718965428
+    second: Fire_006|Take 001_TPhotometricLight002
+  - first:
+      74: 3287890865111428357
+    second: Fire_006|Take 001_TPhotometricLight003
+  - first:
+      74: 7360539338560322092
+    second: Fire_006|Take 001_TPhotometricLight004
+  - first:
+      74: 8617653807392519284
+    second: Fire_006|Take 001_TPhotometricLight005
+  - first:
+      74: 8500351716671540026
+    second: Fire_006|Take 001_TPhotometricLight006
+  - first:
+      74: -8739143335889803068
+    second: Fire_007|Take 001_Fire_006
+  - first:
+      74: -7797977042318312076
+    second: Fire_007|Take 001_Fire_007
+  - first:
+      74: -1197704001135448022
+    second: Fire_007|Take 001_Fire_008
+  - first:
+      74: 2241489889930425346
+    second: Fire_007|Take 001_Fire_009
+  - first:
+      74: 7371509178394460663
+    second: Fire_007|Take 001_Fire_010
+  - first:
+      74: 6993951799793581956
+    second: Fire_007|Take 001_Fire_011
+  - first:
+      74: -4365715106807316840
+    second: Fire_007|Take 001_Fire_012
+  - first:
+      74: -6100117827687030940
+    second: Fire_007|Take 001_Fire_013
+  - first:
+      74: -514785836685259306
+    second: Fire_007|Take 001_Fire_014
+  - first:
+      74: 4617963734706790723
+    second: Fire_007|Take 001_Fire_015
+  - first:
+      74: -7414351946198628906
+    second: Fire_007|Take 001_Fire_016
+  - first:
+      74: 344218732808796700
+    second: Fire_007|Take 001_Fire_017
+  - first:
+      74: -2451325368902175983
+    second: Fire_007|Take 001_Fire_018
+  - first:
+      74: -2714392195852194393
+    second: Fire_007|Take 001_Fire_019
+  - first:
+      74: 5703603683543026497
+    second: Fire_007|Take 001_Fire_020
+  - first:
+      74: 8195532331539102910
+    second: Fire_007|Take 001_Fire_021
+  - first:
+      74: 15441982414932248
+    second: Fire_007|Take 001_Fire_022
+  - first:
+      74: -1336668049809753188
+    second: Fire_007|Take 001_Fire_023
+  - first:
+      74: 5886866147395028042
+    second: Fire_007|Take 001_Fire_024
+  - first:
+      74: -1465679755534630574
+    second: Fire_007|Take 001_Fire_025
+  - first:
+      74: 6196385266876724462
+    second: Fire_007|Take 001_Fire_026
+  - first:
+      74: 7822371806600598839
+    second: Fire_007|Take 001_Fire_027
+  - first:
+      74: 3222203294678226169
+    second: Fire_007|Take 001_Fire_028
+  - first:
+      74: -2246458924116158850
+    second: Fire_007|Take 001_Fire_029
+  - first:
+      74: 4049131772722532215
+    second: Fire_007|Take 001_Fire_03
+  - first:
+      74: -8798197074912990549
+    second: Fire_007|Take 001_Fire_030
+  - first:
+      74: 9155392303234622745
+    second: Fire_007|Take 001_Fire_04
+  - first:
+      74: 124146048221289106
+    second: Fire_007|Take 001_Fire_05
+  - first:
+      74: 9056165350086129936
+    second: Fire_007|Take 001_K07_Drone
+  - first:
+      74: 3723387035308420524
+    second: Fire_007|Take 001_Plasma
+  - first:
+      74: 8280562941212676529
+    second: Fire_007|Take 001_Plasma001
+  - first:
+      74: -7976466317317555882
+    second: Fire_007|Take 001_Plasma002
+  - first:
+      74: 370094143714522913
+    second: Fire_007|Take 001_Plasma003
+  - first:
+      74: 1013696742166259705
+    second: Fire_007|Take 001_Plasma004
+  - first:
+      74: 4274384592684559778
+    second: Fire_007|Take 001_Plasma005
+  - first:
+      74: 8938252508303975679
+    second: Fire_007|Take 001_Plasma006
+  - first:
+      74: 2085069626085295231
+    second: Fire_007|Take 001_Plasma007
+  - first:
+      74: -3253874252757406086
+    second: Fire_007|Take 001_Plasma008
+  - first:
+      74: 6574163485931936165
+    second: Fire_007|Take 001_Plasma009
+  - first:
+      74: 7862939875543661474
+    second: Fire_007|Take 001_TPhotometricLight001
+  - first:
+      74: -497766436113435240
+    second: Fire_007|Take 001_TPhotometricLight002
+  - first:
+      74: 8732187663508029591
+    second: Fire_007|Take 001_TPhotometricLight003
+  - first:
+      74: 4993459257918780324
+    second: Fire_007|Take 001_TPhotometricLight004
+  - first:
+      74: 4003087824110234571
+    second: Fire_007|Take 001_TPhotometricLight005
+  - first:
+      74: 886983321019882121
+    second: Fire_007|Take 001_TPhotometricLight006
+  - first:
+      74: 6258916690043311752
+    second: Plasma008|Take 001_Fire_006
+  - first:
+      74: 8810956376888738162
+    second: Plasma008|Take 001_Fire_007
+  - first:
+      74: 172963935829185622
+    second: Plasma008|Take 001_Fire_008
+  - first:
+      74: 4078069737215874576
+    second: Plasma008|Take 001_Fire_009
+  - first:
+      74: -8967609304108993479
+    second: Plasma008|Take 001_Fire_010
+  - first:
+      74: -260828158673522625
+    second: Plasma008|Take 001_Fire_011
+  - first:
+      74: -8842231668274999955
+    second: Plasma008|Take 001_Fire_012
+  - first:
+      74: -5379698445027514469
+    second: Plasma008|Take 001_Fire_013
+  - first:
+      74: -6794447004172465924
+    second: Plasma008|Take 001_Fire_014
+  - first:
+      74: 7061543574897297145
+    second: Plasma008|Take 001_Fire_015
+  - first:
+      74: -5601462231407873865
+    second: Plasma008|Take 001_Fire_016
+  - first:
+      74: -7048992135577263145
+    second: Plasma008|Take 001_Fire_017
+  - first:
+      74: 5265851126795128532
+    second: Plasma008|Take 001_Fire_018
+  - first:
+      74: -6472239608082487113
+    second: Plasma008|Take 001_Fire_019
+  - first:
+      74: -2398932928436029653
+    second: Plasma008|Take 001_Fire_020
+  - first:
+      74: -807189543455756245
+    second: Plasma008|Take 001_Fire_021
+  - first:
+      74: -2296040888845372647
+    second: Plasma008|Take 001_Fire_022
+  - first:
+      74: 3016750358250112119
+    second: Plasma008|Take 001_Fire_023
+  - first:
+      74: -632628053067638163
+    second: Plasma008|Take 001_Fire_024
+  - first:
+      74: -50434051119033775
+    second: Plasma008|Take 001_Fire_025
+  - first:
+      74: -6745090449681202952
+    second: Plasma008|Take 001_Fire_026
+  - first:
+      74: 6257880428573665445
+    second: Plasma008|Take 001_Fire_027
+  - first:
+      74: 8609621459231601499
+    second: Plasma008|Take 001_Fire_028
+  - first:
+      74: 2319240451816822708
+    second: Plasma008|Take 001_Fire_029
+  - first:
+      74: 7540976392214833811
+    second: Plasma008|Take 001_Fire_03
+  - first:
+      74: -6786699669549345204
+    second: Plasma008|Take 001_Fire_030
+  - first:
+      74: -6082045048243640688
+    second: Plasma008|Take 001_Fire_04
+  - first:
+      74: -4947915161794745582
+    second: Plasma008|Take 001_Fire_05
+  - first:
+      74: 5191541406923249780
+    second: Plasma008|Take 001_K07_Drone
+  - first:
+      74: 9043894922938024872
+    second: Plasma008|Take 001_Plasma
+  - first:
+      74: 1374426979839495879
+    second: Plasma008|Take 001_Plasma001
+  - first:
+      74: 8926880777645396215
+    second: Plasma008|Take 001_Plasma002
+  - first:
+      74: -6372930967020238585
+    second: Plasma008|Take 001_Plasma003
+  - first:
+      74: 8716448083719539945
+    second: Plasma008|Take 001_Plasma004
+  - first:
+      74: -3381241076005491941
+    second: Plasma008|Take 001_Plasma005
+  - first:
+      74: -28314856754147395
+    second: Plasma008|Take 001_Plasma006
+  - first:
+      74: -6827819507738628942
+    second: Plasma008|Take 001_Plasma007
+  - first:
+      74: 8545739021832293582
+    second: Plasma008|Take 001_Plasma008
+  - first:
+      74: -731373272836615507
+    second: Plasma008|Take 001_Plasma009
+  - first:
+      74: -6183307620628090440
+    second: Plasma008|Take 001_TPhotometricLight001
+  - first:
+      74: -6599922219727391589
+    second: Plasma008|Take 001_TPhotometricLight002
+  - first:
+      74: 9176171578377464050
+    second: Plasma008|Take 001_TPhotometricLight003
+  - first:
+      74: -9092523335501092927
+    second: Plasma008|Take 001_TPhotometricLight004
+  - first:
+      74: -4077637269712607781
+    second: Plasma008|Take 001_TPhotometricLight005
+  - first:
+      74: 221593771607243352
+    second: Plasma008|Take 001_TPhotometricLight006
+  - first:
+      74: 4148960406226590513
+    second: Fire_028|Take 001_Fire_006
+  - first:
+      74: -3459462218625698259
+    second: Fire_028|Take 001_Fire_007
+  - first:
+      74: 108134918753457600
+    second: Fire_028|Take 001_Fire_008
+  - first:
+      74: 7218367979023021848
+    second: Fire_028|Take 001_Fire_009
+  - first:
+      74: 6469212807089226351
+    second: Fire_028|Take 001_Fire_010
+  - first:
+      74: -1032433851067389209
+    second: Fire_028|Take 001_Fire_011
+  - first:
+      74: -7676290658598754294
+    second: Fire_028|Take 001_Fire_012
+  - first:
+      74: -6360485501011616326
+    second: Fire_028|Take 001_Fire_013
+  - first:
+      74: 2172482155469470797
+    second: Fire_028|Take 001_Fire_014
+  - first:
+      74: 1153848785117479532
+    second: Fire_028|Take 001_Fire_015
+  - first:
+      74: -6739154141027201013
+    second: Fire_028|Take 001_Fire_016
+  - first:
+      74: 4524891436835277906
+    second: Fire_028|Take 001_Fire_017
+  - first:
+      74: 7696623720643506571
+    second: Fire_028|Take 001_Fire_018
+  - first:
+      74: -1602494611058627560
+    second: Fire_028|Take 001_Fire_019
+  - first:
+      74: -8660433669275607325
+    second: Fire_028|Take 001_Fire_020
+  - first:
+      74: -3299996290397667736
+    second: Fire_028|Take 001_Fire_021
+  - first:
+      74: -2883181412549885951
+    second: Fire_028|Take 001_Fire_022
+  - first:
+      74: 6787527245427070505
+    second: Fire_028|Take 001_Fire_023
+  - first:
+      74: 4225543694706976595
+    second: Fire_028|Take 001_Fire_024
+  - first:
+      74: 554421237939082129
+    second: Fire_028|Take 001_Fire_025
+  - first:
+      74: -3987517670803408238
+    second: Fire_028|Take 001_Fire_026
+  - first:
+      74: 2111337711695801990
+    second: Fire_028|Take 001_Fire_027
+  - first:
+      74: 8663999877349897423
+    second: Fire_028|Take 001_Fire_028
+  - first:
+      74: 2754795159962427997
+    second: Fire_028|Take 001_Fire_029
+  - first:
+      74: -4402468960121831340
+    second: Fire_028|Take 001_Fire_03
+  - first:
+      74: 1206421390848466471
+    second: Fire_028|Take 001_Fire_030
+  - first:
+      74: 5351326899153119459
+    second: Fire_028|Take 001_Fire_04
+  - first:
+      74: -2357098134885068504
+    second: Fire_028|Take 001_Fire_05
+  - first:
+      74: 8786257609861265190
+    second: Fire_028|Take 001_K07_Drone
+  - first:
+      74: 2695095648046486143
+    second: Fire_028|Take 001_Plasma
+  - first:
+      74: 8843937695294452229
+    second: Fire_028|Take 001_Plasma001
+  - first:
+      74: -3266259524453388277
+    second: Fire_028|Take 001_Plasma002
+  - first:
+      74: -3508722180970212015
+    second: Fire_028|Take 001_Plasma003
+  - first:
+      74: 3523842362546119867
+    second: Fire_028|Take 001_Plasma004
+  - first:
+      74: -9047569335718801292
+    second: Fire_028|Take 001_Plasma005
+  - first:
+      74: 4134678750588894515
+    second: Fire_028|Take 001_Plasma006
+  - first:
+      74: 647706187909496426
+    second: Fire_028|Take 001_Plasma007
+  - first:
+      74: -5321116020421686094
+    second: Fire_028|Take 001_Plasma008
+  - first:
+      74: 3326369749899299606
+    second: Fire_028|Take 001_Plasma009
+  - first:
+      74: 3124156601871844273
+    second: Fire_028|Take 001_TPhotometricLight001
+  - first:
+      74: 4662977415686454268
+    second: Fire_028|Take 001_TPhotometricLight002
+  - first:
+      74: 8170103190356330303
+    second: Fire_028|Take 001_TPhotometricLight003
+  - first:
+      74: -2636497723364744507
+    second: Fire_028|Take 001_TPhotometricLight004
+  - first:
+      74: -2830520088579807058
+    second: Fire_028|Take 001_TPhotometricLight005
+  - first:
+      74: 5100346206815326102
+    second: Fire_028|Take 001_TPhotometricLight006
+  - first:
+      74: 4988747056776120180
+    second: Fire_029|Take 001_Fire_006
+  - first:
+      74: -354611310089241979
+    second: Fire_029|Take 001_Fire_007
+  - first:
+      74: 4674580476204059094
+    second: Fire_029|Take 001_Fire_008
+  - first:
+      74: 7139856400926405487
+    second: Fire_029|Take 001_Fire_009
+  - first:
+      74: -8579673249900130050
+    second: Fire_029|Take 001_Fire_010
+  - first:
+      74: 1414861438751725587
+    second: Fire_029|Take 001_Fire_011
+  - first:
+      74: -218535852488036477
+    second: Fire_029|Take 001_Fire_012
+  - first:
+      74: -1927451711795645511
+    second: Fire_029|Take 001_Fire_013
+  - first:
+      74: -488972101743461581
+    second: Fire_029|Take 001_Fire_014
+  - first:
+      74: 1515274869049039160
+    second: Fire_029|Take 001_Fire_015
+  - first:
+      74: 6850303281427597076
+    second: Fire_029|Take 001_Fire_016
+  - first:
+      74: 8234207520987594022
+    second: Fire_029|Take 001_Fire_017
+  - first:
+      74: -8186972992159685904
+    second: Fire_029|Take 001_Fire_018
+  - first:
+      74: 9009731980458623324
+    second: Fire_029|Take 001_Fire_019
+  - first:
+      74: 6616139082183780274
+    second: Fire_029|Take 001_Fire_020
+  - first:
+      74: -7003483793938042699
+    second: Fire_029|Take 001_Fire_021
+  - first:
+      74: -2025702194609723408
+    second: Fire_029|Take 001_Fire_022
+  - first:
+      74: 7436256869731385429
+    second: Fire_029|Take 001_Fire_023
+  - first:
+      74: 562686392260812875
+    second: Fire_029|Take 001_Fire_024
+  - first:
+      74: -5570729337178575315
+    second: Fire_029|Take 001_Fire_025
+  - first:
+      74: -6629224182639341841
+    second: Fire_029|Take 001_Fire_026
+  - first:
+      74: 6713392378157395930
+    second: Fire_029|Take 001_Fire_027
+  - first:
+      74: -7378398612669967424
+    second: Fire_029|Take 001_Fire_028
+  - first:
+      74: -1733306239667408962
+    second: Fire_029|Take 001_Fire_029
+  - first:
+      74: 7238068033568497192
+    second: Fire_029|Take 001_Fire_03
+  - first:
+      74: -1416082801405175984
+    second: Fire_029|Take 001_Fire_030
+  - first:
+      74: 5071330411874748448
+    second: Fire_029|Take 001_Fire_04
+  - first:
+      74: 3918925322778584466
+    second: Fire_029|Take 001_Fire_05
+  - first:
+      74: -7784470310949040612
+    second: Fire_029|Take 001_K07_Drone
+  - first:
+      74: -1152559172130277127
+    second: Fire_029|Take 001_Plasma
+  - first:
+      74: -524734161236927771
+    second: Fire_029|Take 001_Plasma001
+  - first:
+      74: -5052546865722537787
+    second: Fire_029|Take 001_Plasma002
+  - first:
+      74: -4348923719813807562
+    second: Fire_029|Take 001_Plasma003
+  - first:
+      74: 2518526662993285995
+    second: Fire_029|Take 001_Plasma004
+  - first:
+      74: 2871948370929826097
+    second: Fire_029|Take 001_Plasma005
+  - first:
+      74: -3813026123296942381
+    second: Fire_029|Take 001_Plasma006
+  - first:
+      74: 8889310200564551319
+    second: Fire_029|Take 001_Plasma007
+  - first:
+      74: -6036982113592943
+    second: Fire_029|Take 001_Plasma008
+  - first:
+      74: 4782443985304539286
+    second: Fire_029|Take 001_Plasma009
+  - first:
+      74: 2769023896464531615
+    second: Fire_029|Take 001_TPhotometricLight001
+  - first:
+      74: -5518688192476922272
+    second: Fire_029|Take 001_TPhotometricLight002
+  - first:
+      74: 6566232169758343950
+    second: Fire_029|Take 001_TPhotometricLight003
+  - first:
+      74: 4685806058784575165
+    second: Fire_029|Take 001_TPhotometricLight004
+  - first:
+      74: -3116014300429273827
+    second: Fire_029|Take 001_TPhotometricLight005
+  - first:
+      74: 3383809334025125196
+    second: Fire_029|Take 001_TPhotometricLight006
+  - first:
+      74: -2785865399079706320
+    second: Fire_030|Take 001_Fire_006
+  - first:
+      74: 5215200611502782000
+    second: Fire_030|Take 001_Fire_007
+  - first:
+      74: 3851212061996087117
+    second: Fire_030|Take 001_Fire_008
+  - first:
+      74: 6368317970697976189
+    second: Fire_030|Take 001_Fire_009
+  - first:
+      74: 2067099854894612446
+    second: Fire_030|Take 001_Fire_010
+  - first:
+      74: -2297296895648006330
+    second: Fire_030|Take 001_Fire_011
+  - first:
+      74: 6418690762814368704
+    second: Fire_030|Take 001_Fire_012
+  - first:
+      74: 5021628933780683153
+    second: Fire_030|Take 001_Fire_013
+  - first:
+      74: 7605179263102099711
+    second: Fire_030|Take 001_Fire_014
+  - first:
+      74: 8079108570718391610
+    second: Fire_030|Take 001_Fire_015
+  - first:
+      74: 8116828891342926388
+    second: Fire_030|Take 001_Fire_016
+  - first:
+      74: 1791068467487512694
+    second: Fire_030|Take 001_Fire_017
+  - first:
+      74: -7456100817506485473
+    second: Fire_030|Take 001_Fire_018
+  - first:
+      74: -3339759163834034182
+    second: Fire_030|Take 001_Fire_019
+  - first:
+      74: -7849245660575762149
+    second: Fire_030|Take 001_Fire_020
+  - first:
+      74: 7414141190450477114
+    second: Fire_030|Take 001_Fire_021
+  - first:
+      74: -8760862949084218009
+    second: Fire_030|Take 001_Fire_022
+  - first:
+      74: 5916383080886063802
+    second: Fire_030|Take 001_Fire_023
+  - first:
+      74: 2668586986678159748
+    second: Fire_030|Take 001_Fire_024
+  - first:
+      74: 2514716744182661002
+    second: Fire_030|Take 001_Fire_025
+  - first:
+      74: -49360040638255164
+    second: Fire_030|Take 001_Fire_026
+  - first:
+      74: -3815897939778446280
+    second: Fire_030|Take 001_Fire_027
+  - first:
+      74: -2284307567842229458
+    second: Fire_030|Take 001_Fire_028
+  - first:
+      74: -5587428635126495814
+    second: Fire_030|Take 001_Fire_029
+  - first:
+      74: 1406398440886757662
+    second: Fire_030|Take 001_Fire_03
+  - first:
+      74: -5570366819191559647
+    second: Fire_030|Take 001_Fire_030
+  - first:
+      74: -515111762948718994
+    second: Fire_030|Take 001_Fire_04
+  - first:
+      74: 2661043982888822258
+    second: Fire_030|Take 001_Fire_05
+  - first:
+      74: 3859375046452362312
+    second: Fire_030|Take 001_K07_Drone
+  - first:
+      74: -7263931564843030864
+    second: Fire_030|Take 001_Plasma
+  - first:
+      74: 2947597585088810262
+    second: Fire_030|Take 001_Plasma001
+  - first:
+      74: 6142728867884441903
+    second: Fire_030|Take 001_Plasma002
+  - first:
+      74: 3057561676811164197
+    second: Fire_030|Take 001_Plasma003
+  - first:
+      74: -5974834106220228788
+    second: Fire_030|Take 001_Plasma004
+  - first:
+      74: -8989247174768524852
+    second: Fire_030|Take 001_Plasma005
+  - first:
+      74: -8387909630365396956
+    second: Fire_030|Take 001_Plasma006
+  - first:
+      74: -1132505843512888620
+    second: Fire_030|Take 001_Plasma007
+  - first:
+      74: -4854236464756246619
+    second: Fire_030|Take 001_Plasma008
+  - first:
+      74: -3758677933980312452
+    second: Fire_030|Take 001_Plasma009
+  - first:
+      74: 3185833041996444501
+    second: Fire_030|Take 001_TPhotometricLight001
+  - first:
+      74: -2576163917251269888
+    second: Fire_030|Take 001_TPhotometricLight002
+  - first:
+      74: 7786642606683491794
+    second: Fire_030|Take 001_TPhotometricLight003
+  - first:
+      74: 4966741641471328708
+    second: Fire_030|Take 001_TPhotometricLight004
+  - first:
+      74: -816303899549925685
+    second: Fire_030|Take 001_TPhotometricLight005
+  - first:
+      74: 6920035411266674285
+    second: Fire_030|Take 001_TPhotometricLight006
+  - first:
+      74: -7350830754478630070
+    second: Plasma009|Take 001_Fire_006
+  - first:
+      74: -7006864311682143672
+    second: Plasma009|Take 001_Fire_007
+  - first:
+      74: -7240053348566696178
+    second: Plasma009|Take 001_Fire_008
+  - first:
+      74: -4528912331857273423
+    second: Plasma009|Take 001_Fire_009
+  - first:
+      74: 1035753725535642969
+    second: Plasma009|Take 001_Fire_010
+  - first:
+      74: -1502333026924525436
+    second: Plasma009|Take 001_Fire_011
+  - first:
+      74: -4494668774881532055
+    second: Plasma009|Take 001_Fire_012
+  - first:
+      74: 5009040888558255125
+    second: Plasma009|Take 001_Fire_013
+  - first:
+      74: 7863223229713727159
+    second: Plasma009|Take 001_Fire_014
+  - first:
+      74: 1556656238083360071
+    second: Plasma009|Take 001_Fire_015
+  - first:
+      74: -405660173058180307
+    second: Plasma009|Take 001_Fire_016
+  - first:
+      74: 8799060529007876873
+    second: Plasma009|Take 001_Fire_017
+  - first:
+      74: -272053397742820282
+    second: Plasma009|Take 001_Fire_018
+  - first:
+      74: 8602793844570724286
+    second: Plasma009|Take 001_Fire_019
+  - first:
+      74: 9176631120770668473
+    second: Plasma009|Take 001_Fire_020
+  - first:
+      74: 8126151081385834808
+    second: Plasma009|Take 001_Fire_021
+  - first:
+      74: -8961334211957833030
+    second: Plasma009|Take 001_Fire_022
+  - first:
+      74: -7379994382948808225
+    second: Plasma009|Take 001_Fire_023
+  - first:
+      74: 8795349152670204875
+    second: Plasma009|Take 001_Fire_024
+  - first:
+      74: 8927110339137092350
+    second: Plasma009|Take 001_Fire_025
+  - first:
+      74: -7203396108854788937
+    second: Plasma009|Take 001_Fire_026
+  - first:
+      74: 1783042194817562661
+    second: Plasma009|Take 001_Fire_027
+  - first:
+      74: 5038779929851343333
+    second: Plasma009|Take 001_Fire_028
+  - first:
+      74: 4182821910273155538
+    second: Plasma009|Take 001_Fire_029
+  - first:
+      74: -6102530893800399166
+    second: Plasma009|Take 001_Fire_03
+  - first:
+      74: -24644802268073131
+    second: Plasma009|Take 001_Fire_030
+  - first:
+      74: -43644372223929042
+    second: Plasma009|Take 001_Fire_04
+  - first:
+      74: -6773797532346177741
+    second: Plasma009|Take 001_Fire_05
+  - first:
+      74: 7828377707737251759
+    second: Plasma009|Take 001_K07_Drone
+  - first:
+      74: 968893148062379348
+    second: Plasma009|Take 001_Plasma
+  - first:
+      74: 5477347146052929971
+    second: Plasma009|Take 001_Plasma001
+  - first:
+      74: -7817214525930263618
+    second: Plasma009|Take 001_Plasma002
+  - first:
+      74: -9008762186849400404
+    second: Plasma009|Take 001_Plasma003
+  - first:
+      74: 6836253641872397446
+    second: Plasma009|Take 001_Plasma004
+  - first:
+      74: -910814675826905901
+    second: Plasma009|Take 001_Plasma005
+  - first:
+      74: -3987374289202000092
+    second: Plasma009|Take 001_Plasma006
+  - first:
+      74: 2974861766743524276
+    second: Plasma009|Take 001_Plasma007
+  - first:
+      74: 4775504438780021289
+    second: Plasma009|Take 001_Plasma008
+  - first:
+      74: 4582662847989666652
+    second: Plasma009|Take 001_Plasma009
+  - first:
+      74: 3247854843524816579
+    second: Plasma009|Take 001_TPhotometricLight001
+  - first:
+      74: 3024854809118274685
+    second: Plasma009|Take 001_TPhotometricLight002
+  - first:
+      74: -5442180171335744408
+    second: Plasma009|Take 001_TPhotometricLight003
+  - first:
+      74: 7030559653756508814
+    second: Plasma009|Take 001_TPhotometricLight004
+  - first:
+      74: -7558591524481297328
+    second: Plasma009|Take 001_TPhotometricLight005
+  - first:
+      74: 7715824566631372939
+    second: Plasma009|Take 001_TPhotometricLight006
+  - first:
+      74: -4642815430865071161
+    second: Fire_025|Take 001_Fire_006
+  - first:
+      74: 5077888708968494224
+    second: Fire_025|Take 001_Fire_007
+  - first:
+      74: -3823665107259782330
+    second: Fire_025|Take 001_Fire_008
+  - first:
+      74: -4203547300822430196
+    second: Fire_025|Take 001_Fire_009
+  - first:
+      74: 4448304693777063466
+    second: Fire_025|Take 001_Fire_010
+  - first:
+      74: -4865677502630487417
+    second: Fire_025|Take 001_Fire_011
+  - first:
+      74: 8186014353383037929
+    second: Fire_025|Take 001_Fire_012
+  - first:
+      74: -2009113539932982725
+    second: Fire_025|Take 001_Fire_013
+  - first:
+      74: -6624639161392778762
+    second: Fire_025|Take 001_Fire_014
+  - first:
+      74: -4728405020582328295
+    second: Fire_025|Take 001_Fire_015
+  - first:
+      74: 6456713827050482943
+    second: Fire_025|Take 001_Fire_016
+  - first:
+      74: -1609537943757701361
+    second: Fire_025|Take 001_Fire_017
+  - first:
+      74: -2914070242861346848
+    second: Fire_025|Take 001_Fire_018
+  - first:
+      74: -3066247514261432950
+    second: Fire_025|Take 001_Fire_019
+  - first:
+      74: -4798988853455078572
+    second: Fire_025|Take 001_Fire_020
+  - first:
+      74: -3980926530065994864
+    second: Fire_025|Take 001_Fire_021
+  - first:
+      74: -8535306345678384459
+    second: Fire_025|Take 001_Fire_022
+  - first:
+      74: -810626540096677327
+    second: Fire_025|Take 001_Fire_023
+  - first:
+      74: 8432186347065549868
+    second: Fire_025|Take 001_Fire_024
+  - first:
+      74: 6242063515110321690
+    second: Fire_025|Take 001_Fire_025
+  - first:
+      74: -3903392127084566977
+    second: Fire_025|Take 001_Fire_026
+  - first:
+      74: 3047193425154265485
+    second: Fire_025|Take 001_Fire_027
+  - first:
+      74: 1996416025179193530
+    second: Fire_025|Take 001_Fire_028
+  - first:
+      74: -8136134730908341597
+    second: Fire_025|Take 001_Fire_029
+  - first:
+      74: -8487216303165100067
+    second: Fire_025|Take 001_Fire_03
+  - first:
+      74: 4304095418633130379
+    second: Fire_025|Take 001_Fire_030
+  - first:
+      74: 981457100344836839
+    second: Fire_025|Take 001_Fire_04
+  - first:
+      74: 5285954393257821117
+    second: Fire_025|Take 001_Fire_05
+  - first:
+      74: 8766175511420682413
+    second: Fire_025|Take 001_K07_Drone
+  - first:
+      74: 4821694912213156635
+    second: Fire_025|Take 001_Plasma
+  - first:
+      74: -1108218244592152442
+    second: Fire_025|Take 001_Plasma001
+  - first:
+      74: 6482050173417842637
+    second: Fire_025|Take 001_Plasma002
+  - first:
+      74: -5716369525174340593
+    second: Fire_025|Take 001_Plasma003
+  - first:
+      74: 5670565360769284776
+    second: Fire_025|Take 001_Plasma004
+  - first:
+      74: -5902432058660456507
+    second: Fire_025|Take 001_Plasma005
+  - first:
+      74: 103928014547704078
+    second: Fire_025|Take 001_Plasma006
+  - first:
+      74: -7300128192715899700
+    second: Fire_025|Take 001_Plasma007
+  - first:
+      74: -5027902930900237245
+    second: Fire_025|Take 001_Plasma008
+  - first:
+      74: 2862971104731819831
+    second: Fire_025|Take 001_Plasma009
+  - first:
+      74: 5687588551432445054
+    second: Fire_025|Take 001_TPhotometricLight001
+  - first:
+      74: -8571803564429992374
+    second: Fire_025|Take 001_TPhotometricLight002
+  - first:
+      74: -3427988516112711393
+    second: Fire_025|Take 001_TPhotometricLight003
+  - first:
+      74: 3023034824920852222
+    second: Fire_025|Take 001_TPhotometricLight004
+  - first:
+      74: 2586058783861649998
+    second: Fire_025|Take 001_TPhotometricLight005
+  - first:
+      74: 2977337915569815451
+    second: Fire_025|Take 001_TPhotometricLight006
+  - first:
+      74: 7316970045844567320
+    second: Fire_026|Take 001_Fire_006
+  - first:
+      74: 3869738314751438248
+    second: Fire_026|Take 001_Fire_007
+  - first:
+      74: 5157961839184648888
+    second: Fire_026|Take 001_Fire_008
+  - first:
+      74: 3789845734246176189
+    second: Fire_026|Take 001_Fire_009
+  - first:
+      74: -4622662769842738187
+    second: Fire_026|Take 001_Fire_010
+  - first:
+      74: -7223255999095047441
+    second: Fire_026|Take 001_Fire_011
+  - first:
+      74: -7867883793299385674
+    second: Fire_026|Take 001_Fire_012
+  - first:
+      74: 7200672676919457534
+    second: Fire_026|Take 001_Fire_013
+  - first:
+      74: -2366418627520015139
+    second: Fire_026|Take 001_Fire_014
+  - first:
+      74: -6917178362592441103
+    second: Fire_026|Take 001_Fire_015
+  - first:
+      74: -6138067070959378995
+    second: Fire_026|Take 001_Fire_016
+  - first:
+      74: -8935758344247130227
+    second: Fire_026|Take 001_Fire_017
+  - first:
+      74: -2193780999617209059
+    second: Fire_026|Take 001_Fire_018
+  - first:
+      74: 9095231520209777980
+    second: Fire_026|Take 001_Fire_019
+  - first:
+      74: -2193688348507648184
+    second: Fire_026|Take 001_Fire_020
+  - first:
+      74: -7278886263564289195
+    second: Fire_026|Take 001_Fire_021
+  - first:
+      74: 732084747094087526
+    second: Fire_026|Take 001_Fire_022
+  - first:
+      74: -8556593184128346189
+    second: Fire_026|Take 001_Fire_023
+  - first:
+      74: -3477477871676397748
+    second: Fire_026|Take 001_Fire_024
+  - first:
+      74: 4239578427127333441
+    second: Fire_026|Take 001_Fire_025
+  - first:
+      74: 775198679654232084
+    second: Fire_026|Take 001_Fire_026
+  - first:
+      74: 5045865064978906980
+    second: Fire_026|Take 001_Fire_027
+  - first:
+      74: -2029934827951439144
+    second: Fire_026|Take 001_Fire_028
+  - first:
+      74: 294318246806841852
+    second: Fire_026|Take 001_Fire_029
+  - first:
+      74: -2782347037148421929
+    second: Fire_026|Take 001_Fire_03
+  - first:
+      74: -6553416383798661017
+    second: Fire_026|Take 001_Fire_030
+  - first:
+      74: 3491870357462927124
+    second: Fire_026|Take 001_Fire_04
+  - first:
+      74: -8608589346352530194
+    second: Fire_026|Take 001_Fire_05
+  - first:
+      74: 6699383399549514513
+    second: Fire_026|Take 001_K07_Drone
+  - first:
+      74: -503753925308426160
+    second: Fire_026|Take 001_Plasma
+  - first:
+      74: 8015670444787040455
+    second: Fire_026|Take 001_Plasma001
+  - first:
+      74: -1358470278702857346
+    second: Fire_026|Take 001_Plasma002
+  - first:
+      74: -533327727008340885
+    second: Fire_026|Take 001_Plasma003
+  - first:
+      74: 6949487450817992555
+    second: Fire_026|Take 001_Plasma004
+  - first:
+      74: -7716337975156065299
+    second: Fire_026|Take 001_Plasma005
+  - first:
+      74: -8870531428928509482
+    second: Fire_026|Take 001_Plasma006
+  - first:
+      74: -4049300311587771104
+    second: Fire_026|Take 001_Plasma007
+  - first:
+      74: -7973073206969681061
+    second: Fire_026|Take 001_Plasma008
+  - first:
+      74: 3828128084972384757
+    second: Fire_026|Take 001_Plasma009
+  - first:
+      74: 849899504331738512
+    second: Fire_026|Take 001_TPhotometricLight001
+  - first:
+      74: -8199045064358559999
+    second: Fire_026|Take 001_TPhotometricLight002
+  - first:
+      74: -3646047405315759138
+    second: Fire_026|Take 001_TPhotometricLight003
+  - first:
+      74: 5799939059950588055
+    second: Fire_026|Take 001_TPhotometricLight004
+  - first:
+      74: 1228586788439852924
+    second: Fire_026|Take 001_TPhotometricLight005
+  - first:
+      74: 489476456205871720
+    second: Fire_026|Take 001_TPhotometricLight006
+  - first:
+      74: -4234250839093680818
+    second: Fire_027|Take 001_Fire_006
+  - first:
+      74: 4319622117122908984
+    second: Fire_027|Take 001_Fire_007
+  - first:
+      74: -4190859946046113625
+    second: Fire_027|Take 001_Fire_008
+  - first:
+      74: -5117351954406019919
+    second: Fire_027|Take 001_Fire_009
+  - first:
+      74: 3743706947472809255
+    second: Fire_027|Take 001_Fire_010
+  - first:
+      74: 3197341903602915987
+    second: Fire_027|Take 001_Fire_011
+  - first:
+      74: -4406064769314356096
+    second: Fire_027|Take 001_Fire_012
+  - first:
+      74: 1409735894482905061
+    second: Fire_027|Take 001_Fire_013
+  - first:
+      74: -5264787035482915142
+    second: Fire_027|Take 001_Fire_014
+  - first:
+      74: -5760349978557240645
+    second: Fire_027|Take 001_Fire_015
+  - first:
+      74: -6520943868961818826
+    second: Fire_027|Take 001_Fire_016
+  - first:
+      74: 4304108883426252662
+    second: Fire_027|Take 001_Fire_017
+  - first:
+      74: -1783731765736324044
+    second: Fire_027|Take 001_Fire_018
+  - first:
+      74: -8651178004180287805
+    second: Fire_027|Take 001_Fire_019
+  - first:
+      74: -29973129753688566
+    second: Fire_027|Take 001_Fire_020
+  - first:
+      74: -2605022672763174356
+    second: Fire_027|Take 001_Fire_021
+  - first:
+      74: -1723046864812591927
+    second: Fire_027|Take 001_Fire_022
+  - first:
+      74: 837450173236630790
+    second: Fire_027|Take 001_Fire_023
+  - first:
+      74: -6922366399505583409
+    second: Fire_027|Take 001_Fire_024
+  - first:
+      74: -1862657275000026479
+    second: Fire_027|Take 001_Fire_025
+  - first:
+      74: -39830454196361759
+    second: Fire_027|Take 001_Fire_026
+  - first:
+      74: -6681785073301223347
+    second: Fire_027|Take 001_Fire_027
+  - first:
+      74: -2688591160542388422
+    second: Fire_027|Take 001_Fire_028
+  - first:
+      74: 9114431748394099984
+    second: Fire_027|Take 001_Fire_029
+  - first:
+      74: -6365691471540902535
+    second: Fire_027|Take 001_Fire_03
+  - first:
+      74: 278515650074189706
+    second: Fire_027|Take 001_Fire_030
+  - first:
+      74: 207402205751121359
+    second: Fire_027|Take 001_Fire_04
+  - first:
+      74: -3071032455126114785
+    second: Fire_027|Take 001_Fire_05
+  - first:
+      74: 4749102010472797988
+    second: Fire_027|Take 001_K07_Drone
+  - first:
+      74: -2069213412319877208
+    second: Fire_027|Take 001_Plasma
+  - first:
+      74: 1408004373138622236
+    second: Fire_027|Take 001_Plasma001
+  - first:
+      74: 884086938584032317
+    second: Fire_027|Take 001_Plasma002
+  - first:
+      74: 5487403944618180561
+    second: Fire_027|Take 001_Plasma003
+  - first:
+      74: -2872022234231698758
+    second: Fire_027|Take 001_Plasma004
+  - first:
+      74: 2613900622064539422
+    second: Fire_027|Take 001_Plasma005
+  - first:
+      74: -8957310051135130085
+    second: Fire_027|Take 001_Plasma006
+  - first:
+      74: -1618914656398650208
+    second: Fire_027|Take 001_Plasma007
+  - first:
+      74: 7923365503739300705
+    second: Fire_027|Take 001_Plasma008
+  - first:
+      74: -6603286652364580547
+    second: Fire_027|Take 001_Plasma009
+  - first:
+      74: 884507421217796052
+    second: Fire_027|Take 001_TPhotometricLight001
+  - first:
+      74: 2818583731275549231
+    second: Fire_027|Take 001_TPhotometricLight002
+  - first:
+      74: 3201318825811990704
+    second: Fire_027|Take 001_TPhotometricLight003
+  - first:
+      74: 8920700521012613051
+    second: Fire_027|Take 001_TPhotometricLight004
+  - first:
+      74: 1252901579211179498
+    second: Fire_027|Take 001_TPhotometricLight005
+  - first:
+      74: -3498192058392269069
+    second: Fire_027|Take 001_TPhotometricLight006
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
