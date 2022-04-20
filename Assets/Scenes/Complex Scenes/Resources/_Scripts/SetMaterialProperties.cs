@@ -1,7 +1,7 @@
 using UnityEngine; 
 using UnityEditor;
 
-[InitializeOnLoad, ExecuteInEditMode]
+[ExecuteInEditMode]
 public class SetMaterialProperties : MonoBehaviour
 {
     public Texture detailTexture;
